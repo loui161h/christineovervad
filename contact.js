@@ -20,7 +20,7 @@
       /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
       console.log(contact);
       /* BILLEDE HER */
-      /*      document.querySelector("#contact_img").src = contact.billede.guid;*/
+      /*      document.querySelector("#contact_overvad").src = contact.billede.guid;*/
       document.querySelector("#contact_heading").textContent = contact.title.rendered;
       /* HUSK VARIBEL HER */
       document.querySelector("#contact_heading2").textContent = contact.exhibition;
