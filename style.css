@@ -34,6 +34,40 @@ p {}
 
 /* SKRIFT INDSTILLINGER SLUT */
 
+/* EXHIBTION */
+
+#exhibitions {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "current1"
+        "current2"
+        "current3"
+
+}
+
+
+#current1 {
+    grid-area: current1;
+}
+
+#current2 {
+    grid-area: current2;
+}
+
+#current3 {
+    grid-area: current3;
+}
+
+
+/* EXHIBTION SLUT */
+
+
+
+
+
+
+/* EXHIBTION SLUT */
 
 /* FORMULAR */
 
@@ -66,3 +100,39 @@ input[type=submit]:hover {
 
 
 /* FORMULAR SLUT */
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES IPAD */
+
+@media only screen and (min-width: 768px) {
+
+    /* EXHIBTION */
+    #exhibitions {
+        display: grid;
+        grid-gap: 80px;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-areas:
+            "current1 current2 current3"
+
+
+    }
+
+    /* EXHIBTION SLUT */
+}
+
+
+/* MEDIA QUERIES IPAD SLUT */
+
+
+/* MEDIA QUERIES WEB */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* MEDIA QUERIES WEB SLUT */

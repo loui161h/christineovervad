@@ -22,10 +22,8 @@
       document.querySelector("#exhibition_heading").textContent = exhibition.title.rendered;
       /* HUSK VARIBEL HER */
       document.querySelector("#exhibition_heading2").textContent = exhibition.current;
-      document.querySelector("#exhibition_p1").textContent = exhibition.current;
-      document.querySelector("#exhibition_p2").textContent = exhibition.current_exhibition1;
-      document.querySelector("#exhibition_p3").textContent = exhibition.current_exhibition2;
-      document.querySelector("#exhibition_p4").textContent = exhibition.current_exhibition3;
-
+      document.querySelector("#poster1").src = exhibition.current_exhibition1.guid;
+      document.querySelector("#poster2").src = exhibition.current_exhibition2.guid;
+      document.querySelector("#poster3").src = exhibition.current_exhibition3.guid;
 
   }
