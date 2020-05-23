@@ -14,7 +14,6 @@ body {
 
 img {
     width: 100%;
-    height: 100%;
     margin: 0;
     object-fit: cover;
 
@@ -40,10 +39,15 @@ p {}
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
+        "exhibition_head"
         "current1"
         "current2"
         "current3"
 
+}
+
+#exhibition_head {
+    grid-area: exhibition_head;
 }
 
 
@@ -115,9 +119,11 @@ input[type=submit]:hover {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 80px;
+        grid-gap: 40px;
         grid-template-columns: 300px 300px 300px;
+        justify-content: center;
         grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
 
 
