@@ -33,3 +33,36 @@ h3 {}
 p {}
 
 /* SKRIFT INDSTILLINGER SLUT */
+
+
+/* FORMULAR */
+
+input[type=text],
+select {
+    font-family: 'Raleway', sans-serif;
+    width: 160px;
+    height: 20px;
+    padding: 12px 20px;
+    display: inline-block;
+    /*    margin: 8px 0;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+    opacity: 50%;
+}
+
+
+
+
+
+/* FORMULAR SLUT */
