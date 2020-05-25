@@ -63,6 +63,8 @@ p {
 
 /* LANDINGPAGE */
 
+
+/* FAVICON PÅ LANDINGPAGE */
 .page-header1 img {
     width: 45px;
     position: fixed;
@@ -152,8 +154,8 @@ a {
     grid-gap: 10px;
     grid-template-areas:
         "behind_heading"
-        "paragraf1"
-        "paragraf2"
+        "behind_paragraf1"
+        "behind_paragraf2"
 
 }
 
@@ -161,12 +163,12 @@ a {
     grid-area: behind_heading;
 }
 
-#paragraf1 {
-    grid-area: paragraf1;
+#behind_paragraf1 {
+    grid-area: behind_paragraf1;
 }
 
-#paragraf2 {
-    grid-area: paragraf2;
+#behind_paragraf2 {
+    grid-area: behind_paragraf2;
 }
 
 
@@ -217,6 +219,34 @@ input[type=submit]:hover {
 
 
 
+/* CONTACT */
+
+#contact_fullpage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "contact_heading"
+        "contact_paragraf1"
+        "contact_paragraf2"
+
+}
+
+#contact_heading {
+    grid-area: contact_heading;
+}
+
+#contact_paragraf1 {
+    grid-area: contact_paragraf1;
+}
+
+#contact_paragraf2 {
+    grid-area: contact_paragraf2;
+}
+
+
+
+
+/* CONTACT SLUT */
 
 /* MEDIA QUERIES IPAD */
 
@@ -284,19 +314,35 @@ input[type=submit]:hover {
 
     /* BEHIND */
 
+
     #behind_fullpage {
         display: grid;
-        grid-gap: 40px;
-        grid-template-columns: 350px 350px;
         justify-content: center;
+        grid-template-columns: 350px 350px;
         grid-template-areas:
             "behind_heading behind_heading"
-            "paragraf1 paragraf2"
+            "behind_paragraf1 behind_paragraf2"
 
 
     }
 
+
     /* BEHIND SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 350px 350px;
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf1 contact_paragraf2"
+
+    }
+
+
+    /* CONTACT SLUT*/
 }
 
 
@@ -326,11 +372,10 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
-        grid-gap: 60px;
-        grid-template-columns: 600px 600px;
+        grid-template-columns: 550px 550px;
         grid-template-areas:
             "behind_heading behind_heading"
-            "paragraf1 paragraf2"
+            "behind_paragraf1 behind_paragraf2"
 
 
     }
@@ -350,9 +395,25 @@ input[type=submit]:hover {
 
     }
 
-
+    /* FORMULAR SLUT */
 
     /* BEHIND SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        display: grid;
+        grid-template-columns: 550px 550px;
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf1 contact_paragraf2"
+
+    }
+
+
+    /* CONTACT SLUT*/
+
+
 }
 
 
