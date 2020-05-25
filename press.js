@@ -21,12 +21,12 @@
       console.log(press);
       document.querySelector("#press_heading").textContent = press.title.rendered;
       /* HUSK VARIBEL HER */
-      document.querySelector("#press_heading2").textContent = press.headline;
       document.querySelector("#press_reviews").textContent = press.reviews;
       document.querySelector("#press_review1").textContent = press.review1;
       document.querySelector("#press_review_year1").textContent = press.review_year1;
 
       document.querySelector("#press_review2").textContent = press.review2;
+      document.querySelector("#press_review_year2").textContent = press.review_year2;
       document.querySelector("#press_interviews").textContent = press.interviews;
       document.querySelector("#press_interview1").textContent = press.interview1;
       document.querySelector("#press_interview_year1").textContent = press.interview_year1;
