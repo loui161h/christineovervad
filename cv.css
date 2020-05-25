@@ -59,6 +59,7 @@ p {
 
 }
 
+/*her bliver den horisontale linje defineret */
 
 hr {
     display: block;
@@ -70,17 +71,54 @@ hr {
     border-width: 1px;
 }
 
+
+
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
 
-    #cv_fullpage {
-
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 2;
-
+    #cv_about {
+        margin: 30px;
     }
+
+    #cv_fullpage {
+        display: flex;
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 7%;
+    }
+
+    /*her styles spalterne for timeline */
+    .spalte1 h2 {
+        text-align: right;
+    }
+
+    .spalte1 p {
+        text-align: right;
+        width: 500px
+    }
+
+    .spalte2 h2 {
+        text-align: left;
+    }
+
+    .spalte2 p {
+        text-align: left;
+        width: 500px
+    }
+
+
+    /*her bliver den verticale linje defineret */
+
+    hr {
+        /*justify-content: center;*/
+        border-style: inset;
+        border-width: 1px;
+    }
+
+
+
 
 }
 
