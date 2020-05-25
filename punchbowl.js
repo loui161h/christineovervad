@@ -1,0 +1,34 @@
+const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/project/40";
+/* PODETS NAVN I ENTAL OG ID'ET I ENDPOINT ÆNDRES AFHÆNGIG AF HVILKET POD/SIDE MAN VIL SE */
+
+
+
+document.addEventListener("DOMContentLoaded", start);
+
+function start() {
+    hentData();
+}
+
+
+async function hentData() {
+    const response = await fetch(endpoint);
+    const json = await response.json();
+    vis(json);
+}
+
+function vis(project) {
+    /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
+    console.log(project);
+    document.querySelector("#project_heading").textContent = project.title.rendered;
+    /* HUSK VARIBEL HER */
+
+
+    document.querySelector("#project_tekst1").textContent = project.tekst1;
+    document.querySelector("#img1").src = project.img1.guid;
+    document.querySelector("#img2").src = project.img2.guid;
+    document.querySelector("#img3").src = project.img3.guid;
+    document.querySelector("#project_tekst2").textContent = project.tekst2;
+    document.querySelector("#project_tekst3").textContent = project.tekst3;
+    document.querySelector("#project_tekst4").textContent = project.tekst4;
+
+}

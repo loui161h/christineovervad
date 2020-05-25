@@ -2,13 +2,38 @@
      background-color: white;
  }
 
- img {
-     width: 100%;
-     object-fit: cover;
+
+ h3 {
+     font-family: 'Raleway', sans-serif;
  }
 
 
 
- h3 {
-     font-family: 'Raleway', sans-serif;
+ /* PROJECTS GRID */
+ #projects_fullpage {
+     display: grid;
+     min-height: 100%;
+     grid-gap: 10px;
+     margin-top: -1vw;
+     grid-template-areas:
+         "sidenav"
+         "img"
+
+ }
+
+ .sidenav {
+     grid-area: sidenav;
+ }
+
+ #img {
+     grid-area: img;
+ }
+
+
+ /* PROJECTS BILLEDER */
+
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
  }
