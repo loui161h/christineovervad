@@ -1,0 +1,88 @@
+/* GENERELLE INDSTILLINGER */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
+
+/* GENERELLE INDSTILLINGER SLUT */
+
+/* SKRIFT INDSTILLINGER */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    /* UPPERCASE HER */
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    /* UPPERCASE HER */
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 6;
+}
+
+/* SKRIFT INDSTILLINGER SLUT */
+
+/* SPALTER */
+
+#cv_heading {
+    margin: 30px;
+
+}
+
+.spalte1 {
+    margin: 30px;
+}
+
+.spalte2 {
+    margin: 30px;
+
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* MEDIA QUERIES WEB */
+
+@media only screen and (min-width: 1024px) {
+
+    #cv_fullpage {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 2;
+
+    }
+
+}
+
+
+/* MEDIA QUERIES WEB SLUT */
