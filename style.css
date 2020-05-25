@@ -224,6 +224,7 @@ input[type=submit]:hover {
 #contact_fullpage {
     display: grid;
     grid-gap: 10px;
+
     grid-template-areas:
         "contact_heading"
         "contact_paragraf1"
@@ -242,6 +243,7 @@ input[type=submit]:hover {
 #contact_paragraf2 {
     grid-area: contact_paragraf2;
 }
+
 
 
 
@@ -407,6 +409,12 @@ input[type=submit]:hover {
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
+
+    }
+
+    #contact_paragraf1 img {
+        width: 90%;
+
 
     }
 
