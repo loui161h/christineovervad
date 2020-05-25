@@ -19,6 +19,11 @@ img {
 }
 
 
+.padding {
+    padding: 0px 20px 0px 20px;
+}
+
+
 
 
 /* GENERELLE INDSTILLINGER SLUT */
@@ -26,17 +31,26 @@ img {
 /* SKRIFT INDSTILLINGER */
 h1 {
     font-family: 'Raleway', sans-serif;
-    /* UPPERCASE HER */
+    text-transform: uppercase;
+    color: #5C5A5A;
+    font-weight: 600;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    /* UPPERCASE HER */
+    text-transform: uppercase;
+    color: #5C5A5A;
+    font-weight: 600;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #5C5A5A;
+
 }
+
+
 
 p {
     font-family: 'Quicksand', sans-serif;
@@ -66,19 +80,17 @@ p {
     font-size: 1rem;
 }
 
+/*
 a {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 200;
-    text-align: center;
-    color: #83786C;
+    color: #5C5A5A;
+    font-weight: 500;
     font-size: 0.8rem;
 
 }
-
-
-
-
+*/
 
 
 
@@ -92,6 +104,12 @@ a {
 
 
 /* EXHIBTION */
+
+/*
+#exhibition_heading {
+    margin: 100px 40px 0px 28px;
+}
+*/
 
 #exhibitions {
     display: grid;
@@ -174,6 +192,11 @@ input[type=submit]:hover {
 
 @media only screen and (min-width: 768px) {
 
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+
     /* LANDINGPAGE */
 
 
@@ -210,10 +233,15 @@ input[type=submit]:hover {
 
 
     /* EXHIBTION */
+
+    #exhibition_heading {
+        margin: 100px 40px 0px 48px;
+    }
+
     #exhibitions {
         display: grid;
         grid-gap: 40px;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 200px 200px 200px;
         justify-content: center;
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
@@ -231,7 +259,23 @@ input[type=submit]:hover {
 
 /* MEDIA QUERIES WEB */
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+
+    /* EXHIBTION */
+    #exhibitions {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
+            "current1 current2 current3"
+
+
+    }
+
+    /* EXHIBTION SLUT */
+}
 
 
 /* MEDIA QUERIES WEB SLUT */

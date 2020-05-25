@@ -1,4 +1,4 @@
- const endpoint = "http://louisesettrup.dk/kea/wordpress/babushka/wp-json/wp/v2/ret";
+ const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/project_landingpage";
  let projects = [];
  let filter = "alle";
  const container = document.querySelector("main");
