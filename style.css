@@ -55,6 +55,8 @@ p {
 }
 
 
+
+
 #landing_headline {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -64,7 +66,7 @@ p {
     font-size: 1rem;
 }
 
-#landing_headline2 {
+a {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 200;
