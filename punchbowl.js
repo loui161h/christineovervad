@@ -24,9 +24,9 @@ function vis(project) {
 
 
     document.querySelector("#project_tekst1").textContent = project.tekst1;
-    document.querySelector("#img1").src = project.img1.guid;
-    document.querySelector("#img2").src = project.img2.guid;
-    document.querySelector("#img3").src = project.img3.guid;
+    document.querySelector("#photo1").src = project.img1.guid;
+    document.querySelector("#photo2").src = project.img2.guid;
+    document.querySelector("#photo3").src = project.img3.guid;
     document.querySelector("#project_tekst2").textContent = project.tekst2;
     document.querySelector("#project_tekst3").textContent = project.tekst3;
     document.querySelector("#project_tekst4").textContent = project.tekst4;
