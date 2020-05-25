@@ -31,7 +31,7 @@
       document.querySelector("#press_interview1").textContent = press.interview1;
       document.querySelector("#press_interview_year1").textContent = press.interview_year1;
 
-      document.querySelector("#press_photo-reportage").textContent = press.photo_reportage;
+      document.querySelector("#press_photo_reportage").textContent = press.photo_reportage;
 
       document.querySelector("#press_reportage1").textContent = press.reportage1;
       document.querySelector("#press_reportage_year1").textContent = press.reportage_year1;
