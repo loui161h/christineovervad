@@ -18,6 +18,8 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="projects.css">
+
 </head>
 
 <body>
@@ -39,19 +41,27 @@
             </div>
 
             <h2 id="exhibition_heading2"></h2>
-            <div id="current1">
+            <div id="current1" class="zoom bg-center cover w-100 h-100">
                 <img id="poster1" src="" alt="vibrantmatter" class="padding">
             </div>
-            <div id="current2">
+            <div id="current2" class="zoom bg-center cover w-100 h-100">
                 <img id="poster2" src="" alt="vibrantmatter" class="padding">
             </div>
-            <div id="current3">
+            <div id="current3" class="zoom bg-center cover w-100 h-100">
                 <img id="poster3" src="" alt="vibrantmatter" class="padding">
             </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
         </div>
 
     </section>
 
 
     <script src="exhibitions.js"></script>
+    <script src="exhib.js"></script>
 </body></html>

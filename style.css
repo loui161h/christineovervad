@@ -360,7 +360,7 @@ input[type=submit]:hover {
 
     #exhibitions {
         display: grid;
-        grid-gap: 40px;
+
         grid-template-columns: 200px 200px 200px;
         justify-content: center;
         grid-template-areas:
@@ -448,9 +448,11 @@ input[type=submit]:hover {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 40px;
-        grid-template-columns: 300px 300px 300px;
+        grid-gap: 20px;
         justify-content: center;
+        margin-top: -40px;
+        grid-template-columns: 300px 300px 300px;
+
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
@@ -518,6 +520,7 @@ input[type=submit]:hover {
 
     #press_fullpage {
         display: grid;
+
         grid-template-columns: 550px 550px;
         grid-template-areas:
             "reviews_head reviews_head"
