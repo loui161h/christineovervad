@@ -47,6 +47,13 @@ p {
 
 /* LANDINGPAGE */
 
+.page-header1 img {
+    width: 45px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
 
 #landing_headline {
     font-family: 'Raleway', sans-serif;
@@ -54,7 +61,7 @@ p {
     font-weight: 400;
     text-align: center;
     color: #83786C;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #landing_headline2 {
@@ -63,9 +70,11 @@ p {
     font-weight: 200;
     text-align: center;
     color: #83786C;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
+
+
 
 
 
@@ -173,7 +182,7 @@ input[type=submit]:hover {
         text-align: center;
         color: #645748;
         font-size: 2.2rem;
-        margin-top: -475px;
+        margin-top: -460px;
     }
 
     #landing_headline2 {
@@ -185,7 +194,10 @@ input[type=submit]:hover {
         font-size: 1.2rem;
         margin-top: 0px;
 
+    }
 
+    .page-header1 img {
+        width: 60px;
     }
 
 
