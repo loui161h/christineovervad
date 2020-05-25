@@ -19,6 +19,8 @@ img {
 }
 
 
+
+
 /* GENERELLE INDSTILLINGER SLUT */
 
 /* SKRIFT INDSTILLINGER */
@@ -41,6 +43,53 @@ p {
 }
 
 /* SKRIFT INDSTILLINGER SLUT */
+
+
+/* LANDINGPAGE */
+
+.page-header1 img {
+    width: 45px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+#landing_headline {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: #83786C;
+    font-size: 1rem;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+    color: #83786C;
+    font-size: 0.8rem;
+
+}
+
+
+
+
+
+
+
+
+#splash img {
+    background-size: cover;
+}
+
+
+/* LANDINGPAGE SLUT */
+
 
 /* EXHIBTION */
 
@@ -124,6 +173,41 @@ input[type=submit]:hover {
 /* MEDIA QUERIES IPAD */
 
 @media only screen and (min-width: 768px) {
+
+    /* LANDINGPAGE */
+
+
+    #landing_headline {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        color: #645748;
+        font-size: 2.2rem;
+        margin-top: -460px;
+    }
+
+    #landing_headline2 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        color: #645748;
+        font-size: 1.2rem;
+        margin-top: 0px;
+
+    }
+
+    .page-header1 img {
+        width: 60px;
+    }
+
+
+
+    /* LANDINGPAGE SLUT */
+
+
+
 
     /* EXHIBTION */
     #exhibitions {
