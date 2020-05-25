@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+    /*  text-transform: uppercase;*/
     color: #5C5A5A;
 
 }
@@ -224,7 +224,6 @@ input[type=submit]:hover {
 #contact_fullpage {
     display: grid;
     grid-gap: 10px;
-
     grid-template-areas:
         "contact_heading"
         "contact_paragraf1"
@@ -249,6 +248,64 @@ input[type=submit]:hover {
 
 
 /* CONTACT SLUT */
+
+/* PRESS */
+
+#press_fullpage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "reviews_head"
+        "reviews_paragraf1"
+        "reviews_paragraf2"
+        "interview_head"
+        "interview_paragraf1"
+        "photoreportage_head"
+        "photoreportage_paragraf1"
+        "grants_head"
+        "grants_paragraf1"
+
+}
+
+
+#reviews_head {
+    grid-area: reviews_head;
+}
+
+#reviews_paragraf1 {
+    grid-area: reviews_paragraf1;
+}
+
+#reviews_paragraf2 {
+    grid-area: reviews_paragraf2;
+}
+
+#interview_head {
+    grid-area: interview_head;
+}
+
+#interview_paragraf1 {
+    grid-area: interview_paragraf1;
+}
+
+#photoreportage_head {
+    grid-area: photoreportage_head;
+}
+
+#photoreportage_paragraf1 {
+    grid-area: photoreportage_paragraf1;
+}
+
+#grants_head {
+    grid-area: photoreportage_head;
+}
+
+#photoreportage_paragraf1 {
+    grid-area: grants_paragraf1;
+}
+
+
+/* PRESS SLUT */
 
 /* MEDIA QUERIES IPAD */
 
@@ -296,8 +353,9 @@ input[type=submit]:hover {
 
     /* EXHIBTION */
 
-    #exhibition_heading {
-        margin: 100px 40px 0px 48px;
+    #exhibition_heading,
+    #press_heading {
+        margin: 100px 40px 0px 30px;
     }
 
     #exhibitions {
@@ -345,6 +403,31 @@ input[type=submit]:hover {
 
 
     /* CONTACT SLUT*/
+
+
+    /* PRESS */
+
+    #press_fullpage {
+        display: grid;
+        justify-content: flex-end;
+        grid-template-columns: 350px 350px;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+
+
+
+    }
+
+    /* PRESS SLUT */
+
+
 }
 
 
@@ -354,6 +437,13 @@ input[type=submit]:hover {
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
+
+
+    #exhibition_heading,
+    #press_heading {
+        margin: 100px 40px 0px 48px;
+    }
+
 
     /* EXHIBTION */
     #exhibitions {
@@ -367,6 +457,8 @@ input[type=submit]:hover {
 
 
     }
+
+
 
     /* EXHIBTION SLUT */
 
@@ -420,6 +512,28 @@ input[type=submit]:hover {
 
 
     /* CONTACT SLUT*/
+
+
+    /* PRESS */
+
+    #press_fullpage {
+        display: grid;
+        grid-template-columns: 550px 550px;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+
+
+
+    }
+
+    /* PRESS SLUT */
 
 
 }
