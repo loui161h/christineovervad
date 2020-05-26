@@ -16,8 +16,6 @@ body {
 img {
     width: 100%;
     margin: 0;
-
-
 }
 
 
@@ -142,17 +140,19 @@ select {
     padding: 12px 20px;
     display: inline-block;
     /*    margin: 8px 0;*/
+    text-transform: uppercase;
     border: 1px solid #ccc;
+    color: #5C5A5A;
     font-size: 0.8rem;
     box-sizing: border-box;
 }
 
 input[type=submit] {
     background-color: #CEC1B0;
+     width: 110px;
+    height: 30px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
-    width: 100px;
-    height: 30px;
     border: none;
     color: white;
     font-size: 0.8rem;
@@ -163,6 +163,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     opacity: 50%;
+    color: #5C5A5A;
 }
 
 
@@ -225,7 +226,6 @@ input[type=submit]:hover {
 
 }
 
-
 #reviews_head {
     grid-area: reviews_head;
 }
@@ -254,13 +254,15 @@ input[type=submit]:hover {
     grid-area: photoreportage_paragraf1;
 }
 
-#grants_head {
-    grid-area: photoreportage_head;
+#grants_head{
+    grid-area: grants_head;
 }
 
-#photoreportage_paragraf1 {
+#grants_paragraf1{
     grid-area: grants_paragraf1;
 }
+
+
 
 
 /* PRESS SLUT */
@@ -335,7 +337,7 @@ input[type=submit]:hover {
     /* CONTACT SLUT*/
 
 
-    /* PRESS */
+/*     PRESS */
 
     #press_fullpage {
         display: grid;
@@ -350,9 +352,6 @@ input[type=submit]:hover {
             "photoreportage_paragraf1 photoreportage_paragraf1"
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
-
-
-
     }
 
     /* PRESS SLUT */
@@ -454,10 +453,11 @@ input[type=submit]:hover {
 
     /* PRESS */
 
-    #press_fullpage {
+#press_fullpage {
         display: grid;
-
-        grid-template-columns: 550px 550px;
+        margin-top: -134px;
+    margin-right: 50px;
+        grid-template-columns: 500px 500px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -468,9 +468,34 @@ input[type=submit]:hover {
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
 
+    }
 
+    #press_fullpage img {
+        width: 400px;
+        height: 400px;
 
     }
+
+#press_fullpage img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+#press_fullpage img:hover .img {
+    opacity: 0.2;
+}
+
+#press_fullpage img:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 
     /* PRESS SLUT */
 
