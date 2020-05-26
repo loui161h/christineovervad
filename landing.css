@@ -19,7 +19,7 @@ body {
 
 #landingpage_fullpage {
     text-align: center;
-
+    overflow-x: visible;
 }
 
 
