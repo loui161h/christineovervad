@@ -106,6 +106,16 @@ body {
 }
 
 
+
+#menu a {
+    text-align: center;
+    top: 300px;
+}
+
+
+
+/* MEDIA QUIRE FOR WEB */
+
 @media only screen and (min-width: 1024px) {
 
     #menu .hidden {
