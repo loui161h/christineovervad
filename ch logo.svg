@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="434" height="68" viewBox="0 0 434 68">
+  <defs>
+    <clipPath id="clip-Logo">
+      <rect width="434" height="68"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-Logo)">
+    <text id="CHRISTINE_OVERVAD" data-name="CHRISTINE OVERVAD" transform="translate(0 12)" fill="#594933" font-size="40" font-family="Raleway"><tspan x="14.48" y="38">CHRISTINE OVERVAD</tspan></text>
+  </g>
+</svg>

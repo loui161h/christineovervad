@@ -1,6 +1,18 @@
+img {
+    width: 50%;
+}
+
+
 .snapscroll {
+    display: flex;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-padding: 50%;
+    border: 1px solid lightgray;
+    padding: 1rem;
+
+
+
 }
 
 .child {
@@ -18,9 +30,11 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+
 }
 
 
+/*
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -30,7 +44,9 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+
 }
+*/
 
 .child:hover .image {
     opacity: 0.2;

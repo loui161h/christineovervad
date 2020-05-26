@@ -6,16 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christine Overvad</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="burger.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="landing.css">
 </head>
 
 <body>
-    <header>
-    </header>
-    <section id="landingpage_fullpage">
-        <img id="splash" src="" alt="scultureart">
 
+
+    <div id="menuen">
+        <div class="menu-btn">
+            <div class="menu-btn_burger"> </div>
+        </div>
+    </div>
+    <ul id="menu" class="hidden">
+        <li><a href="landing.html#splash">Home</a></li>
+        <li><a href="projects_landingpage.html#projects_fullpage"> Projects</a></li>
+        <li><a href="exhibitions.html#exhibitions_fullpage">Exhibitions</a></li>
+        <li><a href="behind.html#behind_fullpage">Behind</a></li>
+        <li><a href="contact.html#contact_fullpage">Contact</a></li>
+        <li><a href="press.html#press_fullpage">Press</a></li>
+        <li><a href="cv.html#cv_fullpage">CV</a></li>
+    </ul>
+
+
+    <section id="landingpage_fullpage">
+        <!--
+        <img id="splash" src="" alt="scultureart">
+    -->
         <h1 id="landing_headline"></h1>
         <a id="landing_headline2" href="projects.html"></a>
 
@@ -24,51 +41,21 @@
             <img id="favicon" src="favicon.png" alt="favicon">
 
         </div>
-        <div id="menu-header-container" class="page-header">
-
-            <div id="menu-header-container-wrapper" class="page-header-wrapper">
-                <div class="hamburger-wrapper">
-                    <a id="menu-hamburger-menu" class="hamburger-menu {{^showHamburger}}hidden{{/showHamburger}}" href="#" title="Menu">
-                        <span class="line line-1"></span>
-                        <span class="line line-2"></span>
-                        <span class="line line-3"></span>
-                    </a>
-                </div>
 
 
-            </div>
-        </div>
-
-
-        <div id="menu" class="sidebar">
-            <div id="menu-wrapper" class="sidebar-wrapper">
-                <ul id="home">
-
-                    <li class="section"><i class="fa fa-search"></i>Art</li>
-                    <li><a data-id="browsepresentations" href="projects.html"><i class="fa fa-pencil-square-o"></i>Projects</a></li>
-                    <li><a data-id="browsedocuments" href="exhibitions.html"><i class="fa fa-file-o"></i>Exhibitions</a></li>
-                    <li><a data-id="browsedocuments" href="behind.html"><i class="fa fa-file-o"></i>Behind</a></li>
-
-                    <li class="section"><i class="fa fa-check-circle-o"></i>Overvad</li>
-                    <li><a data-id="presentations" href="contact.html"><i class="fa fa-pencil-square"></i>Contact</a></li>
-                    <li><a data-id="documents" href="press.html"><i class="fa fa-file"></i>Press</a></li>
-                    <li><a data-id="documents" href="cv.html"><i class="fa fa-file"></i>Cv</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="container">
-
-
-
-
-
-        </div>
 
     </section>
+
+
+
+
+
+
+
+
     <script src="landingpage.js"></script>
 
-    <script src="burger.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>

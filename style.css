@@ -9,12 +9,14 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-size: cover;
+
 }
 
 img {
     width: 100%;
     margin: 0;
-    object-fit: cover;
+
 
 }
 
@@ -61,50 +63,6 @@ p {
 /* SKRIFT INDSTILLINGER SLUT */
 
 
-/* LANDINGPAGE */
-
-
-/* FAVICON PÅ LANDINGPAGE */
-.page-header1 img {
-    width: 45px;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-
-
-
-#landing_headline {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
-    color: #83786C;
-    font-size: 1rem;
-}
-
-/*
-a {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    color: #5C5A5A;
-    font-weight: 500;
-    font-size: 0.8rem;
-
-}
-*/
-
-
-
-
-#splash img {
-    background-size: cover;
-}
-
-
-/* LANDINGPAGE SLUT */
 
 
 /* EXHIBTION */
@@ -316,41 +274,6 @@ input[type=submit]:hover {
     }
 
 
-    /* LANDINGPAGE */
-
-
-    #landing_headline {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        text-align: center;
-        color: #645748;
-        font-size: 2.2rem;
-        margin-top: -460px;
-    }
-
-    #landing_headline2 {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        text-align: center;
-        color: #645748;
-        font-size: 1.2rem;
-        margin-top: 0px;
-
-    }
-
-    .page-header1 img {
-        width: 60px;
-    }
-
-
-
-    /* LANDINGPAGE SLUT */
-
-
-
-
     /* EXHIBTION */
 
     #exhibition_heading,
@@ -377,14 +300,21 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
+        grid-gap: 20px;
         justify-content: center;
         grid-template-columns: 350px 350px;
         grid-template-areas:
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
-
-
     }
+
+
+
+    #behind_paragraf2 {
+        margin-top: 10px;
+    }
+
+
 
 
     /* BEHIND SLUT */
@@ -468,6 +398,7 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
+        grid-gap: 50px;
         grid-template-columns: 550px 550px;
         grid-template-areas:
             "behind_heading behind_heading"
@@ -475,6 +406,11 @@ input[type=submit]:hover {
 
 
     }
+
+    #behind_paragraf2 {
+        margin-top: 20px;
+    }
+
 
     /* FORMULAR */
 
