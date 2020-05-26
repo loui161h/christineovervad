@@ -11,6 +11,8 @@ body {
     height: 100%;
 
 
+
+
 }
 
 img {
@@ -149,7 +151,7 @@ select {
 
 input[type=submit] {
     background-color: #CEC1B0;
-     width: 110px;
+    width: 110px;
     height: 30px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
@@ -181,6 +183,8 @@ input[type=submit]:hover {
 /* CONTACT */
 
 #contact_fullpage {
+
+    margin-top: -750px;
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -191,14 +195,17 @@ input[type=submit]:hover {
 }
 
 #contact_heading {
+    z-index: -1;
     grid-area: contact_heading;
 }
 
 #contact_paragraf1 {
+    z-index: -1;
     grid-area: contact_paragraf1;
 }
 
 #contact_paragraf2 {
+    z-index: -1;
     grid-area: contact_paragraf2;
 }
 
@@ -254,11 +261,11 @@ input[type=submit]:hover {
     grid-area: photoreportage_paragraf1;
 }
 
-#grants_head{
+#grants_head {
     grid-area: grants_head;
 }
 
-#grants_paragraf1{
+#grants_paragraf1 {
     grid-area: grants_paragraf1;
 }
 
@@ -337,7 +344,7 @@ input[type=submit]:hover {
     /* CONTACT SLUT*/
 
 
-/*     PRESS */
+    /*     PRESS */
 
     #press_fullpage {
         display: grid;
@@ -453,10 +460,10 @@ input[type=submit]:hover {
 
     /* PRESS */
 
-#press_fullpage {
+    #press_fullpage {
         display: grid;
         margin-top: -134px;
-    margin-right: 50px;
+        margin-right: 50px;
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "reviews_head reviews_head"
@@ -476,25 +483,25 @@ input[type=submit]:hover {
 
     }
 
-#press_fullpage img {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
+    #press_fullpage img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
 
 
-#press_fullpage img:hover .img {
-    opacity: 0.2;
-}
+    #press_fullpage img:hover .img {
+        opacity: 0.2;
+    }
 
-#press_fullpage img:hover {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
+    #press_fullpage img:hover {
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
 
 
     /* PRESS SLUT */
