@@ -5,7 +5,10 @@ let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     document.querySelector("#menu").classList.toggle("hidden");
 
+
     let menuOpen = document.querySelector("#menu").classList.contains("hidden");
+
+
 
     if (!menuOpen) {
         menuBtn.classList.add('open');

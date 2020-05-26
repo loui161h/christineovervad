@@ -19,20 +19,87 @@ body {
 
 #landingpage_fullpage {
     text-align: center;
-    overflow-x: visible;
+
+
 }
 
 
 
 #landing_headline {
     visibility: hidden;
+    z-index: -1;
 
 }
 
 #landing_headline2 {
     visibility: hidden;
+    z-index: -1;
 }
 
+
+
+.vertical {}
+
+p.vertical_name {
+    position: fixed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -600px;
+
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    writing-mode: vertical-rl;
+    float: left;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+a.some_ig {
+    position: fixed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -670px;
+    margin-left: 120px;
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    writing-mode: vertical-rl;
+    float: right;
+    transform: rotate(90);
+}
+
+a.some_li {
+    position: fixed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -530px;
+    margin-left: 120px;
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    writing-mode: vertical-rl;
+    float: right;
+    transform: rotate(90);
+}
+
+
+a.some_fb {
+    position: fixed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -410px;
+    margin-left: 120px;
+
+
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    writing-mode: vertical-rl;
+    float: right;
+    transform: rotate(90);
+}
 
 
 /* LANDINGPAGE SLUT */
@@ -64,6 +131,7 @@ body {
         color: #83786C;
         font-size: 2.2rem;
         margin-top: -460px;
+        position: relative;
 
     }
 
@@ -71,9 +139,55 @@ body {
         visibility: visible;
         font-size: 1.2rem;
         margin-top: -20px;
+        position: relative;
+    }
 
+    p.vertical_name {
+        position: absolute;
+        font-size: 1rem;
+        margin-top: -250px;
+        margin-left: 20px;
+    }
+
+
+    a.some_ig {
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 320px;
+    }
+
+    a.some_li {
+        position: fixed;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin-top: -530px;
+        margin-left: 120px;
+        font-family: 'Raleway', sans-serif;
+        color: #888888;
+        writing-mode: vertical-rl;
+        float: right;
+        transform: rotate(90);
+    }
+
+
+    a.some_fb {
+        position: fixed;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin-top: -410px;
+        margin-left: 120px;
+
+
+        font-family: 'Raleway', sans-serif;
+        color: #888888;
+        writing-mode: vertical-rl;
+        float: right;
+        transform: rotate(90);
     }
 }
+
 
 
 /* MEDIA QUERIES IPAD SLUT */
@@ -81,7 +195,12 @@ body {
 
 /* MEDIA QUERIES WEB */
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    p.vertical_name {
+        margin-top: -150px;
+        margin-left: 30px;
+    }
+}
 
 
 /* MEDIA QUERIES WEB SLUT */
