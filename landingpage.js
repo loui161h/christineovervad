@@ -20,7 +20,7 @@
       /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
       console.log(landingpage);
       /* HUSK VARIBEL HER */
-      document.querySelector("#splash").src = landingpage.billede.guid;
+      /*     document.querySelector("#splash").src = landingpage.billede.guid;*/
       document.querySelector("#landing_headline").innerHTML = landingpage.title.rendered;
       document.querySelector("#landing_headline2").innerHTML = landingpage.headline;
 
