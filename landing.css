@@ -4,9 +4,10 @@ body {
     padding: 0;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
-    background-image: url(bg_mobile.jpg);
+    background-attachment: fixed;
+    background-image: url(baggrund/bg_mobile.jpg);
 
 }
 
@@ -66,6 +67,14 @@ a {
 
 @media only screen and (min-width: 768px) {
 
+    html,
+    body {
+
+        background-image: url(baggrund/bg_web.jpg);
+
+    }
+
+
     body {
         background-image: url()
     }
@@ -84,15 +93,15 @@ a {
         margin-top: 0px;
 
     }
+}
 
 
-
-    /* MEDIA QUERIES IPAD SLUT */
-
-
-    /* MEDIA QUERIES WEB */
-
-    @media only screen and (min-width: 1024px) {}
+/* MEDIA QUERIES IPAD SLUT */
 
 
-    /* MEDIA QUERIES WEB SLUT */
+/* MEDIA QUERIES WEB */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* MEDIA QUERIES WEB SLUT */
