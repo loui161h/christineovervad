@@ -377,14 +377,21 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
+        grid-gap: 20px;
         justify-content: center;
         grid-template-columns: 350px 350px;
         grid-template-areas:
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
-
-
     }
+
+
+
+    #behind_paragraf2 {
+        margin-top: 10px;
+    }
+
+
 
 
     /* BEHIND SLUT */
@@ -468,6 +475,7 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
+        grid-gap: 50px;
         grid-template-columns: 550px 550px;
         grid-template-areas:
             "behind_heading behind_heading"
@@ -475,6 +483,11 @@ input[type=submit]:hover {
 
 
     }
+
+    #behind_paragraf2 {
+        margin-top: 20px;
+    }
+
 
     /* FORMULAR */
 
