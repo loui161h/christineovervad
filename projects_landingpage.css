@@ -1,39 +1,80 @@
- body {
-     background-color: white;
- }
+/* GENERELLE INDSTILLINER */
+
+body {
+    background-color: white;
+}
 
 
- h3 {
-     font-family: 'Raleway', sans-serif;
- }
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* GENERELLE INDSTILLINER SLUT */
+
+/* PROJECTS GRID */
+#projects_fullpage {
+    display: grid;
+    min-height: 100%;
+    grid-gap: 10px;
+    margin-top: -1vw;
+    grid-template-areas:
+        "sidenav"
+        "img"
+
+}
+
+.sidenav {
+    grid-area: sidenav;
+}
+
+#img {
+    grid-area: img;
+}
+
+
+/* PROJECTS BILLEDER */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
- /* PROJECTS GRID */
- #projects_fullpage {
-     display: grid;
-     min-height: 100%;
-     grid-gap: 10px;
-     margin-top: -1vw;
-     grid-template-areas:
-         "sidenav"
-         "img"
 
- }
+/* MEDIA QUERIES WEB */
 
- .sidenav {
-     grid-area: sidenav;
- }
+@media only screen and (min-width: 1024px) {
 
- #img {
-     grid-area: img;
- }
+    /* PROJECTS GRID */
+    #projects_fullpage {
+        display: grid;
+        min-height: 100%;
+        grid-gap: 10px;
+        margin-top: -1vw;
+        grid-template-areas:
+            "sidenav img "
+            "img img"
+
+    }
 
 
- /* PROJECTS BILLEDER */
+    .sidenav {
+        grid-area: sidenav;
+    }
 
- img {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
- }
+    #img {
+        grid-area: img;
+    }
+
+
+    img {
+        width: 40%;
+
+    }
+
+
+
+
+}
