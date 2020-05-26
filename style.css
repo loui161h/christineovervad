@@ -9,12 +9,14 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-image: url(bg_mobile.jpg)
 }
 
 img {
     width: 100%;
     margin: 0;
-    object-fit: cover;
+
 
 }
 
@@ -61,50 +63,6 @@ p {
 /* SKRIFT INDSTILLINGER SLUT */
 
 
-/* LANDINGPAGE */
-
-
-/* FAVICON PÅ LANDINGPAGE */
-.page-header1 img {
-    width: 45px;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-
-
-
-#landing_headline {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
-    color: #83786C;
-    font-size: 1rem;
-}
-
-/*
-a {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 200;
-    color: #5C5A5A;
-    font-weight: 500;
-    font-size: 0.8rem;
-
-}
-*/
-
-
-
-
-#splash img {
-    background-size: cover;
-}
-
-
-/* LANDINGPAGE SLUT */
 
 
 /* EXHIBTION */
@@ -314,41 +272,6 @@ input[type=submit]:hover {
     .padding {
         padding: 0px 0px 0px 0px;
     }
-
-
-    /* LANDINGPAGE */
-
-
-    #landing_headline {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        text-align: center;
-        color: #645748;
-        font-size: 2.2rem;
-        margin-top: -460px;
-    }
-
-    #landing_headline2 {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        text-align: center;
-        color: #645748;
-        font-size: 1.2rem;
-        margin-top: 0px;
-
-    }
-
-    .page-header1 img {
-        width: 60px;
-    }
-
-
-
-    /* LANDINGPAGE SLUT */
-
-
 
 
     /* EXHIBTION */
