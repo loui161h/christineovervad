@@ -1,51 +1,53 @@
- const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/project_landingpage";
- let projects = [];
- let filter = "alle";
- const container = document.querySelector("main");
- const projectsTemplate = document.querySelector("template");
- /* const detalje = document.querySelector("#detalje");*/
+ const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/project_landingpage/376";
+ /* PODETS NAVN I ENTAL OG ID'ET I ENDPOINT ÆNDRES AFHÆNGIG AF HVILKET POD/SIDE MAN VIL SE */
+
 
 
  document.addEventListener("DOMContentLoaded", start);
 
  function start() {
      hentData();
-     addEventListenersToButtons();
  }
+
 
  async function hentData() {
      const response = await fetch(endpoint);
-     console.log(response);
-     projects = await response.json();
-     console.log(projects);
-     visProjects();
-
+     const json = await response.json();
+     vis(json);
  }
 
- //data fra array ligger i json fil - alledyr.json
 
- function visProjects() {
-     container.innerHTML = "";
-
-
-     projects.forEach((project) => {
-         /* først henter data i json fil ret.content.rendered - efter pods hedder rettype fordi det hedder den i filtreringen i PODS */
-         if (filter == "alle" || filter == project.rettype) {
-             let klon = projectsTemplate.cloneNode(true).content;
-
-             /* HENTET FRA PODS */
-             klon.querySelector("img").src = project.billede.guid;
+ function vis(projects_landingpage) {
+     /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
+     console.log(projects_landingpage);
+     document.querySelector("#projects_landingpage_heading").textContent = projects_landingpage.title.rendered;
+     /* HUSK VARIBEL HER */
 
 
+     document.querySelector("#img1").src = projects_landingpage.img1.guid;
+     document.querySelector("#img2").src = projects_landingpage.img2.guid;
+     document.querySelector("#img3").src = projects_landingpage.img3.guid;
+     document.querySelector("#img4").src = projects_landingpage.img4.guid;
+     document.querySelector("#img5").src = projects_landingpage.img5.guid;
+     document.querySelector("#img6").src = projects_landingpage.img6.guid;
+     document.querySelector("#img7").src = projects_landingpage.img7.guid;
+     document.querySelector("#img8").src = projects_landingpage.img8.guid;
+     document.querySelector("#img9").src = projects_landingpage.img9.guid;
+     document.querySelector("#img10").src = projects_landingpage.img10.guid;
+     document.querySelector("#img11").src = projects_landingpage.img11.guid;
+     document.querySelector("#img12").src = projects_landingpage.img12.guid;
+     document.querySelector("#img13").src = projects_landingpage.img13.guid;
+     document.querySelector("#img14").src = projects_landingpage.img14.guid;
+     document.querySelector("#img15").src = projects_landingpage.img15.guid;
+     document.querySelector("#img16").src = projects_landingpage.img16.guid;
+     document.querySelector("#img17").src = projects_landingpage.img17.guid;
+     document.querySelector("#img18").src = projects_landingpage.img18.guid;
+     document.querySelector("#img19").src = projects_landingpage.img19.guid;
+     document.querySelector("#img20").src = projects_landingpage.img20.guid;
+     document.querySelector("#img21").src = projects_landingpage.img21.guid;
+     document.querySelector("#img22").src = projects_landingpage.img22.guid;
+     document.querySelector("#img23").src = projects_landingpage.img23.guid;
+     document.querySelector("#img24").src = projects_landingpage.img24.guid;
 
-             klon.querySelector(".projects").addEventListener("click", () => {
-                 visDetalje(project)
-             });
 
-
-
-
-             container.appendChild(klon);
-         }
-     })
  }

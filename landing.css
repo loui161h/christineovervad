@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(baggrund/bg_mobile.jpg);
+
+}
+
+
+
+/* LANDINGPAGE */
+
+
+/* FAVICON PÅ LANDINGPAGE */
+.page-header1 img {
+    /*    margin: 5px 5px 0px 0px;*/
+    position: relative;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+#landing_headline {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: #83786C;
+    font-size: 1rem;
+}
+
+/*
+a {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #5C5A5A;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+}
+*/
+
+
+
+
+/*#landingpage_fullpage #splash {
+    background-size: cover;
+    width: 100vw;
+    top: 0;
+}*/
+
+
+/* LANDINGPAGE SLUT */
+
+
+
+@media only screen and (min-width: 768px) {
+
+    html,
+    body {
+
+        background-image: url(baggrund/bg_web.jpg);
+
+    }
+
+
+    body {
+        background-image: url()
+    }
+
+    /* LANDINGPAGE */
+
+
+    #landing_headline {
+        font-size: 2.2rem;
+        margin-top: -460px;
+    }
+
+    #landing_headline2 {
+        color: #645748;
+        font-size: 1.2rem;
+        margin-top: 0px;
+
+    }
+}
+
+
+/* MEDIA QUERIES IPAD SLUT */
+
+
+/* MEDIA QUERIES WEB */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* MEDIA QUERIES WEB SLUT */
