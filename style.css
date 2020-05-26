@@ -267,7 +267,6 @@ input[type=submit]:hover {
 
 }
 
-
 #reviews_head {
     grid-area: reviews_head;
 }
@@ -296,13 +295,15 @@ input[type=submit]:hover {
     grid-area: photoreportage_paragraf1;
 }
 
-#grants_head {
-    grid-area: photoreportage_head;
+#grants_head{
+    grid-area: grants_head;
 }
 
-#photoreportage_paragraf1 {
+#grants_paragraf1{
     grid-area: grants_paragraf1;
 }
+
+
 
 
 /* PRESS SLUT */
@@ -412,7 +413,7 @@ input[type=submit]:hover {
     /* CONTACT SLUT*/
 
 
-    /* PRESS */
+/*     PRESS */
 
     #press_fullpage {
         display: grid;
@@ -427,9 +428,6 @@ input[type=submit]:hover {
             "photoreportage_paragraf1 photoreportage_paragraf1"
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
-
-
-
     }
 
     /* PRESS SLUT */
@@ -531,10 +529,11 @@ input[type=submit]:hover {
 
     /* PRESS */
 
-    #press_fullpage {
+#press_fullpage {
         display: grid;
-
-        grid-template-columns: 550px 550px;
+        margin-top: -134px;
+    margin-right: 50px;
+        grid-template-columns: 500px 500px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -545,9 +544,34 @@ input[type=submit]:hover {
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
 
+    }
 
+    #press_fullpage img {
+        width: 400px;
+        height: 400px;
 
     }
+
+img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+img:hover .img {
+    opacity: 0.2;
+}
+
+img:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 
     /* PRESS SLUT */
 
