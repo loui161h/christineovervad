@@ -128,7 +128,7 @@ hr {
     .spalte1 p {
         text-align: right;
         width: 500px;
-        transition: 1s;
+        transition: 0.5s;
     }
 
 
@@ -183,6 +183,67 @@ hr {
         font-size: 1.8rem;
     }
 
+    #cv_aar13:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar14:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar15:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar16:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar17:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar18:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar19:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar20:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar21:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar22:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar23:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar24:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar25:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar26:hover {
+        font-size: 1.8rem;
+    }
+
+    #cv_aar27:hover {
+        font-size: 1.8rem;
+    }
+
+
 
 
 
@@ -192,7 +253,8 @@ hr {
 
     .spalte2 p {
         text-align: left;
-        width: 500px
+        width: 500px;
+        transition: 0.5s;
     }
 
 
