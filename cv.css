@@ -77,16 +77,21 @@ p {
 /* SPALTER */
 
 #cv_heading {
-    margin: 30px;
+    margin: 20px;
+
+}
+
+#cv_about {
+    margin: 20px;
 
 }
 
 .spalte1 {
-    margin: 30px;
+    margin: 20px;
 }
 
 .spalte2 {
-    margin: 30px;
+    margin: 20px;
 
 }
 
@@ -116,6 +121,7 @@ hr {
         display: flex;
         margin: 0;
         position: absolute;
+
         top: 30%;
         left: 7%;
     }
@@ -249,6 +255,7 @@ hr {
 
     .spalte2 h2 {
         text-align: left;
+
     }
 
     .spalte2 p {
