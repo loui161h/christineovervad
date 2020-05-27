@@ -19,6 +19,7 @@ img {
 }
 
 
+
 /* GENERELLE INDSTILLINGER SLUT */
 
 /* SKRIFT INDSTILLINGER */
@@ -39,6 +40,36 @@ h3 {
 p {
     font-family: 'Quicksand', sans-serif;
     margin: 6;
+}
+
+#cv_aar1,
+#cv_aar2,
+#cv_aar3,
+#cv_aar4,
+#cv_aar5,
+#cv_aar6,
+#cv_aar7,
+#cv_aar8,
+#cv_aar9,
+#cv_aar10,
+#cv_aar11,
+#cv_aar12,
+#cv_aar13,
+#cv_aar14,
+#cv_aar15,
+#cv_aar16,
+#cv_aar17,
+#cv_aar18,
+#cv_aar19,
+#cv_aar20,
+#cv_aar21,
+#cv_aar22,
+#cv_aar23,
+#cv_aar24,
+#cv_aar25,
+#cv_aar26,
+#cv_aar27 {
+    color: #83786C;
 }
 
 /* SKRIFT INDSTILLINGER SLUT */
@@ -100,55 +131,56 @@ hr {
         transition: 1s;
     }
 
+
     #cv_aar1:hover {
-        font-size: 2rem;
-        color: #CEC1B0;
+        font-size: 1.8rem;
+
 
     }
 
     #cv_aar2:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar3:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar4:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar5:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
 
     #cv_aar6:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar7:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar8:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar9:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar10:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar11:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #cv_aar12:hover {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
 
