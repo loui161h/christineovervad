@@ -115,6 +115,7 @@
 #menu {
     list-style-type: none;
     transition: transform .3s;
+    z-index: 1000;
 
 
 

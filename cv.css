@@ -96,8 +96,63 @@ hr {
 
     .spalte1 p {
         text-align: right;
-        width: 500px
+        width: 500px;
+        transition: 1s;
     }
+
+    #cv_aar1:hover {
+        font-size: 2rem;
+        color: #CEC1B0;
+
+    }
+
+    #cv_aar2:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar3:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar4:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar5:hover {
+        font-size: 2rem;
+    }
+
+
+    #cv_aar6:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar7:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar8:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar9:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar10:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar11:hover {
+        font-size: 2rem;
+    }
+
+    #cv_aar12:hover {
+        font-size: 2rem;
+    }
+
+
+
 
     .spalte2 h2 {
         text-align: left;
