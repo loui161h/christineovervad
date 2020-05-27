@@ -9,162 +9,65 @@ body {
 h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    color: #5C5A5A;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
-h3 {
+/* her styles alle årstal */
+h4 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    color: #5C5A5A;
+    font-weight: 400;
+    margin: 0;
 }
-
-
 
 
 /* GENERELLE INDSTILLINER SLUT */
 
-/* PROJECTS GRID */
+/* BILLEDERNE FOR SIDEN */
 
-/*
-#projects_landingpage_fullpage {
-    display: grid;
-    min-height: 100%;
-    grid-gap: 10px;
-    margin-top: -1vw;
-    grid-template-areas:
-        "sidenav"
-        "img1"
-        "img2"
-        "img3"
-        "img4"
-        "img5"
-        "img6"
-        "img7"
-        "img8"
-        "img9"
-        "img10"
-        "img11"
-        "img12"
-        "img13"
-        "img14"
-        "img15"
-        "img16"
-        "img17"
-        "img18"
-        "img19"
-        "img20"
-        "img21"
-        "img22"
-        "img23"
-        "img24"
-
-}
-
-.sidenav {
-    grid-area: sidenav;
-}
-
-#img1 {
-    grid-area: img1;
-}
-
-#img2 {
-    grid-area: img2;
-}
-
-#img3 {
-    grid-area: img3;
-}
-
-#img4 {
-    grid-area: img4;
-}
-
-#img5 {
-    grid-area: img5;
-}
-
-#img6 {
-    grid-area: img6;
-}
-
-#img7 {
-    grid-area: img7;
-}
-
-#img8 {
-    grid-area: img8;
-}
-
-#img9 {
-    grid-area: img9;
-}
-
-#img10 {
-    grid-area: img10;
-}
-
-#img11 {
-    grid-area: img11;
-}
-
-#img12 {
-    grid-area: img12;
-}
-
-#img13 {
-    grid-area: img13;
-}
-
-#img14 {
-    grid-area: img14;
-}
-
-#img15 {
-    grid-area: img15;
-}
-
-#img16 {
-    grid-area: img16;
-}
-
-#img17 {
-    grid-area: img17;
-}
-
-#img18 {
-    grid-area: img18;
-}
-
-#img19 {
-    grid-area: img19;
-}
-
-#img20 {
-    grid-area: img20;
-}
-
-#img21 {
-    grid-area: img21;
-}
-
-#img22 {
-    grid-area: img22;
-}
-
-#img23 {
-    grid-area: img23;
-}
-
+#projects_landingpage_fullpage #img1,
+#img2,
+#img3,
+#img5,
+#img8,
+#img19,
 #img24 {
-    grid-area: img24;
-}
+    display: block;
+    padding: 20px;
+    width: 30%;
+    margin-left: 200px;
+    margin-right: 80px;
 
- PROJECTS BILLEDER
-
-
-img {
-    width: 20%;
 
 }
+
+/* Her fjerner vi de resterende billeder fra siden så de ikke vise */
+
+#img4,
+#img6,
+#img7,
+#img9,
+#img10,
+#img11,
+#img12,
+#img13,
+#img14,
+#img15,
+#img16,
+#img17,
+#img18,
+#img20,
+#img21,
+#img22,
+#img23 {
+    display: none;
+}
+
+
+
 
 
 
@@ -303,9 +206,8 @@ img {
         grid-area: img24;
     }
 
-    img {
-        width: 100px;
-    }
+    img {}
+
 
 
 }
