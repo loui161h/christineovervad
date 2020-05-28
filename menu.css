@@ -18,7 +18,7 @@
 
 .page-header2 img {
     position: absolute;
-    width: 200px;
+    width: 160px;
     height: 60px;
     left: 5px;
     top: 5px;
@@ -30,7 +30,7 @@
 
 .menu-btn {
 
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
 
 
 .menu-btn_burger {
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 3px;
     background-color: #83786C;
@@ -59,7 +59,7 @@
 .menu-btn_burger::before,
 .menu-btn_burger::after {
     content: '';
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 3px;
     background-color: #83786C;

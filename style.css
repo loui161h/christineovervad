@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+
 
 
 
@@ -66,6 +66,18 @@ p {
 
 
 /* EXHIBTION */
+
+
+#projects_landingpage_heading,
+#exhibition_heading,
+#press_heading,
+#cv_heading,
+#behind_fullpage,
+#contact_fullpage,
+#projects_landingpage_heading {
+    margin-top: 60px;
+}
+
 
 /*
 #exhibition_heading {
@@ -366,8 +378,7 @@ main {
 
     #exhibitions {
         display: grid;
-
-        grid-template-columns: 200px 200px 200px;
+        grid-template-columns: 160px 160px 160px;
         justify-content: center;
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
@@ -468,8 +479,8 @@ main {
         display: grid;
         grid-gap: 20px;
         justify-content: center;
-        margin-right: -200px;
-        grid-template-columns: 300px 300px 300px;
+
+        grid-template-columns: 250px 250px 250px;
 
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
