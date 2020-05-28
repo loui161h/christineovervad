@@ -37,7 +37,8 @@ h4 {
 #img24 {
     display: block;
     padding: 20px;
-    width: 30%;
+    /* her ændres størrelsen på billederne sig i mobil, men det påvirker web #img1 */
+    /*    width: 30%;*/
     margin-left: 200px;
     margin-right: 80px;
 
@@ -72,141 +73,113 @@ h4 {
 
 
 
+
+
 /* MEDIA QUERIES WEB */
 
 
 @media only screen and (min-width: 1024px) {
 
-    /* PROJECTS GRID */
-
-    #projects_landingpage_fullpage {
-        display: grid;
-        min-height: 100%;
-        grid-gap: 10px;
-        margin-top: -1vw;
-        grid-template-areas:
-            "sidenav img1 img1 ."
-            "sidenav img1 img1 ."
-            "sidenav . img2 img2"
-            "sidenav img3 img3 img4"
-            "sidenav img5 img6 img6"
-            "sidenav img7 img7 ."
-            "sidenav img7 img7 ."
-            "sidenav . img8 img9"
-            "sidenav img10 img11 img12"
-            "sidenav img13 img13 img14"
-            "sidenav img15 . img16"
-            "sidenav img17 img18 img18"
-            "sidenav . img19 img19"
-            "sidenav . img19 img19"
-            "sidenav img20 img20 img21"
-            "sidenav img22 img22 img21"
-            "sidenav . img23 img24"
-            "sidenav . img23 img24"
-
-    }
-
-    .sidenav {
-        grid-area: sidenav;
-    }
-
-    #img1 {
-        grid-area: img1;
-    }
-
-    #img2 {
-        grid-area: img2;
-    }
-
-    #img3 {
-        grid-area: img3;
-    }
-
-    #img4 {
-        grid-area: img4;
-    }
-
-    #img5 {
-        grid-area: img5;
-    }
-
-    #img6 {
-        grid-area: img6;
-    }
-
-    #img7 {
-        grid-area: img7;
-    }
-
-    #img8 {
-        grid-area: img8;
-    }
-
-    #img9 {
-        grid-area: img9;
-    }
-
-    #img10 {
-        grid-area: img10;
-    }
-
-    #img11 {
-        grid-area: img11;
-    }
-
-    #img12 {
-        grid-area: img12;
-    }
-
-    #img13 {
-        grid-area: img13;
-    }
-
-    #img14 {
-        grid-area: img14;
-    }
-
-    #img15 {
-        grid-area: img15;
-    }
-
-    #img16 {
-        grid-area: img16;
-    }
-
-    #img17 {
-        grid-area: img17;
-    }
-
-    #img18 {
-        grid-area: img18;
-    }
-
-    #img19 {
-        grid-area: img19;
-    }
-
-    #img20 {
-        grid-area: img20;
-    }
-
-    #img21 {
-        grid-area: img21;
-    }
-
-    #img22 {
-        grid-area: img22;
-    }
-
-    #img23 {
-        grid-area: img23;
-    }
-
+    /* her sættes style på billederne */
+    .gallery #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6,
+    #img7,
+    #img8,
+    #img9,
+    #img10,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img16,
+    #img17,
+    #img18,
+    #img19,
+    #img10,
+    #img21,
+    #img22,
+    #img23,
     #img24 {
-        grid-area: img24;
+        width: 100%;
+
     }
 
-    img {}
+    /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
+    #projects_landingpage_fullpage #img1,
+    #img2,
+    #img3,
+    #img5,
+    #img8,
+    #img19,
+    #img24,
+    #img4,
+    #img6,
+    #img7,
+    #img9,
+    #img10,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img16,
+    #img17,
+    #img18,
+    #img20,
+    #img21,
+    #img22,
+    #img23 {
+        display: block;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    /* her styles alle årstal */
+    h4 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        line-height: 40px;
+        font-size: 0.8rem;
+        color: #5C5A5A;
+        font-weight: 400;
+        margin: 0;
+    }
+
+
+
+    /******************* PROJECTS GRID  *******************/
+
+
+    #projects_landingpage_heading {
+        margin: 100px 40px 0px 30px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+        grid-template-areas:
+            "#img1 #img2 #img3"
+            "#img4 #img5 #img6"
+            "#img7 #img8 #img9"
+            "#img10 #img11 #img12"
+            "#img13 #img14 #img15"
+            "#img16 #img17 #img18"
+            "#img19 #img20 #img21"
+            "#img22 #img23 #img24"
+    }
+
+
+
 
 
 

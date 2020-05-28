@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-image: url(baggrund/bg_mobile.jpg);
-
+    z-index: -1;
 
 }
 
@@ -43,7 +43,7 @@ p.vertical_name {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -630px;
+    /*    margin-top: -630px;*/
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -54,12 +54,13 @@ p.vertical_name {
 }
 
 a.some_ig {
+
     position: fixed;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -670px;
     margin-left: 120px;
+    /*    margin-top: -670px;*/
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -74,7 +75,7 @@ a.some_li {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -530px;
+    /*    margin-top: -530px;*/
     margin-left: 120px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
@@ -90,8 +91,8 @@ a.some_yb {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -410px;
     margin-left: 120px;
+    margin-top: -410px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -145,9 +146,9 @@ a.some_yb:hover {
         font-weight: 400;
         color: #83786C;
         font-size: 2.2rem;
-        margin-top: -460px;
+        /*   margin-top: -460px;*/
         position: relative;
-        /*        z-index: -1;*/
+
 
     }
 
@@ -160,7 +161,7 @@ a.some_yb:hover {
         font-size: 1.2rem;
 
         position: relative;
-        z-index: -1;
+        /*        z-index: -1;*/
         /* KAN IKKE SKJULES I MENUEN HVIS DEN IKKE ER PÅ OG KAN IKKE LINKES, HVIS DEN ER PÅ */
     }
 
@@ -171,18 +172,18 @@ a.some_yb:hover {
     }
 
     a.some_ig {
-        margin-top: -200px;
+        /*  margin-top: -200px;*/
         margin-left: 430px;
     }
 
     a.some_li {
-        margin-top: -60px;
+        /* margin-top: -60px;*/
         margin-left: 430px;
     }
 
 
     a.some_yb {
-        margin-top: 60px;
+        /*  margin-top: 60px;*/
         margin-left: 430px;
     }
 }
@@ -196,23 +197,23 @@ a.some_yb:hover {
 
 @media only screen and (min-width: 1024px) {
     p.vertical_name {
-        margin-top: -150px;
         margin-left: 30px;
+        /*        margin-top: -150px;*/
     }
 
     a.some_ig {
-        margin-top: -220px;
+        /* margin-top: -220px;*/
         margin-left: 0px;
     }
 
     a.some_li {
-        margin-top: -80px;
+        /*        margin-top: -80px;*/
         margin-left: 0px;
     }
 
 
     a.some_yb {
-        margin-top: 40px;
+        /*        margin-top: 40px;*/
         margin-left: 0px;
     }
 
