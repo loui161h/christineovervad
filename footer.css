@@ -1,53 +1,3 @@
-.gallery {
-    display: flex;
-    overflow-x: scroll;
-    scroll-padding: 0 50%;
-    scroll-snap-type: x mandatory;
-}
-
-li {
-    scroll-snap-align: center;
-    display: inline-block;
-    height: 83vh;
-    border-radius: 3px;
-    font-size: 0;
-    margin-right: 3rem;
-}
-
-/* SKRIFT INDSTILLINGER */
-h1 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    color: #5C5A5A;
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    color: #5C5A5A;
-    font-weight: 600;
-}
-
-h3 {
-    font-family: 'Raleway', sans-serif;
-    /*  text-transform: uppercase;*/
-    color: #5C5A5A;
-
-}
-
-
-
-p {
-    font-family: 'Quicksand', sans-serif;
-    line-height: 25px;
-}
-
-/* SKRIFT INDSTILLINGER SLUT */
-
-
-
 /* FOOTER */
 
 footer {
@@ -80,10 +30,10 @@ footer .info {
 }
 
 
+
 /* MEDIA QUERIES IPAD */
 
 @media only screen and (min-width: 768px) {
-
 
     footer {
         font-family: 'Quicksand';
@@ -113,4 +63,3 @@ footer .info {
     footer .info {
         display: inline-block;
     }
-}
