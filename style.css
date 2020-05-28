@@ -370,7 +370,8 @@ main {
     #cv_heading,
     #behind_fullpage,
     #contact_fullpage,
-    #projects_landingpage_heading {
+    #projects_landingpage_heading,
+    #project_heading {
         margin: 100px 20px 0px 20px;
     }
 
@@ -467,7 +468,8 @@ main {
     #cv_heading,
     #behind_fullpage,
     #contact_fullpage,
-    #projects_landingpage_heading {
+    #projects_landingpage_heading,
+    #project_heading {
         margin: 100px 40px 0px 48px;
     }
 

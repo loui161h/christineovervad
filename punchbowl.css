@@ -5,7 +5,7 @@
     scroll-snap-type: x mandatory;
 }
 
-#project_fullpage li {
+li #project_fullpage {
     scroll-snap-align: center;
     display: inline-block;
     height: 83vh;
