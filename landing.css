@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
-    height: 100%;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
     background-image: url(baggrund/bg_mobile.jpg);
     z-index: -1;
+
+
 
 }
 
@@ -20,9 +21,7 @@ body {
 #landingpage_fullpage {
     text-align: center;
 
-
 }
-
 
 
 #landing_headline {
@@ -43,7 +42,8 @@ p.vertical_name {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    /*    margin-top: -630px;*/
+    margin-top: 100px;
+
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -59,15 +59,13 @@ a.some_ig {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-left: 120px;
-    /*    margin-top: -670px;*/
+    right: -2vw;
+    margin-top: 40px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
     float: right;
 
-
-    /* LINK VIRKER IKKE NÅR DENNE ER PÅ */
 }
 
 a.some_li {
@@ -75,11 +73,11 @@ a.some_li {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    /*    margin-top: -530px;*/
-    margin-left: 120px;
+    margin-top: 180px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
+    right: -2vw;
     float: right;
 
 
@@ -91,8 +89,8 @@ a.some_yb {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-left: 120px;
-    margin-top: -410px;
+    right: -2vw;
+    margin-top: 320px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -101,20 +99,11 @@ a.some_yb {
 
 }
 
-a.some_ig:hover {
-    color: #CEC1B0;
+a:hover {
+    color: #CEC1B0
 }
 
 
-a.some_li:hover {
-    color: #CEC1B0;
-}
-
-
-
-a.some_yb:hover {
-    color: #CEC1B0;
-}
 
 
 
@@ -126,7 +115,6 @@ a.some_yb:hover {
 
     html,
     body {
-
         background-image: url(baggrund/bg_web.jpg);
 
     }
@@ -146,45 +134,53 @@ a.some_yb:hover {
         font-weight: 400;
         color: #83786C;
         font-size: 2.2rem;
-        /*   margin-top: -460px;*/
+        margin-top: 350px;
         position: relative;
 
 
     }
 
     #landing_headline2 {
+        border-bottom: 1px solid #83786C;
+        padding-bottom: 2px;
         visibility: visible;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         color: #83786C;
         font-weight: 400;
-        font-size: 1.2rem;
-
+        font-size: 1.4rem;
+        margin-top: 350px;
         position: relative;
-        /*        z-index: -1;*/
-        /* KAN IKKE SKJULES I MENUEN HVIS DEN IKKE ER PÅ OG KAN IKKE LINKES, HVIS DEN ER PÅ */
+
+
+    }
+
+    a#landing_headline2:hover {
+        color: #CEC1B0;
+
     }
 
 
     p.vertical_name {
-        margin-top: 0;
+        margin-top: -160px;
 
     }
 
     a.some_ig {
-        /*  margin-top: -200px;*/
-        margin-left: 430px;
+        margin-top: -500px;
+        right: 1vw;
+
     }
 
     a.some_li {
-        /* margin-top: -60px;*/
-        margin-left: 430px;
+        margin-top: -360px;
+        right: 1vw;
     }
 
 
     a.some_yb {
-        /*  margin-top: 60px;*/
-        margin-left: 430px;
+        margin-top: -240px;
+        right: 1vw;
     }
 }
 
@@ -196,25 +192,33 @@ a.some_yb:hover {
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
+
+    #landing_headline {
+        font-size: 2.6rem;
+    }
+
+
+    #landing_headline2 {
+        font-size: 1.6rem;
+    }
+
     p.vertical_name {
-        margin-left: 30px;
-        /*        margin-top: -150px;*/
+        left: 1vw;
     }
 
     a.some_ig {
-        /* margin-top: -220px;*/
-        margin-left: 0px;
+        margin-top: -250px;
+
     }
 
     a.some_li {
-        /*        margin-top: -80px;*/
-        margin-left: 0px;
+        margin-top: -110px;
+
     }
 
 
     a.some_yb {
-        /*        margin-top: 40px;*/
-        margin-left: 0px;
+        margin-top: 10px;
     }
 
 
@@ -229,9 +233,9 @@ a.some_yb:hover {
     .vertical-line2 {
         display: inline-block;
         border-left: 1px solid #ccc;
-        margin-left: 1310px;
-        margin-top: -1200px;
-        height: 110vh;
+
+        top: 0;
+
     }
 }
 
