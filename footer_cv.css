@@ -1,0 +1,66 @@
+    /* FOOTER */
+
+    footer {
+        font-family: 'Quicksand';
+        font-size: 10px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        position: absolute;
+        width: 100%;
+        padding: 10px 20px 20px 20px;
+    }
+
+    footer a {
+        font-family: 'Quicksand';
+        color: black;
+        text-decoration: none;
+        align-content: flex-start;
+        cursor: pointer;
+
+    }
+
+    footer a:hover {
+        color: #CEC1B0;
+    }
+
+    footer .info {
+        display: inline-block;
+    }
+
+
+
+    /* MEDIA QUERIES IPAD */
+
+    @media only screen and (min-width: 768px) {
+
+        footer {
+            font-family: 'Quicksand';
+            font-size: 12px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            position: absolute;
+            width: 100%;
+            padding: 10px 40px 10px 40px;
+            bottom: -1800px;
+        }
+
+        footer a {
+            font-family: 'Quicksand';
+            color: black;
+            text-decoration: none;
+            align-content: flex-start;
+            cursor: pointer;
+
+        }
+
+        footer a:hover {
+            color: #CEC1B0;
+        }
+
+        footer .info {
+            display: inline-block;
+        }
