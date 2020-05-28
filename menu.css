@@ -164,7 +164,7 @@ ul {
 
     #menu .hidden {
         transform: translateX(0);
-        opacity: 1;
+        opacity: 0;
     }
 }
 
@@ -180,11 +180,11 @@ ul {
     }
 
     .page-header2 img {
-        position: absolute;
-        width: 140px;
+        position: fixed;
+        width: 240px;
         height: 60px;
-        left: 0;
-        top: 0;
+        left: 5px;
+        top: 5px;
     }
 
 
