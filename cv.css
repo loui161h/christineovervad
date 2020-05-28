@@ -111,10 +111,19 @@ hr {
 
 /* MEDIA QUERIES WEB */
 
+
+@media only screen and (min-width: 768px) {
+    #cv_about {
+        width: 550px;
+    }
+
+}
+
 @media only screen and (min-width: 1024px) {
 
     #cv_about {
         margin: 30px;
+        width: 450px;
     }
 
     #cv_fullpage {
