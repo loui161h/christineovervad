@@ -203,7 +203,10 @@ a:hover {
     }
 
     p.vertical_name {
+
         left: 1vw;
+
+
     }
 
     a.some_ig {
@@ -227,15 +230,17 @@ a:hover {
         border-right: 1px solid #ccc;
         margin-right: 1300px;
         margin-top: -600px;
-        height: 110vh;
+        height: 130vh;
+
     }
 
     .vertical-line2 {
+
         display: inline-block;
-        border-left: 1px solid #ccc;
-
-        top: 0;
-
+        border-right: 1px solid #ccc;
+        margin-left: 1300px;
+        margin-top: -970px;
+        height: 120vh;
     }
 }
 
