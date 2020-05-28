@@ -24,7 +24,7 @@
 }
 
 .main {
-    /*    margin-left: 140px;*/
+    margin-left: 140px;
     /* Same width as the sidebar + left position in px */
     font-size: 28px;
     /* Increased text to enable scrolling */
@@ -45,8 +45,8 @@
 
 @media only screen and (min-width: 1024px) {
     .sidenav {
-        top: 150px;
-        left: 40px;
+        top: 40px;
+        left: 50px;
     }
 
 

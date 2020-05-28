@@ -12,7 +12,7 @@ footer {
     padding: 10px 20px 20px 20px;
 }
 
-.some a {
+footer a {
     font-family: 'Quicksand';
     color: black;
     text-decoration: none;
@@ -21,7 +21,7 @@ footer {
 
 }
 
-.some a:hover {
+footer a:hover {
     color: #CEC1B0;
 }
 
@@ -36,7 +36,6 @@ footer .info {
 @media only screen and (min-width: 768px) {
 
     footer {
-        font-family: 'Quicksand';
         font-size: 12px;
         color: black;
         display: flex;
@@ -47,9 +46,8 @@ footer .info {
         padding: 10px 40px 10px 40px;
     }
 
-    .some a {
+    footer a {
         font-size: 12px;
-        font-family: 'Quicksand';
         color: black;
         text-decoration: none;
         align-content: flex-start;
@@ -57,7 +55,7 @@ footer .info {
 
     }
 
-    .some a:hover {
+    footer a:hover {
         color: #CEC1B0;
     }
 
