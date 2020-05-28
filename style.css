@@ -110,8 +110,8 @@ p {
 #behind_fullpage {
     display: grid;
     grid-gap: 10px;
-    grid-template-areas:
-        "behind_heading"
+    max-height: 100vh;
+    grid-template-areas: "behind_heading"
         "behind_paragraf1"
         "behind_paragraf2"
 
@@ -390,10 +390,12 @@ footer .info {
 
     /* EXHIBTION */
 
+    /*
     #exhibition_heading,
     #press_heading {
         margin: 100px 40px 0px 30px;
     }
+*/
 
     #exhibitions {
         display: grid;
@@ -424,9 +426,11 @@ footer .info {
 
 
 
+    /*
     #behind_paragraf2 {
         margin-top: 10px;
     }
+*/
 
 
 
@@ -480,10 +484,10 @@ footer .info {
 @media only screen and (min-width: 1024px) {
 
 
-    #exhibition_heading,
+    /*  #exhibition_heading,
     #press_heading {
         margin: 100px 40px 0px 48px;
-    }
+    }*/
 
 
     /* EXHIBTION */
@@ -491,7 +495,7 @@ footer .info {
         display: grid;
         grid-gap: 20px;
         justify-content: center;
-        margin-top: -40px;
+        /*        margin-top: -40px;*/
         grid-template-columns: 300px 300px 300px;
 
         grid-template-areas:
@@ -518,9 +522,10 @@ footer .info {
 
     }
 
+    /*
     #behind_paragraf2 {
         margin-top: 20px;
-    }
+    }*/
 
 
     /* FORMULAR */
@@ -567,8 +572,8 @@ footer .info {
 
     #press_fullpage {
         display: grid;
-        margin-top: -134px;
-        margin-right: 50px;
+        /*    margin-top: -134px;
+        margin-right: 50px;*/
         grid-template-columns: 500px 500px;
         grid-template-areas:
             "reviews_head reviews_head"
