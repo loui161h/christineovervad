@@ -357,7 +357,8 @@ main {
     #press_heading,
     #cv_heading,
     #behind_fullpage,
-    #contact_fullpage {
+    #contact_fullpage,
+    #projects_landingpage_heading {
         margin: 100px 20px 0px 20px;
     }
 
@@ -454,9 +455,12 @@ main {
     #press_heading,
     #cv_heading,
     #behind_fullpage,
-    #contact_fullpage {
+    #contact_fullpage,
+    #projects_landingpage_heading {
         margin: 100px 40px 0px 48px;
     }
+
+
 
 
     /* EXHIBTION */
