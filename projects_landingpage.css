@@ -26,6 +26,9 @@ h4 {
 
 /* GENERELLE INDSTILLINER SLUT */
 
+
+
+
 /* BILLEDERNE FOR SIDEN */
 
 #projects_landingpage_fullpage #img1,
@@ -38,7 +41,7 @@ h4 {
     display: block;
     padding: 20px;
     /* her ændres størrelsen på billederne sig i mobil, men det påvirker web #img1 */
-    /*    width: 30%;*/
+    width: 30%;
     margin-left: 200px;
     margin-right: 80px;
 
@@ -135,6 +138,7 @@ h4 {
     #img22,
     #img23 {
         display: block;
+        width: 100%;
         padding: 0;
         margin-left: 0;
         margin-right: 0;
@@ -161,7 +165,7 @@ h4 {
 
     .gallery {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 20px;
         grid-template-columns: 200px 200px 200px;
         grid-template-rows: 200px 200px 200px;
         justify-content: center;
