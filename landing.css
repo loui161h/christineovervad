@@ -27,33 +27,30 @@ body {
 
 #landing_headline {
     visibility: hidden;
-    z-index: -1;
+
 
 }
 
 #landing_headline2 {
     visibility: hidden;
-    z-index: -1;
+
 }
 
 
-
-.vertical {}
 
 p.vertical_name {
     position: fixed;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -600px;
-
-    margin-left: 20px;
+    margin-top: -630px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
     float: left;
     transform: rotate(180deg);
-    z-index: -1;
+
+
 }
 
 a.some_ig {
@@ -67,7 +64,9 @@ a.some_ig {
     color: #888888;
     writing-mode: vertical-rl;
     float: right;
-    transform: rotate(90);
+
+
+    /* LINK VIRKER IKKE NÅR DENNE ER PÅ */
 }
 
 a.some_li {
@@ -81,25 +80,41 @@ a.some_li {
     color: #888888;
     writing-mode: vertical-rl;
     float: right;
-    transform: rotate(90);
+
+
 }
 
 
-a.some_fb {
+a.some_yb {
     position: fixed;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1rem;
     margin-top: -410px;
     margin-left: 120px;
-
-
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
     float: right;
-    transform: rotate(90);
+
+
 }
+
+a.some_ig:hover {
+    color: #CEC1B0;
+}
+
+
+a.some_li:hover {
+    color: #CEC1B0;
+}
+
+
+
+a.some_yb:hover {
+    color: #CEC1B0;
+}
+
 
 
 /* LANDINGPAGE SLUT */
@@ -132,59 +147,43 @@ a.some_fb {
         font-size: 2.2rem;
         margin-top: -460px;
         position: relative;
+        /*        z-index: -1;*/
 
     }
 
     #landing_headline2 {
         visibility: visible;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        color: #83786C;
+        font-weight: 400;
         font-size: 1.2rem;
-        margin-top: -20px;
+
         position: relative;
+        z-index: -1;
+        /* KAN IKKE SKJULES I MENUEN HVIS DEN IKKE ER PÅ OG KAN IKKE LINKES, HVIS DEN ER PÅ */
     }
+
 
     p.vertical_name {
-        position: absolute;
-        font-size: 1rem;
-        margin-top: -250px;
-        margin-left: 20px;
+        margin-top: 0;
+
     }
 
-
     a.some_ig {
-        position: absolute;
-        margin-top: -400px;
-        margin-left: 320px;
+        margin-top: -200px;
+        margin-left: 430px;
     }
 
     a.some_li {
-        position: fixed;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-size: 1rem;
-        margin-top: -530px;
-        margin-left: 120px;
-        font-family: 'Raleway', sans-serif;
-        color: #888888;
-        writing-mode: vertical-rl;
-        float: right;
-        transform: rotate(90);
+        margin-top: -60px;
+        margin-left: 430px;
     }
 
 
-    a.some_fb {
-        position: fixed;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-size: 1rem;
-        margin-top: -410px;
-        margin-left: 120px;
-
-
-        font-family: 'Raleway', sans-serif;
-        color: #888888;
-        writing-mode: vertical-rl;
-        float: right;
-        transform: rotate(90);
+    a.some_yb {
+        margin-top: 60px;
+        margin-left: 430px;
     }
 }
 
@@ -200,7 +199,39 @@ a.some_fb {
         margin-top: -150px;
         margin-left: 30px;
     }
-}
 
+    a.some_ig {
+        margin-top: -220px;
+        margin-left: 0px;
+    }
+
+    a.some_li {
+        margin-top: -80px;
+        margin-left: 0px;
+    }
+
+
+    a.some_yb {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+
+    .vertical-line {
+        display: inline-block;
+        border-right: 1px solid #ccc;
+        margin-right: 1300px;
+        margin-top: -600px;
+        height: 110vh;
+    }
+
+    .vertical-line2 {
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin-left: 1310px;
+        margin-top: -1200px;
+        height: 110vh;
+    }
+}
 
 /* MEDIA QUERIES WEB SLUT */
