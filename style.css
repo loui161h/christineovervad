@@ -195,17 +195,16 @@ input[type=submit]:hover {
 }
 
 #contact_heading {
-    z-index: -1;
+
     grid-area: contact_heading;
 }
 
 #contact_paragraf1 {
-    z-index: -1;
     grid-area: contact_paragraf1;
 }
 
 #contact_paragraf2 {
-    z-index: -1;
+
     grid-area: contact_paragraf2;
 }
 
@@ -312,92 +311,101 @@ input[type=submit]:hover {
 }
 
 
+@media only screen and (min-width: 768px) {
 
-
-.padding {
-    padding: 0px 0px 0px 0px;
-}
-
-
-/* EXHIBTION */
-
-#exhibition_heading,
-#press_heading {
-    margin: 100px 40px 0px 30px;
-}
-
-#exhibitions {
-    display: grid;
-
-    grid-template-columns: 200px 200px 200px;
-    justify-content: center;
-    grid-template-areas:
-        "exhibition_head exhibition_head exhibition_head"
-        "current1 current2 current3"
-
-
-}
-
-/* EXHIBTION SLUT */
-
-/* BEHIND */
-
-
-#behind_fullpage {
-    display: grid;
-    grid-gap: 20px;
-    justify-content: center;
-    grid-template-columns: 350px 350px;
-    grid-template-areas:
-        "behind_heading behind_heading"
-        "behind_paragraf1 behind_paragraf2"
-}
-
-
-
-#behind_paragraf2 {
-    margin-top: 10px;
-}
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
 
 
 
 
-/* BEHIND SLUT */
+    /* EXHIBTION */
 
 
-/* CONTACT */
-#contact_fullpage {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 350px 350px;
-    grid-template-areas:
-        "contact_heading contact_heading"
-        "contact_paragraf1 contact_paragraf2"
-
-}
+    #projects_landingpage_heading,
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage {
+        margin: 100px 20px 0px 20px;
+    }
 
 
-/* CONTACT SLUT*/
+
+    #exhibitions {
+        display: grid;
+
+        grid-template-columns: 200px 200px 200px;
+        justify-content: center;
+        grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
+            "current1 current2 current3"
 
 
-/*     PRESS */
+    }
 
-#press_fullpage {
-    display: grid;
-    justify-content: flex-end;
-    grid-template-columns: 350px 350px;
-    grid-template-areas:
-        "reviews_head reviews_head"
-        "reviews_paragraf1 reviews_paragraf2"
-        "interview_head interview_head"
-        "interview_paragraf1 interview_paragraf1"
-        "photoreportage_head photoreportage_head"
-        "photoreportage_paragraf1 photoreportage_paragraf1"
-        "grants_head grants_head"
-        "grants_paragraf1 grants_paragraf1"
-}
+    /* EXHIBTION SLUT */
 
-/* PRESS SLUT */
+    /* BEHIND */
+
+
+    #behind_fullpage {
+        display: grid;
+        /*        grid-gap: 20px;*/
+        justify-content: center;
+        /*        grid-template-columns: 350px 350px;*/
+        grid-template-areas:
+            "behind_heading behind_heading"
+            "behind_paragraf1 behind_paragraf2"
+    }
+
+
+
+    #behind_paragraf2 {
+        margin-top: 10px;
+    }
+
+
+
+
+    /* BEHIND SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        display: grid;
+        /*        justify-content: center;*/
+        /*        grid-template-columns: 350px 350px;*/
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf1 contact_paragraf2"
+
+    }
+
+
+    /* CONTACT SLUT*/
+
+
+    /*     PRESS */
+
+    #press_fullpage {
+        display: grid;
+        justify-content: flex-end;
+        grid-template-columns: 350px 350px;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+    /* PRESS SLUT */
 
 
 }
@@ -406,13 +414,18 @@ input[type=submit]:hover {
 /* MEDIA QUERIES IPAD SLUT */
 
 
+
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
 
 
+    #projects_landingpage_heading,
     #exhibition_heading,
-    #press_heading {
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage {
         margin: 100px 40px 0px 48px;
     }
 
@@ -422,7 +435,7 @@ input[type=submit]:hover {
         display: grid;
         grid-gap: 20px;
         justify-content: center;
-        margin-top: -40px;
+        margin-right: -200px;
         grid-template-columns: 300px 300px 300px;
 
         grid-template-areas:
@@ -440,9 +453,9 @@ input[type=submit]:hover {
 
     #behind_fullpage {
         display: grid;
-        grid-gap: 50px;
-        grid-template-columns: 550px 550px;
+        /*        grid-gap: 50px;*/
         grid-template-areas:
+            /*        grid-template-columns: 500px 500px;*/
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
 
@@ -477,7 +490,7 @@ input[type=submit]:hover {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        grid-template-columns: 500px 500px;
+        /*     grid-template-columns: 500px 500px;*/
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -485,7 +498,8 @@ input[type=submit]:hover {
     }
 
     #contact_paragraf1 img {
-        width: 95%;
+        width: 100%;
+
 
 
     }
