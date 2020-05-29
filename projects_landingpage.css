@@ -70,15 +70,113 @@ h4 {
     display: none;
 }
 
+/***************** MEDIA QUERIES IPAD *********************/
+
+
+@media only screen and (min-width: 768px) {
+
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    /* her sættes style på billederne */
+    .gallery #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6,
+    #img7,
+    #img8,
+    #img9,
+    #img10,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img16,
+    #img17,
+    #img18,
+    #img19,
+    #img10,
+    #img21,
+    #img22,
+    #img23,
+    #img24 {
+        width: 100%;
+
+    }
+
+    /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
+    #projects_landingpage_fullpage #img1,
+    #img2,
+    #img3,
+    #img5,
+    #img8,
+    #img19,
+    #img24,
+    #img4,
+    #img6,
+    #img7,
+    #img9,
+    #img10,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img16,
+    #img17,
+    #img18,
+    #img20,
+    #img21,
+    #img22,
+    #img23 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 
 
 
 
+    /*     GALLERY */
+
+    .gallery {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 240px 240px;
+        justify-content: center;
+        grid-template-areas:
+            "#img1 #img2"
+            "#img3 #img4"
+            "#img5 #img6"
+            "#img7 #img8"
+            "#img9 #img10"
+            "#img11 #img12"
+            "#img13 #img14"
+            "#img15 #img16"
+            "#img17 #img18"
+            "#img19 #img20"
+            "#img21 #img22"
+            "#img23 #img24";
+    }
+
+    /* GALLERY SLUT */
+
+
+}
 
 
 
-/* MEDIA QUERIES WEB */
+
+
+/***************** MEDIA QUERIES WEB *********************/
 
 
 @media only screen and (min-width: 1024px) {
