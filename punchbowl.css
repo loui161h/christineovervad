@@ -44,15 +44,7 @@ p {
     line-height: 25px;
 }
 
-#project_tekst3 {
-    margin-right: 700px;
 
-}
-
-#project_tekst4 {
-    margin-right: 700px;
-
-}
 
 /* SKRIFT INDSTILLINGER SLUT */
 
@@ -78,6 +70,7 @@ footer a {
     text-decoration: none;
     align-content: flex-start;
     cursor: pointer;
+    font-size: 10px;
 
 }
 
@@ -122,5 +115,15 @@ footer .info {
 
     footer .info {
         display: inline-block;
+    }
+
+    #project_tekst3 {
+        margin-right: 700px;
+
+    }
+
+    #project_tekst4 {
+        margin-right: 700px;
+
     }
 }
