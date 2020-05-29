@@ -63,9 +63,7 @@ p {
 /* SKRIFT INDSTILLINGER SLUT */
 
 
-
-
-/* EXHIBTION */
+/* OVERSKRIFTERS TILRETTELSER */
 
 
 #projects_landingpage_heading,
@@ -74,17 +72,14 @@ p {
 #cv_heading,
 #behind_fullpage,
 #contact_fullpage,
-#projects_landingpage_heading,
-#project_heading {
+#project_fullpage {
     margin-top: 60px;
 }
 
 
-/*
-#exhibition_heading {
-    margin: 100px 40px 0px 28px;
-}
-*/
+/* OVERSKRIFTERS TILRETTELSER SLUT */
+
+/* EXHIBTION */
 
 #exhibitions {
     display: grid;
@@ -229,7 +224,7 @@ input[type=submit]:hover {
 
 /* PRESS */
 
-#press_fullpage {
+#press {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -244,6 +239,7 @@ input[type=submit]:hover {
         "grants_paragraf1"
 
 }
+
 
 #reviews_head {
     grid-area: reviews_head;
@@ -359,6 +355,20 @@ main {
 
 @media only screen and (min-width: 768px) {
 
+    /* OVERSKRIFTERS TILRETTELSER */
+    #projects_landingpage_heading,
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage,
+    #project_fullpage,
+    #projects_landingpage_heading {
+        margin: 100px 20px 0px 20px;
+    }
+
+    /* OVERSKRIFTERS TILRETTELSER SLUT */
+
     .padding {
         padding: 0px 0px 0px 0px;
     }
@@ -387,16 +397,6 @@ main {
     /* EXHIBTION */
 
 
-    #projects_landingpage_heading,
-    #exhibition_heading,
-    #press_heading,
-    #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
-    #projects_landingpage_heading,
-    #project_heading {
-        margin: 100px 20px 0px 20px;
-    }
 
 
 
@@ -448,7 +448,7 @@ main {
 
     /*     PRESS */
 
-    #press_fullpage {
+    #press {
         display: grid;
         grid-template-columns: 240px 240px;
         justify-content: center;
@@ -478,6 +478,21 @@ main {
 @media only screen and (min-width: 1024px) {
 
 
+    /* OVERSKRIFTERS TILRETTELSER */
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage,
+    #project_fullpage,
+    #projects_landingpage_heading {
+        margin: 100px 40px 0px 48px;
+    }
+
+    /* OVERSKRIFTERS TILRETTELSER SLUT */
+
+
+
     input[type=text],
     select {
 
@@ -492,21 +507,6 @@ main {
         height: 30px;
 
     }
-
-
-
-    #projects_landingpage_heading,
-    #exhibition_heading,
-    #press_heading,
-    #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
-    #projects_landingpage_heading,
-    #project_heading {
-        margin: 100px 40px 0px 48px;
-    }
-
-
 
 
     /* EXHIBTION */
@@ -589,7 +589,7 @@ main {
 
     /* PRESS */
 
-    #press_fullpage {
+    #press {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 375px 375px;
