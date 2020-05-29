@@ -2,7 +2,7 @@
 
     footer {
         font-family: 'Quicksand';
-        font-size: 10px;
+        font-size: 8px;
         color: black;
         display: flex;
         justify-content: space-between;
@@ -15,7 +15,7 @@
     footer a {
         font-family: 'Quicksand';
         color: black;
-        font-size: 10px;
+        font-size: 8px;
         text-decoration: none;
         align-content: flex-start;
         cursor: pointer;
