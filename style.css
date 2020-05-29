@@ -278,6 +278,10 @@ input[type=submit]:hover {
     grid-area: grants_paragraf1;
 }
 
+#press img {
+    width: 60%;
+}
+
 
 
 
