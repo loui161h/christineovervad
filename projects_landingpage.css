@@ -166,8 +166,7 @@ h4 {
     .gallery {
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: 200px 200px 200px;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 250px 250px 250px;
         justify-content: center;
         grid-template-areas:
             "#img1 #img2 #img3"
