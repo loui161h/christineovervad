@@ -36,7 +36,7 @@ h1 {
     text-transform: uppercase;
     color: #5C5A5A;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h2 {
@@ -70,11 +70,12 @@ p {
 #exhibition_heading,
 #press_heading,
 #cv_heading,
+#project_heading,
 #behind_fullpage,
-#contact_fullpage,
-#project_fullpage {
+#contact_fullpage {
     margin-top: 100px;
 }
+
 
 
 /* OVERSKRIFTERS TILRETTELSER SLUT */
@@ -367,7 +368,7 @@ main {
     #cv_heading,
     #behind_fullpage,
     #contact_fullpage,
-    #project_fullpage,
+    #project_heading,
     #projects_landingpage_heading {
         margin: 100px 20px 0px 20px;
     }
@@ -497,7 +498,7 @@ main {
     #cv_heading,
     #behind_fullpage,
     #contact_fullpage,
-    #project_fullpage,
+    #project_heading,
     #projects_landingpage_heading {
         margin: 130px 40px 0px 48px;
     }
