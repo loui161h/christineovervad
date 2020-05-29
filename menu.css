@@ -20,7 +20,7 @@
     position: absolute;
     width: 160px;
     height: 60px;
-    left: 5px;
+    left: 15px;
     top: 5px;
 }
 
@@ -239,3 +239,12 @@ ul {
 
 
 }
+
+
+@media only screen and (min-width: 1024px) {
+
+    .page-header2 img {
+
+        left: 30px;
+        top: 10px;
+    }
