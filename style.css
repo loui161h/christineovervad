@@ -395,18 +395,11 @@ main {
 
     #behind_fullpage {
         display: grid;
-        /*        grid-gap: 20px;*/
         justify-content: center;
         /*        grid-template-columns: 350px 350px;*/
         grid-template-areas:
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
-    }
-
-
-
-    #behind_paragraf2 {
-        margin-top: 10px;
     }
 
 
@@ -418,7 +411,7 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        /*        justify-content: center;*/
+        justify-content: center;
         /*        grid-template-columns: 350px 350px;*/
         grid-template-areas:
             "contact_heading contact_heading"
@@ -434,8 +427,8 @@ main {
 
     #press_fullpage {
         display: grid;
-        justify-content: flex-end;
-        grid-template-columns: 350px 350px;
+        grid-template-columns: 240px 240px;
+        justify-content: center;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -480,8 +473,6 @@ main {
     #exhibitions {
         display: grid;
         grid-gap: 20px;
-        justify-content: center;
-
         grid-template-columns: 250px 250px 250px;
 
         grid-template-areas:
@@ -499,9 +490,9 @@ main {
 
     #behind_fullpage {
         display: grid;
-        /*        grid-gap: 50px;*/
+        grid-gap: 20px;
         grid-template-areas:
-            /*        grid-template-columns: 500px 500px;*/
+
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
 
@@ -536,7 +527,9 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        /*     grid-template-columns: 500px 500px;*/
+        grid-gap: 20px;
+        /*    grid-template-columns: 375px 375px;*/
+
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -558,9 +551,9 @@ main {
 
     #press_fullpage {
         display: grid;
-        margin-top: -134px;
-        margin-right: 50px;
-        grid-template-columns: 500px 500px;
+        grid-gap: 20px;
+        grid-template-columns: 375px 375px;
+
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
