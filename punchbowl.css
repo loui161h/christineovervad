@@ -12,6 +12,16 @@ li #project_fullpage {
     border-radius: 3px;
     font-size: 0;
     margin-right: 3rem;
+
+}
+
+.padding {
+    padding: 0px 20px 0px 20px;
+}
+
+
+li {
+    list-style: none;
 }
 
 /* SKRIFT INDSTILLINGER */
@@ -21,6 +31,7 @@ h1 {
     color: #5C5A5A;
     font-weight: 600;
     font-size: 2rem;
+    margin-top: 100px;
 }
 
 h2 {
@@ -43,6 +54,7 @@ p {
     font-family: 'Quicksand', sans-serif;
     line-height: 25px;
 }
+
 
 
 
@@ -92,6 +104,37 @@ footer .info {
 @media only screen and (min-width: 768px) {
 
 
+    .padding {
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    /* SKRIFT INDSTILLINGER */
+    h1 {
+
+        margin: 100px 20px 0px 20px;
+    }
+
+    #project_tekst1 {
+        margin: 20px 20px 20px 20px;
+    }
+
+
+    #project_tekst2 {
+        margin: 20px 20px 20px 20px;
+    }
+
+    #project_tekst3 {
+        margin: 20px 20px 20px 20px;
+        width: 700px;
+    }
+
+
+    #project_tekst4 {
+        margin: 20px 20px 20px 20px;
+        width: 700px;
+    }
+
     footer {
         font-family: 'Quicksand';
         font-size: 12px;
@@ -130,4 +173,38 @@ footer .info {
         margin-right: 700px;
 
     }
+}
+
+
+/* MEDIA QUERIES WEB */
+
+@media only screen and (min-width: 1024px) {
+
+
+    /* SKRIFT INDSTILLINGER */
+    h1 {
+
+        margin: 130px 40px 0px 48px;
+    }
+
+    #project_tekst1 {
+        margin: 20px 40px 20px 48px;
+    }
+
+
+    #project_tekst2 {
+        margin: 20px 40px 20px 48px;
+    }
+
+    #project_tekst3 {
+        margin: 20px 40px 20px 48px;
+        width: 700px;
+    }
+
+
+    #project_tekst4 {
+        margin: 20px 40px 20px 48px;
+        width: 700px;
+    }
+
 }
