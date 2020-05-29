@@ -74,7 +74,8 @@ p {
 #cv_heading,
 #behind_fullpage,
 #contact_fullpage,
-#projects_landingpage_heading {
+#projects_landingpage_heading,
+#project_heading {
     margin-top: 60px;
 }
 
@@ -149,7 +150,7 @@ p {
 input[type=text],
 select {
     font-family: 'Raleway', sans-serif;
-    width: 110px;
+    width: 100px;
     height: 30px;
     padding: 12px 20px;
     display: inline-block;
@@ -159,6 +160,7 @@ select {
     color: #5C5A5A;
     font-size: 0.8rem;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 input[type=submit] {
@@ -171,6 +173,7 @@ input[type=submit] {
     color: white;
     font-size: 0.8rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -361,6 +364,24 @@ main {
     }
 
 
+    input[type=text],
+    select {
+
+        width: 100px;
+        height: 30px;
+
+    }
+
+    input[type=submit] {
+
+        width: 100px;
+        height: 30px;
+
+    }
+
+
+
+
 
 
     /* EXHIBTION */
@@ -413,8 +434,8 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        justify-content: center;
-        /*        grid-template-columns: 350px 350px;*/
+        /*     justify-content: center;
+        grid-template-columns: 650px 650px;*/
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -455,6 +476,23 @@ main {
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
+
+
+    input[type=text],
+    select {
+
+        width: 150px;
+        height: 30px;
+
+    }
+
+    input[type=submit] {
+
+        width: 150px;
+        height: 30px;
+
+    }
+
 
 
     #projects_landingpage_heading,
@@ -530,7 +568,7 @@ main {
     #contact_fullpage {
         display: grid;
         grid-gap: 20px;
-        /*    grid-template-columns: 375px 375px;*/
+
 
         grid-template-areas:
             "contact_heading contact_heading"
