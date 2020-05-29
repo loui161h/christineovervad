@@ -63,9 +63,7 @@ p {
 /* SKRIFT INDSTILLINGER SLUT */
 
 
-
-
-/* EXHIBTION */
+/* OVERSKRIFTERS TILRETTELSER */
 
 
 #projects_landingpage_heading,
@@ -74,17 +72,14 @@ p {
 #cv_heading,
 #behind_fullpage,
 #contact_fullpage,
-#projects_landingpage_heading,
-#project_heading {
+#project_fullpage {
     margin-top: 60px;
 }
 
 
-/*
-#exhibition_heading {
-    margin: 100px 40px 0px 28px;
-}
-*/
+/* OVERSKRIFTERS TILRETTELSER SLUT */
+
+/* EXHIBTION */
 
 #exhibitions {
     display: grid;
@@ -229,9 +224,10 @@ input[type=submit]:hover {
 
 /* PRESS */
 
-#press_fullpage {
+#press {
     display: grid;
     grid-gap: 10px;
+
     grid-template-areas:
         "reviews_head"
         "reviews_paragraf1"
@@ -244,6 +240,7 @@ input[type=submit]:hover {
         "grants_paragraf1"
 
 }
+
 
 #reviews_head {
     grid-area: reviews_head;
@@ -281,11 +278,15 @@ input[type=submit]:hover {
     grid-area: grants_paragraf1;
 }
 
-#press img {
-    width: 60%;
+
+
+#press_fullpage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
-
-
 
 
 /* PRESS SLUT */
@@ -359,6 +360,20 @@ main {
 
 @media only screen and (min-width: 768px) {
 
+    /* OVERSKRIFTERS TILRETTELSER */
+    #projects_landingpage_heading,
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage,
+    #project_fullpage,
+    #projects_landingpage_heading {
+        margin: 100px 20px 0px 20px;
+    }
+
+    /* OVERSKRIFTERS TILRETTELSER SLUT */
+
     .padding {
         padding: 0px 0px 0px 0px;
     }
@@ -387,16 +402,6 @@ main {
     /* EXHIBTION */
 
 
-    #projects_landingpage_heading,
-    #exhibition_heading,
-    #press_heading,
-    #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
-    #projects_landingpage_heading,
-    #project_heading {
-        margin: 100px 20px 0px 20px;
-    }
 
 
 
@@ -448,10 +453,10 @@ main {
 
     /*     PRESS */
 
-    #press_fullpage {
+    #press {
         display: grid;
         grid-template-columns: 240px 240px;
-        justify-content: center;
+        justify-content: flex-end;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -462,6 +467,14 @@ main {
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
     }
+
+    #press_fullpage img {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
 
     /* PRESS SLUT */
 
@@ -478,6 +491,21 @@ main {
 @media only screen and (min-width: 1024px) {
 
 
+    /* OVERSKRIFTERS TILRETTELSER */
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_fullpage,
+    #contact_fullpage,
+    #project_fullpage,
+    #projects_landingpage_heading {
+        margin: 100px 40px 0px 48px;
+    }
+
+    /* OVERSKRIFTERS TILRETTELSER SLUT */
+
+
+
     input[type=text],
     select {
 
@@ -492,21 +520,6 @@ main {
         height: 30px;
 
     }
-
-
-
-    #projects_landingpage_heading,
-    #exhibition_heading,
-    #press_heading,
-    #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
-    #projects_landingpage_heading,
-    #project_heading {
-        margin: 100px 40px 0px 48px;
-    }
-
-
 
 
     /* EXHIBTION */
@@ -589,11 +602,11 @@ main {
 
     /* PRESS */
 
-    #press_fullpage {
+    #press {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 375px 375px;
-
+        justify-content: center;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -612,17 +625,9 @@ main {
 
     }
 
-    #press_fullpage img {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
 
 
-    #press_fullpage img:hover .img {
+    /*   #press_fullpage img:hover .img {
         opacity: 0.2;
     }
 
@@ -631,7 +636,7 @@ main {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
-
+*/
 
     /* PRESS SLUT */
 
