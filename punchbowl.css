@@ -1,8 +1,16 @@
+.gallery img {
+    padding: 15px;
+
+}
+
 .gallery {
     display: flex;
     overflow-x: scroll;
     scroll-padding: 0 50%;
     scroll-snap-type: x mandatory;
+
+
+
 }
 
 li #project_fullpage {
@@ -73,7 +81,7 @@ footer {
     align-items: baseline;
     position: absolute;
     width: 100%;
-    padding: 10px 20px 20px 20px;
+    padding: 10px;
 
 }
 
