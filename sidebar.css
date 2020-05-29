@@ -1,6 +1,6 @@
 .sidenav {
     position: absolute;
-    top: 110px;
+    top: 150px;
 
 
 }
@@ -36,29 +36,32 @@
 }
 
 @media only screen and (min-width: 768px) {
+
     .sidenav {
-        top: 100px;
-        left: 30px;
+        top: 180px;
+        left: 20px;
+
     }
 
     .sidenav a {
+        display: block;
         font-size: 1.2rem;
-        line-height: 30px;
+        line-height: 35px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .sidenav {
-        top: 150px;
+        top: 200px;
         left: 50px;
     }
 
 
     .sidenav a {
         font-family: 'Raleway', sans-serif;
-        line-height: 35px;
+        line-height: 45px;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #5C5A5A;
         display: block;
         text-transform: uppercase;

@@ -73,7 +73,7 @@ p {
 #behind_fullpage,
 #contact_fullpage,
 #project_fullpage {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 
@@ -455,7 +455,7 @@ main {
 
     #press {
         display: grid;
-        grid-template-columns: 240px 240px;
+        grid-template-columns: 250px 250px;
         justify-content: flex-end;
         grid-template-areas:
             "reviews_head reviews_head"
@@ -499,7 +499,7 @@ main {
     #contact_fullpage,
     #project_fullpage,
     #projects_landingpage_heading {
-        margin: 100px 40px 0px 48px;
+        margin: 130px 40px 0px 48px;
     }
 
     /* OVERSKRIFTERS TILRETTELSER SLUT */
@@ -509,14 +509,14 @@ main {
     input[type=text],
     select {
 
-        width: 150px;
+        width: 220px;
         height: 30px;
 
     }
 
     input[type=submit] {
 
-        width: 150px;
+        width: 220px;
         height: 30px;
 
     }
@@ -554,8 +554,13 @@ main {
 
     #behind_paragraf2 {
         margin-top: 20px;
+
     }
 
+    #behind_p1 {
+
+        width: 600px;
+    }
 
     /* FORMULAR */
 
@@ -592,9 +597,9 @@ main {
     #contact_paragraf1 img {
         width: 100%;
 
-
-
     }
+
+
 
 
     /* CONTACT SLUT*/
