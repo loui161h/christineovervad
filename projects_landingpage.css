@@ -28,28 +28,62 @@ h4 {
 
 
 
+/****** SIDEBAR MENU *******/
 
-/* BILLEDERNE FOR SIDEN */
+/* her fjernes sidebar menuen i mobil, da der ikke er plads til den */
 
+#projects_landing_sidebar .sidenav {
+    display: none;
+}
+
+/****** SIDEBAR MENU SLUT *******/
+
+
+
+/******** BILLEDERNE - GALLERY - FOR SIDEN *********/
+
+.padding {
+    padding: 0px 0px 0px 0px;
+}
+
+
+/* her sættes style på billederne */
+.gallery #img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8,
+#img9,
+#img10,
+#img11,
+#img12,
+#img13,
+#img14,
+#img15,
+#img16,
+#img17,
+#img18,
+#img19,
+#img10,
+#img21,
+#img22,
+#img23,
+#img24 {
+    width: 100%;
+
+}
+
+/* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
 #projects_landingpage_fullpage #img1,
 #img2,
 #img3,
 #img5,
 #img8,
 #img19,
-#img24 {
-    display: block;
-    padding: 20px;
-    /* her ændres størrelsen på billederne sig i mobil, men det påvirker web #img1 */
-    width: 30%;
-    margin-left: 200px;
-    margin-right: 80px;
-
-
-}
-
-/* Her fjerner vi de resterende billeder fra siden så de ikke vise */
-
+#img24,
 #img4,
 #img6,
 #img7,
@@ -67,13 +101,61 @@ h4 {
 #img21,
 #img22,
 #img23 {
-    display: none;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+
+
+
+
+/*     GALLERY */
+
+.gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 140px 140px;
+    justify-content: center;
+    grid-template-areas:
+        "#img1 #img2"
+        "#img3 #img4"
+        "#img5 #img6"
+        "#img7 #img8"
+        "#img9 #img10"
+        "#img11 #img12"
+        "#img13 #img14"
+        "#img15 #img16"
+        "#img17 #img18"
+        "#img19 #img20"
+        "#img21 #img22"
+        "#img23 #img24";
+}
+
+/* GALLERY SLUT */
+
+
+
+
+
 
 /***************** MEDIA QUERIES IPAD *********************/
 
 
 @media only screen and (min-width: 768px) {
+
+
+    /****** SIDEBAR MENU *******/
+
+    /* her fjernes sidebar menuen i mobil, da der ikke er plads til den */
+
+    #projects_landing_sidebar .sidenav {
+        display: none;
+    }
+
+    /****** SIDEBAR MENU SLUT *******/
 
     .padding {
         padding: 0px 0px 0px 0px;
@@ -180,6 +262,17 @@ h4 {
 
 
 @media only screen and (min-width: 1024px) {
+
+
+    /****** SIDEBAR MENU *******/
+
+    /* her fjernes sidebar menuen i mobil, da der ikke er plads til den */
+
+    #projects_landing_sidebar .sidenav {
+        display: inline;
+    }
+
+    /****** SIDEBAR MENU SLUT *******/
 
     /* her sættes style på billederne */
     .gallery #img1,
