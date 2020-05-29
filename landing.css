@@ -225,23 +225,58 @@ a:hover {
     }
 
 
+
     .vertical-line {
-        display: inline-block;
-        border-right: 1px solid #ccc;
-        margin-right: 1300px;
-        margin-top: -600px;
-        height: 130vh;
+        visibility: hidden;
 
     }
 
     .vertical-line2 {
+        visibility: hidden;
+    }
 
+
+}
+
+@media only screen and (min-width: 1420px) {
+
+    .vertical-line {
+        visibility: visible;
+        position: fixed;
         display: inline-block;
         border-right: 1px solid #ccc;
-        margin-left: 1300px;
-        margin-top: -970px;
+        margin-right: 1275px;
+        margin-top: -600px;
         height: 120vh;
+
+    }
+
+    .vertical-line2 {
+        visibility: visible;
+        display: inline-block;
+        border-right: 1px solid #ccc;
+        margin-left: 1275px;
+        margin-top: -600px;
+        height: 115vh;
     }
 }
+
+
+
+
+@media only screen and (min-width: 1480px) {
+
+    .vertical-line {
+        visibility: hidden;
+
+    }
+
+    .vertical-line2 {
+        visibility: hidden;
+    }
+}
+
+
+
 
 /* MEDIA QUERIES WEB SLUT */
