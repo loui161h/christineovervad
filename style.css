@@ -147,7 +147,7 @@ p {
 input[type=text],
 select {
     font-family: 'Raleway', sans-serif;
-    width: 100px;
+    width: 105px;
     height: 30px;
     padding: 12px 20px;
     display: inline-block;
@@ -408,7 +408,7 @@ main {
 
     #behind_fullpage {
         display: grid;
-        justify-content: center;
+
         /*        grid-template-columns: 350px 350px;*/
         grid-template-areas:
             "behind_heading behind_heading"
