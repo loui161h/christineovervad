@@ -10,7 +10,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
-    font-weight: 500;
+    font-weight: 00;
     font-size: 2rem;
 }
 
@@ -18,7 +18,7 @@ h1 {
 h4 {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
-    color: #5C5A5A;
+    color: #83786C;
     font-weight: 400;
     margin: 0;
 }
@@ -42,11 +42,6 @@ h4 {
 
 /******** BILLEDERNE - GALLERY - FOR SIDEN *********/
 
-.padding {
-    padding: 0px 0px 0px 0px;
-}
-
-
 /* her sættes style på billederne */
 .gallery #img1,
 #img2,
@@ -57,39 +52,17 @@ h4 {
 #img7,
 #img8,
 #img9,
-#img10,
-#img11,
-#img12,
-#img13,
-#img14,
-#img15,
-#img16,
-#img17,
-#img18,
-#img19,
-#img10,
-#img21,
-#img22,
-#img23,
-#img24 {
+#img10 {
+    display: block;
     width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
-#projects_landingpage_fullpage #img1,
-#img2,
-#img3,
-#img5,
-#img8,
-#img19,
-#img24,
-#img4,
-#img6,
-#img7,
-#img9,
-#img10,
-#img11,
+#projects_landingpage_fullpage #img11,
 #img12,
 #img13,
 #img14,
@@ -97,17 +70,36 @@ h4 {
 #img16,
 #img17,
 #img18,
+#img19,
 #img20,
 #img21,
 #img22,
-#img23 {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+#img23,
+#img24 {
+    display: none;
+
 }
 
+
+/**** GALLERY P ****/
+
+.gallery p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+    margin: 0;
+}
+
+/**** GALLERY P SLUT ****/
+
+/**** GALLERY A ****/
+
+.gallery a {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+    margin: 0;
+}
+
+/**** GALLERY A SLUT ****/
 
 
 
@@ -116,22 +108,50 @@ h4 {
 
 .gallery {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 140px 140px;
+    grid-gap: 10px;
+    grid-template-columns: 160px;
     justify-content: center;
     grid-template-areas:
-        "#img1 #img2"
-        "#img3 #img4"
-        "#img5 #img6"
-        "#img7 #img8"
-        "#img9 #img10"
-        "#img11 #img12"
-        "#img13 #img14"
-        "#img15 #img16"
-        "#img17 #img18"
-        "#img19 #img20"
-        "#img21 #img22"
-        "#img23 #img24";
+        "#img1"
+        "#projects_aar19"
+        "#projects_udstilling19"
+        "#img2"
+        "#projects_aar18"
+        "#projects_udstilling18"
+        "#projects_udstilling18_2"
+        "#img3"
+        "#projects_aar17"
+        "#projects_udstilling17"
+        "#projects_udstilling17_2"
+        "#img4"
+        "#projects_aar16"
+        "#projects_udstilling16"
+        "#projects_udstilling16_2"
+        "#projects_udstilling16_3"
+        "#projects_udstilling16_4"
+        "#img5"
+        "#projects_aar15"
+        "#projects_udstilling15"
+        "#projects_udstilling15_2"
+        "#projects_udstilling15_3"
+        "#img6"
+        "#projects_aar14"
+        "#projects_udstilling14"
+        "#projects_udstilling14_2"
+        "#img7"
+        "#projects_aar13"
+        "#projects_udstilling13"
+        "#projects_udstilling13_2"
+        "#img8"
+        "#projects_aar12"
+        "#projects_udstilling12"
+        "#img9"
+        "#projects_aar11"
+        "#projects_udstilling11"
+        "#projects_udstilling11_2"
+        "#img10"
+        "#projects_aar09"
+        "#projects_udstilling09"
 }
 
 /* GALLERY SLUT */
@@ -155,12 +175,10 @@ h4 {
         display: none;
     }
 
-    /****** SIDEBAR MENU SLUT *******/
+    /* SIDEBAR MENU SLUT */
 
-    .padding {
-        padding: 0px 0px 0px 0px;
-    }
 
+    /******** BILLEDERNE - GALLERY - FOR SIDEN *********/
 
     /* her sættes style på billederne */
     .gallery #img1,
@@ -172,39 +190,17 @@ h4 {
     #img7,
     #img8,
     #img9,
-    #img10,
-    #img11,
-    #img12,
-    #img13,
-    #img14,
-    #img15,
-    #img16,
-    #img17,
-    #img18,
-    #img19,
-    #img10,
-    #img21,
-    #img22,
-    #img23,
-    #img24 {
+    #img10 {
+        display: block;
         width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
     /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
-    #projects_landingpage_fullpage #img1,
-    #img2,
-    #img3,
-    #img5,
-    #img8,
-    #img19,
-    #img24,
-    #img4,
-    #img6,
-    #img7,
-    #img9,
-    #img10,
-    #img11,
+    #projects_landingpage_fullpage #img11,
     #img12,
     #img13,
     #img14,
@@ -212,17 +208,24 @@ h4 {
     #img16,
     #img17,
     #img18,
+    #img19,
     #img20,
     #img21,
     #img22,
-    #img23 {
-        display: block;
-        width: 100%;
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+    #img23,
+    #img24 {
+        display: none;
+
     }
 
+
+    /**** GALLERY P ****/
+
+    .gallery p {
+        font-family: 'Quicksand', sans-serif;
+        line-height: 25px;
+        margin: 0;
+    }
 
 
 
@@ -231,26 +234,53 @@ h4 {
 
     .gallery {
         display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 240px 240px;
+        grid-gap: 10px;
+        grid-template-columns: 250px;
         justify-content: center;
         grid-template-areas:
-            "#img1 #img2"
-            "#img3 #img4"
-            "#img5 #img6"
-            "#img7 #img8"
-            "#img9 #img10"
-            "#img11 #img12"
-            "#img13 #img14"
-            "#img15 #img16"
-            "#img17 #img18"
-            "#img19 #img20"
-            "#img21 #img22"
-            "#img23 #img24";
+            "#img #projects_aar191"
+            "#projects_aar19"
+            "#projects_udstilling19"
+            "#img2"
+            "#projects_aar18"
+            "#projects_udstilling18"
+            "#projects_udstilling18_2"
+            "#img3"
+            "#projects_aar17"
+            "#projects_udstilling17"
+            "#projects_udstilling17_2"
+            "#img4"
+            "#projects_aar16"
+            "#projects_udstilling16"
+            "#projects_udstilling16_2"
+            "#projects_udstilling16_3"
+            "#projects_udstilling16_4"
+            "#img5"
+            "#projects_aar15"
+            "#projects_udstilling15"
+            "#projects_udstilling15_2"
+            "#projects_udstilling15_3"
+            "#img6"
+            "#projects_aar14"
+            "#projects_udstilling14"
+            "#projects_udstilling14_2"
+            "#img7"
+            "#projects_aar13"
+            "#projects_udstilling13"
+            "#projects_udstilling13_2"
+            "#img8"
+            "#projects_aar12"
+            "#projects_udstilling12"
+            "#img9"
+            "#projects_aar11"
+            "#projects_udstilling11"
+            "#projects_udstilling11_2"
+            "#img10"
+            "#projects_aar09"
+            "#projects_udstilling09"
     }
 
     /* GALLERY SLUT */
-
 
 }
 
@@ -263,6 +293,10 @@ h4 {
 
 @media only screen and (min-width: 1024px) {
 
+
+    p {
+        display: none;
+    }
 
     /****** SIDEBAR MENU *******/
 
@@ -294,45 +328,17 @@ h4 {
     #img17,
     #img18,
     #img19,
-    #img10,
+    #img20,
     #img21,
     #img22,
     #img23,
     #img24 {
-        width: 100%;
-
-    }
-
-    /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
-    #projects_landingpage_fullpage #img1,
-    #img2,
-    #img3,
-    #img5,
-    #img8,
-    #img19,
-    #img24,
-    #img4,
-    #img6,
-    #img7,
-    #img9,
-    #img10,
-    #img11,
-    #img12,
-    #img13,
-    #img14,
-    #img15,
-    #img16,
-    #img17,
-    #img18,
-    #img20,
-    #img21,
-    #img22,
-    #img23 {
         display: block;
         width: 100%;
         padding: 0;
         margin-left: 0;
         margin-right: 0;
+
     }
 
 
@@ -342,7 +348,7 @@ h4 {
         text-transform: uppercase;
         line-height: 40px;
         font-size: 0.8rem;
-        color: #5C5A5A;
+        color: #83786C;
         font-weight: 400;
         margin: 0;
     }
