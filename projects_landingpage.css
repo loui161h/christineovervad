@@ -111,48 +111,60 @@ h4 {
 .gallery {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 320px;
+
     grid-template-areas:
-        "#img1"
-        "#projects_aar19"
-        "#projects_udstilling19"
-        "#img2"
-        "#projects_aar18"
-        "#projects_udstilling18"
-        "#projects_udstilling18_2"
-        "#img3"
-        "#projects_aar17"
-        "#projects_udstilling17"
-        "#projects_udstilling17_2"
-        "#img4"
-        "#projects_aar16"
-        "#projects_udstilling16"
-        "#projects_udstilling16_2"
-        "#projects_udstilling16_3"
-        "#projects_udstilling16_4"
-        "#img5"
-        "#projects_aar15"
-        "#projects_udstilling15"
-        "#projects_udstilling15_2"
-        "#projects_udstilling15_3"
-        "#img6"
-        "#projects_aar14"
-        "#projects_udstilling14"
-        "#projects_udstilling14_2"
-        "#img7"
-        "#projects_aar13"
-        "#projects_udstilling13"
-        "#projects_udstilling13_2"
-        "#img8"
-        "#projects_aar12"
-        "#projects_udstilling12"
-        "#img9"
-        "#projects_aar11"
-        "#projects_udstilling11"
-        "#projects_udstilling11_2"
-        "#img10"
-        "#projects_aar09"
-        "#projects_udstilling09"
+        "project1"
+        "project2"
+        "project3"
+        "project4"
+        "project5"
+        "project6"
+        "project7"
+        "project8"
+        "project9"
+        "project10"
+
+}
+
+
+#project1 {
+    grid-area: project1;
+}
+
+#project2 {
+    grid-area: project2;
+}
+
+#project3 {
+    grid-area: project3;
+}
+
+#project4 {
+    grid-area: project4;
+}
+
+#project5 {
+    grid-area: project5;
+}
+
+#project6 {
+    grid-area: project6;
+}
+
+#project7 {
+    grid-area: project7;
+}
+
+#project8 {
+    grid-area: project8;
+}
+
+#project9 {
+    grid-area: project9;
+}
+
+#project10 {
+    grid-area: project10;
 }
 
 /* GALLERY SLUT */
@@ -236,49 +248,16 @@ h4 {
     .gallery {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: 250px;
+        grid-template-columns: 360px 360px;
         justify-content: center;
         grid-template-areas:
-            "#img #projects_aar191"
-            "#projects_aar19"
-            "#projects_udstilling19"
-            "#img2"
-            "#projects_aar18"
-            "#projects_udstilling18"
-            "#projects_udstilling18_2"
-            "#img3"
-            "#projects_aar17"
-            "#projects_udstilling17"
-            "#projects_udstilling17_2"
-            "#img4"
-            "#projects_aar16"
-            "#projects_udstilling16"
-            "#projects_udstilling16_2"
-            "#projects_udstilling16_3"
-            "#projects_udstilling16_4"
-            "#img5"
-            "#projects_aar15"
-            "#projects_udstilling15"
-            "#projects_udstilling15_2"
-            "#projects_udstilling15_3"
-            "#img6"
-            "#projects_aar14"
-            "#projects_udstilling14"
-            "#projects_udstilling14_2"
-            "#img7"
-            "#projects_aar13"
-            "#projects_udstilling13"
-            "#projects_udstilling13_2"
-            "#img8"
-            "#projects_aar12"
-            "#projects_udstilling12"
-            "#img9"
-            "#projects_aar11"
-            "#projects_udstilling11"
-            "#projects_udstilling11_2"
-            "#img10"
-            "#projects_aar09"
-            "#projects_udstilling09"
+
+            "project1 project2"
+            "project3 project4"
+            "project5 project6"
+            "project7 project8"
+            "project9 project10"
+
     }
 
     /* GALLERY SLUT */
@@ -305,6 +284,12 @@ h4 {
 
     #projects_landing_sidebar .sidenav {
         display: inline;
+    }
+
+
+    #projects_landing_sidebar .sidenav a {
+        font-size: 0.9rem;
+        line-height: 30px;
     }
 
     /****** SIDEBAR MENU SLUT *******/
