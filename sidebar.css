@@ -59,9 +59,9 @@
 
     .sidenav a {
         font-family: 'Raleway', sans-serif;
-        line-height: 45px;
+        line-height: 30px;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #5C5A5A;
         display: block;
         text-transform: uppercase;

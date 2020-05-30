@@ -10,13 +10,13 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
 }
 
 /* her styles alle årstal */
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
     font-weight: 400;
@@ -338,7 +338,7 @@ h4 {
 
     /* her styles alle årstal */
     h4 {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         text-transform: uppercase;
         line-height: 40px;
         font-size: 0.8rem;
