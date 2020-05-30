@@ -39,6 +39,7 @@ h1 {
 }
 
 h2 {
+    font-size: 1.3rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
@@ -74,7 +75,6 @@ p {
 #exhibition_heading,
 #press_heading,
 #cv_heading,
-#project_heading,
 #behind_heading,
 #contact_heading {
     margin-top: 100px;
@@ -140,6 +140,7 @@ p {
 
 #behind_paragraf2 {
     grid-area: behind_paragraf2;
+    margin-top: -60px;
 }
 
 
@@ -354,9 +355,7 @@ main {
     #press_heading,
     #cv_heading,
     #behind_heading,
-    #contact_heading,
-    #project_heading,
-    #projects_landingpage_heading {
+    #contact_heading {
         margin: 100px 20px 0px 20px;
     }
 
@@ -421,14 +420,20 @@ main {
 
 
 
+    #behind_paragraf2 {
+        grid-area: behind_paragraf2;
+        margin-top: 0px;
+    }
+
+
     /* BEHIND SLUT */
 
 
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        /*     justify-content: center;
-        grid-template-columns: 650px 650px;*/
+        justify-content: center;
+        grid-template-columns: 355px 355px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -480,13 +485,12 @@ main {
 
 
     /* OVERSKRIFTERS TILRETTELSER */
+    #projects_landingpage_heading,
     #exhibition_heading,
     #press_heading,
     #cv_heading,
     #behind_heading,
-    #contact_heading,
-    #project_heading,
-    #projects_landingpage_heading {
+    #contact_heading {
         margin: 130px 40px 0px 48px;
     }
 
@@ -573,9 +577,7 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        grid-gap: 20px;
-
-
+        grid-template-columns: 665px 665px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -583,7 +585,7 @@ main {
     }
 
     #contact_paragraf1 img {
-        width: 100%;
+        width: 90%;
 
 
     }
@@ -619,18 +621,6 @@ main {
 
     }
 
-
-
-    /*   #press_fullpage img:hover .img {
-        opacity: 0.2;
-    }
-
-    #press_fullpage img:hover {
-        -ms-transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-        transform: scale(1.05);
-    }
-*/
 
     /* PRESS SLUT */
 
