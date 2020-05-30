@@ -48,8 +48,8 @@ h2 {
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    /*  text-transform: uppercase;*/
     color: #5C5A5A;
+    font-weight: 400;
 
 }
 
@@ -58,6 +58,7 @@ h3 {
 p {
     font-family: 'Quicksand', sans-serif;
     line-height: 25px;
+    color: #5C5A5A;
 }
 
 /* SKRIFT INDSTILLINGER SLUT */
@@ -332,7 +333,7 @@ main {
 
 .zoom:hover,
 .zoom:focus {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .zoom:active {
