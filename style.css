@@ -12,7 +12,6 @@ body {
 
 
 
-
 }
 
 img {
@@ -64,6 +63,10 @@ p {
 /* SKRIFT INDSTILLINGER SLUT */
 
 
+
+
+
+
 /* OVERSKRIFTERS TILRETTELSER */
 
 
@@ -72,8 +75,8 @@ p {
 #press_heading,
 #cv_heading,
 #project_heading,
-#behind_fullpage,
-#contact_fullpage {
+#behind_heading,
+#contact_heading {
     margin-top: 100px;
 }
 
@@ -350,8 +353,8 @@ main {
     #exhibition_heading,
     #press_heading,
     #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
+    #behind_heading,
+    #contact_heading,
     #project_heading,
     #projects_landingpage_heading {
         margin: 100px 20px 0px 20px;
@@ -480,8 +483,8 @@ main {
     #exhibition_heading,
     #press_heading,
     #cv_heading,
-    #behind_fullpage,
-    #contact_fullpage,
+    #behind_heading,
+    #contact_heading,
     #project_heading,
     #projects_landingpage_heading {
         margin: 130px 40px 0px 48px;
@@ -551,7 +554,7 @@ main {
 
     input[type=text],
     select {
-        width: 180px;
+        width: 200px;
         height: 40px;
 
     }
@@ -581,6 +584,7 @@ main {
 
     #contact_paragraf1 img {
         width: 100%;
+
 
     }
 
