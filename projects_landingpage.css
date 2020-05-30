@@ -85,6 +85,7 @@ h4 {
 
 .gallery p {
     font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
     line-height: 25px;
     margin: 0;
 }
@@ -95,6 +96,7 @@ h4 {
 
 .gallery a {
     font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
     line-height: 25px;
     margin: 0;
 }
@@ -109,8 +111,7 @@ h4 {
 .gallery {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 160px;
-    justify-content: center;
+    grid-template-columns: 320px;
     grid-template-areas:
         "#img1"
         "#projects_aar19"
