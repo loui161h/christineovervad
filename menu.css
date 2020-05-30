@@ -18,9 +18,9 @@
 
 .page-header2 img {
     position: absolute;
-    width: 160px;
+    width: 250px;
     height: 60px;
-    left: 15px;
+    left: 10px;
     top: 5px;
 }
 
@@ -38,7 +38,6 @@
     top: 5px;
     width: 60px;
     height: 60px;
-    z-index: 1000;
     cursor: pointer;
     transition: all .5s ease-in-out;
     z-index: 1001;

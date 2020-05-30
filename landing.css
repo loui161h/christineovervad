@@ -40,11 +40,10 @@ body {
 
 p.vertical_name {
     position: fixed;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: 100px;
-
+    font-size: 0.9rem;
+   margin-top: 180px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -55,13 +54,12 @@ p.vertical_name {
 }
 
 a.some_ig {
-
     position: fixed;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.9rem;
     right: -2vw;
-    margin-top: 40px;
+    margin-top: 110px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -71,27 +69,26 @@ a.some_ig {
 
 a.some_li {
     position: fixed;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: 180px;
+    font-size: 0.9rem;
+    margin-top: 220px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
     right: -2vw;
     float: right;
 
-
 }
 
 
 a.some_yb {
     position: fixed;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.9rem;
     right: -2vw;
-    margin-top: 320px;
+    margin-top: 310px;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -163,12 +160,12 @@ a:hover {
 
 
     p.vertical_name {
-        margin-top: -160px;
+        margin-top: -170px;
 
     }
 
     a.some_ig {
-        margin-top: -260px;
+        margin-top: -230px;
         right: 1vw;
 
     }
@@ -180,7 +177,7 @@ a:hover {
 
 
     a.some_yb {
-        margin-top: -0px;
+        margin-top: -30px;
         right: 1vw;
     }
 }
@@ -204,25 +201,14 @@ a:hover {
     }
 
     p.vertical_name {
-
         left: 1vw;
 
 
     }
 
     a.some_ig {
-        margin-top: -250px;
+        margin-top: -230px;
 
-    }
-
-    a.some_li {
-        margin-top: -110px;
-
-    }
-
-
-    a.some_yb {
-        margin-top: 10px;
     }
 
 

@@ -1,34 +1,27 @@
 .sidenav {
     position: absolute;
     top: 150px;
-
-
 }
 
 
 #press_fullpage .sidenav {
     position: absolute;
     top: 135px;
-
-
 }
 
 
 /* her styles teksten i sidebaren UDEN årstal --> de styles KUN i project_landingpage.css h4 */
 .sidenav a {
     font-family: 'Raleway', sans-serif;
-    line-height: 30px;
+    line-height: 50px;
     text-decoration: none;
     font-size: 1rem;
     color: #5C5A5A;
     display: inline-block;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
     text-transform: uppercase;
     font-weight: 400;
-
 }
-
-
 
 
 .sidenav a:hover {
@@ -48,18 +41,14 @@
     .sidenav {
         top: 180px;
         left: 20px;
-
     }
 
 
 
 
     #press_fullpage .sidenav {
-
         top: 180px;
         left: 20px;
-
-
     }
 
 
@@ -81,17 +70,14 @@
 
         top: 200px;
         left: 50px;
-
-
     }
 
 
 
     .sidenav a {
         font-family: 'Raleway', sans-serif;
-        line-height: 40px;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #5C5A5A;
         display: block;
         text-transform: uppercase;

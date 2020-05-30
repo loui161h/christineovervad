@@ -10,7 +10,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
-    font-weight: 00;
+    font-weight: 100;
     font-size: 2rem;
 }
 
@@ -288,8 +288,8 @@ h4 {
 
 
     #projects_landing_sidebar .sidenav a {
-        font-size: 0.9rem;
-        line-height: 30px;
+        font-size: 1rem;
+    line-height: 30px;
     }
 
     /****** SIDEBAR MENU SLUT *******/

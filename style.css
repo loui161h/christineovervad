@@ -8,10 +8,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-
-
-
-
 }
 
 img {
@@ -24,7 +20,17 @@ img {
     padding: 0px 20px 0px 20px;
 }
 
+#video {
+    width: 420px;
+}
 
+#contact_fullpage p {
+    line-height: 13px;
+}
+
+#contact_heading3 {
+    margin-top: 40px;
+}
 
 
 /* GENERELLE INDSTILLINGER SLUT */
@@ -50,9 +56,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color: #5C5A5A;
     font-weight: 400;
-
 }
-
 
 
 p {
@@ -184,10 +188,6 @@ input[type=submit]:hover {
     color: #5C5A5A;
 }
 
-
-
-
-
 /* FORMULAR SLUT */
 
 
@@ -233,7 +233,6 @@ input[type=submit]:hover {
 #press {
     display: grid;
     grid-gap: 10px;
-
     grid-template-areas:
         "reviews_head"
         "reviews_paragraf1"
@@ -244,7 +243,6 @@ input[type=submit]:hover {
         "photoreportage_paragraf1"
         "grants_head"
         "grants_paragraf1"
-
 }
 
 
@@ -287,8 +285,8 @@ input[type=submit]:hover {
 
 
 #press_fullpage img {
-    width: 300px;
-    height: 300px;
+    width: 460px;
+    height: 460px;
     object-fit: cover;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -309,11 +307,10 @@ input[type=submit]:hover {
     border: none;
     outline: none;
     background-color: white;
-    color: black;
+    color: #5C5A5A;
     cursor: pointer;
     padding: 12px;
     border-radius: 1px;
-
 }
 
 
@@ -365,6 +362,9 @@ main {
         padding: 0px 0px 0px 0px;
     }
 
+     #video {
+    width: 100%;
+}
 
     input[type=text],
     select {
@@ -378,13 +378,7 @@ main {
 
         width: 100px;
         height: 30px;
-
     }
-
-
-
-
-
 
     /* EXHIBTION */
 
@@ -462,7 +456,6 @@ main {
     }
 
     #press_fullpage img {
-
         width: 200px;
         height: 200px;
 
@@ -496,18 +489,19 @@ main {
 
     /* OVERSKRIFTERS TILRETTELSER SLUT */
 
-
+ #video {
+    width: 100%;
+     margin-left: -5px;
+}
 
     input[type=text],
     select {
-
         width: 220px;
         height: 30px;
 
     }
 
     input[type=submit] {
-
         width: 220px;
         height: 30px;
 
@@ -550,7 +544,6 @@ main {
     }
 
     #behind_p1 {
-
         width: 600px;
     }
 
@@ -612,7 +605,6 @@ main {
             "photoreportage_paragraf1 photoreportage_paragraf1"
             "grants_head grants_head"
             "grants_paragraf1 grants_paragraf1"
-
     }
 
     #press_fullpage img {
