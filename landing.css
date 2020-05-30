@@ -168,19 +168,19 @@ a:hover {
     }
 
     a.some_ig {
-        margin-top: -500px;
+        margin-top: -200px;
         right: 1vw;
 
     }
 
     a.some_li {
-        margin-top: -360px;
+        margin-top: -260px;
         right: 1vw;
     }
 
 
     a.some_yb {
-        margin-top: -240px;
+        margin-top: -140px;
         right: 1vw;
     }
 }
