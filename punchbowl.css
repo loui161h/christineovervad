@@ -1,7 +1,7 @@
-/*.gallery img {
+.gallery img {
     padding: 15px;
 
-}*/
+}
 
 .gallery {
     display: flex;
@@ -69,7 +69,6 @@ p {
     line-height: 25px;
     color: #5C5A5A;
 }
-
 
 
 
@@ -245,3 +244,6 @@ footer .info {
 
 
     }
+
+
+}
