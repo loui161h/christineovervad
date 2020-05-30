@@ -247,7 +247,7 @@ h4 {
 
     .gallery {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 20px;
         grid-template-columns: 360px 360px;
         justify-content: center;
         grid-template-areas:
