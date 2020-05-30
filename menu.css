@@ -30,7 +30,6 @@
 /* MENUKNAP START */
 
 .menu-btn {
-
     position: absolute;
     display: flex;
     justify-content: center;
@@ -186,7 +185,7 @@ ul {
         position: absolute;
         width: 280px;
         height: 60px;
-        left: 5px;
+        left: 8px;
         top: 10px;
     }
 
@@ -244,7 +243,6 @@ ul {
 @media only screen and (min-width: 1024px) {
 
     .page-header2 img {
-
-        left: 30px;
+        left: 35px;
         top: 10px;
     }

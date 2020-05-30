@@ -6,6 +6,14 @@
 }
 
 
+#press_fullpage .sidenav {
+    position: absolute;
+    top: 135px;
+
+
+}
+
+
 /* her styles teksten i sidebaren UDEN årstal --> de styles KUN i project_landingpage.css h4 */
 .sidenav a {
     font-family: 'Raleway', sans-serif;
@@ -43,6 +51,18 @@
 
     }
 
+
+
+
+    #press_fullpage .sidenav {
+
+        top: 180px;
+        left: 20px;
+
+
+    }
+
+
     .sidenav a {
         display: block;
         font-size: 1.2rem;
@@ -57,9 +77,17 @@
     }
 
 
+    #press_fullpage .sidenav {
+
+        top: 200px;
+        left: 50px;
+
+
+    }
+
     .sidenav a {
         font-family: 'Raleway', sans-serif;
-        line-height: 30px;
+        line-height: 40px;
         text-decoration: none;
         font-size: 1rem;
         color: #5C5A5A;

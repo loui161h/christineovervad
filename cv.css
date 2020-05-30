@@ -106,7 +106,7 @@ hr {
 
 @media only screen and (min-width: 768px) {
     #cv_about {
-        width: 550px;
+        /*width: 550px;*/
     }
 
 }
@@ -114,16 +114,14 @@ hr {
 @media only screen and (min-width: 1024px) {
 
     #cv_about {
-        width: 450px;
-        margin: 0px 0px 0px 48px;
+            width: 430px;
+    margin: 15px 0px 0px 48px;
     }
 
     #cv_fullpage {
         display: flex;
         margin: 0;
         position: absolute;
-
-        top: 30%;
         left: 7%;
     }
 
