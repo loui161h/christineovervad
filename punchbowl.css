@@ -6,6 +6,7 @@ body {
 
 .gallery img {
     padding-right: 15px;
+    margin-bottom: 20px;
 }
 
 .gallery {
@@ -13,18 +14,13 @@ body {
     overflow-x: scroll;
     scroll-padding: 0 50%;
     scroll-snap-type: x mandatory;
-    width: 1000px;
-    margin-left: 50px;
+    width: 100%;
 }
 
 li #project_fullpage {
     scroll-snap-align: center;
     display: inline-block;
     height: 83vh;
-    border-radius: 3px;
-    font-size: 0;
-    margin-right: 3rem;
-
 }
 
 
@@ -38,6 +34,20 @@ li {
 }
 
 /* SKRIFT INDSTILLINGER */
+
+#project_heading {
+margin-top: 100px;
+}
+
+ h1 {
+
+        margin: 130px 0px 0px 0px;
+    }
+
+    #project_tekst1 {
+        margin: 10px 0px 20px 0px;
+    }
+
 h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -138,6 +148,38 @@ footer .info {
 @media only screen and (min-width: 768px) {
 
 
+.gallery img {
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+    scroll-padding: 0 50%;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin-left: 22px;
+
+}
+
+li #project_fullpage {
+    scroll-snap-align: center;
+    display: inline-block;
+    height: 83vh;
+}
+
+
+.padding {
+    padding: 0px 20px 0px 20px;
+}
+
+
+li {
+    list-style: none;
+}
+
+
 
     .padding {
         padding: 0px 0px 0px 0px;
@@ -147,11 +189,11 @@ footer .info {
     /* SKRIFT INDSTILLINGER */
     h1 {
 
-        margin: 60px 15px 0px 15px;
+        margin: 130px 15px 0px 20px;
     }
 
     #project_tekst1 {
-        margin: 20px 15px 20px 15px;
+        margin: 10px 15px 20px 20px;
     }
 
 
@@ -169,6 +211,8 @@ footer .info {
         margin: 20px 20px 20px 20px;
         width: 700px;
     }
+
+
 
     footer {
         font-family: 'Quicksand';
@@ -217,13 +261,38 @@ footer .info {
 @media only screen and (min-width: 1024px) {
 
 
+    .gallery img {
+    padding-right: 15px;
+        margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+    scroll-padding: 0 50%;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin-left: 50px;
+
+}
+
+li #project_fullpage {
+    scroll-snap-align: center;
+    display: inline-block;
+    height: 83vh;
+}
+
+li {
+    list-style: none;
+}
+
     /* SKRIFT INDSTILLINGER */
     h1 {
         margin: 130px 40px 0px 48px;
     }
 
     #project_tekst1 {
-        margin: 20px 40px 20px 48px;
+        margin: 10px 40px 20px 48px;
     }
 
 
