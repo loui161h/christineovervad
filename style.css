@@ -299,8 +299,8 @@ input[type=submit]:hover {
 
 
 #press_fullpage img {
-    width: 460px;
-    height: 460px;
+    width: 335px;
+    height: 335px;
     object-fit: cover;
     transition: .5s ease;
     backface-visibility: hidden;
