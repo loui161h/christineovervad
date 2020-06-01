@@ -12,24 +12,18 @@
 
 
 
-a#press_fullpage {
-    line-height: 20px;
-
-}
-
-
 
 
 
 /* her styles teksten i sidebaren UDEN årstal --> de styles KUN i project_landingpage.css h4 */
 .sidenav a {
     font-family: 'Raleway', sans-serif;
-    line-height: 50px;
+    line-height: 35px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #5C5A5A;
     display: inline-block;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 15px 0px 0px;
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -91,13 +85,7 @@ a#press_fullpage {
 
 
     .sidenav a {
-        font-family: 'Raleway', sans-serif;
-        text-decoration: none;
-        font-size: 1.1rem;
-        color: #5C5A5A;
-        display: block;
-        text-transform: uppercase;
-        font-weight: 400;
+        line-height: 40px;
         width: 280px;
     }
 }
