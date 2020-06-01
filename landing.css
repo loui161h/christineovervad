@@ -44,6 +44,7 @@ a.vertical_name {
     text-transform: uppercase;
     font-size: 0.9rem;
     margin-top: 180px;
+    left: -2vw;
     font-family: 'Raleway', sans-serif;
     color: #888888;
     writing-mode: vertical-rl;
@@ -161,6 +162,7 @@ a:hover {
 
     a.vertical_name {
         margin-top: -170px;
+        left: 1vw;
 
     }
 
