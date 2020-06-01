@@ -38,6 +38,10 @@ h4 {
 
 /****** SIDEBAR MENU SLUT *******/
 
+#projects_landingpage_fullpage p {
+    text-transform: uppercase;
+}
+
 
 
 /******** BILLEDERNE - GALLERY - FOR SIDEN *********/
@@ -286,6 +290,11 @@ h4 {
     #projects_landing_sidebar .sidenav a {
         font-size: 1rem;
         line-height: 30px;
+    }
+
+
+    #projects_landingpage_fullpage p {
+        display: none;
     }
 
     /****** SIDEBAR MENU SLUT *******/
