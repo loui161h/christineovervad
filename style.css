@@ -539,7 +539,7 @@ main {
     #exhibitions {
         display: grid;
         grid-gap: 60px;
-        grid-template-columns: 280px 280px 280px;
+        grid-template-columns: 270px 270px 270px;
 
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
