@@ -48,15 +48,15 @@ h4 {
 
 /* her sættes style på billederne */
 .gallery #img1,
-#img2,
 #img3,
-#img4,
 #img5,
-#img6,
 #img7,
 #img8,
 #img9,
-#img10 {
+#img10,
+#img16,
+#img18,
+#img20 {
     display: block;
     width: 100%;
     padding: 0;
@@ -66,16 +66,16 @@ h4 {
 }
 
 /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
-#projects_landingpage_fullpage #img11,
+#projects_landingpage_fullpage #img2,
+#img4,
+#img6,
+#img11,
 #img12,
 #img13,
 #img14,
 #img15,
-#img16,
 #img17,
-#img18,
 #img19,
-#img20,
 #img21,
 #img22,
 #img23,
@@ -120,9 +120,9 @@ h4 {
         "project1"
         "project2"
         "project3"
-        "project4"
-        "project5"
-        "project6"
+        "project16"
+        "project18"
+        "project20"
         "project7"
         "project8"
         "project9"
@@ -143,16 +143,16 @@ h4 {
     grid-area: project3;
 }
 
-#project4 {
-    grid-area: project4;
+#project16 {
+    grid-area: project16;
 }
 
-#project5 {
-    grid-area: project5;
+#project18 {
+    grid-area: project18;
 }
 
-#project6 {
-    grid-area: project6;
+#project20 {
+    grid-area: project20;
 }
 
 #project7 {
@@ -199,15 +199,15 @@ h4 {
 
     /* her sættes style på billederne */
     .gallery #img1,
-    #img2,
     #img3,
-    #img4,
     #img5,
-    #img6,
     #img7,
     #img8,
     #img9,
-    #img10 {
+    #img10,
+    #img16,
+    #img18,
+    #img20 {
         display: block;
         width: 100%;
         padding: 0;
@@ -217,16 +217,16 @@ h4 {
     }
 
     /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
-    #projects_landingpage_fullpage #img11,
+    #projects_landingpage_fullpage #img2,
+    #img4,
+    #img6,
+    #img11,
     #img12,
     #img13,
     #img14,
     #img15,
-    #img16,
     #img17,
-    #img18,
     #img19,
-    #img20,
     #img21,
     #img22,
     #img23,
@@ -257,8 +257,8 @@ h4 {
         grid-template-areas:
 
             "project1 project2"
-            "project3 project4"
-            "project5 project6"
+            "project3 project16"
+            "project18 project20"
             "project7 project8"
             "project9 project10"
 
@@ -267,6 +267,8 @@ h4 {
     /* GALLERY SLUT */
 
 }
+
+/***************** MEDIA QUERIES IPAD PRO *********************/
 
 
 
@@ -301,25 +303,25 @@ h4 {
 
     /* her sættes style på billederne */
     .gallery #img1,
-    #img2,
     #img3,
-    #img4,
     #img5,
-    #img6,
     #img7,
     #img8,
     #img9,
     #img10,
+    #img16,
+    #img18,
+    #img20,
+    #img2,
+    #img4,
+    #img6,
     #img11,
     #img12,
     #img13,
     #img14,
     #img15,
-    #img16,
     #img17,
-    #img18,
     #img19,
-    #img20,
     #img21,
     #img22,
     #img23,
@@ -331,6 +333,9 @@ h4 {
         margin-right: 0;
 
     }
+
+
+
 
 
     /* her styles alle årstal */
@@ -358,7 +363,7 @@ h4 {
         justify-content: center;
         grid-template-areas:
             "#img1 #img2 #img3"
-            "#img4 #img5 #img6"
+            "#img16 #img18 #img20"
             "#img7 #img8 #img9"
             "#img10 #img11 #img12"
             "#img13 #img14 #img15"
