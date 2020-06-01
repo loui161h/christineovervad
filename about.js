@@ -1,4 +1,4 @@
-  const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/behind/69";
+  const endpoint = "http://louisesettrup.dk/kea/2sem/10_eksamensprojekt/christineovervad/wordpress/wp-json/wp/v2/about/69";
   /* PODETS NAVN I ENTAL OG ID'ET I ENDPOINT ÆNDRES AFHÆNGIG AF HVILKET POD/SIDE MAN VIL SE */
 
 
@@ -16,13 +16,12 @@
       vis(json);
   }
 
-  function vis(behind) {
+  function vis(about) {
       /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
-      console.log(behind);
-      document.querySelector("#behind_heading").textContent = behind.title.rendered;
+      console.log(about);
+      document.querySelector("#about_heading").textContent = about.title.rendered;
       /* HUSK VARIBEL HER */
-      document.querySelector("#behind_heading2").textContent = behind.headline;
-      document.querySelector("#behind_p1").textContent = behind.behind;
-      document.querySelector("#behind_p2").textContent = behind.signup;
+      document.querySelector("#about_p1").textContent = about.about;
+      document.querySelector("#about_p2").textContent = about.signup;
 
   }

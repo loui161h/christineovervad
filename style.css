@@ -94,7 +94,7 @@ p {
 #exhibition_heading,
 #press_heading,
 #cv_heading,
-#behind_heading,
+#about_heading,
 #contact_heading {
     margin-top: 100px;
 }
@@ -138,7 +138,7 @@ p {
 /* EXHIBTION SLUT */
 
 
-/* BEHIND */
+/* ABOUT */
 
 /*
 #behind_fullpage {
@@ -159,7 +159,7 @@ p {
     grid-area: behind_paragraf1;
 }
 
-#behind_paragraf2 {
+#about_paragraf2 {
     grid-area: behind_paragraf2;
     margin-top: -60px;
 }
@@ -211,7 +211,7 @@ input[type=submit]:hover {
 /* FORMULAR SLUT */
 
 
-/* BEHIND SLUT */
+/* ABOUT SLUT */
 
 
 
@@ -372,7 +372,7 @@ main {
     #exhibition_heading,
     #press_heading,
     #cv_heading,
-    #behind_heading,
+    #about_heading,
     #contact_heading {
         margin: 100px 20px 0px 20px;
     }
@@ -423,53 +423,35 @@ main {
 
     /* EXHIBTION SLUT */
 
-    /* BEHIND */
+    /* ABOUT */
 
 
-    #behind_fullpage {
+    #about_fullpage {
         display: grid;
         grid-gap: 10px;
         justify-content: center;
         grid-template-columns: 380px 320px;
         grid-template-areas:
-            "behind_heading behind_heading"
-            "behind_paragraf2 behind_paragraf1"
+            "about_heading about_heading"
+            "about_paragraf2 about_paragraf1"
 
     }
 
-    #behind_heading {
-        grid-area: behind_heading;
+    #about_heading {
+        grid-area: about_heading;
     }
 
-    #behind_paragraf1 {
-        grid-area: behind_paragraf1;
+    #about_paragraf1 {
+        grid-area: about_paragraf1;
     }
 
-    #behind_paragraf2 {
-        grid-area: behind_paragraf2;
-
-    }
-
-    #behind_paragraf2 {
-        grid-area: behind_paragraf2;
-        margin-top: 0px;
-    }
-
-    /*   input[type=text],
-    select {
-        width: 220px;
-        height: 30px;
+    #about_paragraf2 {
+        grid-area: about_paragraf2;
 
     }
 
-    input[type=submit] {
-        width: 220px;
-        height: 30px;
 
-    }*/
-
-
-    /* BEHIND SLUT */
+    /* ABOUT SLUT */
 
 
     /* CONTACT */
@@ -531,7 +513,7 @@ main {
     #exhibition_heading,
     #press_heading,
     #cv_heading,
-    #behind_heading,
+    #about_heading,
     #contact_heading {
         margin: 130px 40px 0px 48px;
     }
@@ -570,9 +552,9 @@ main {
 
     /* EXHIBTION SLUT */
 
-    /* BEHIND */
+    /* ABOUT */
 
-    #behind_fullpage {
+    #about_fullpage {
         display: grid;
         grid-gap: 20px;
         justify-content: flex-start;
@@ -580,20 +562,13 @@ main {
         grid-template-columns: 500px 450px;
         grid-template-areas:
 
-            "behind_heading behind_heading"
-            "behind_paragraf2 behind_paragraf1"
+            "about_heading about_heading"
+            "about_paragraf2 about_paragraf1"
 
 
     }
 
 
-    /* p#behind_paragraf2 {
-        margin-top: 20px;
-
-    }
-
-    #behind_p1 {}
-*/
     /* FORMULAR */
 
     input[type=text],
@@ -611,7 +586,7 @@ main {
 
     /* FORMULAR SLUT */
 
-    /* BEHIND SLUT */
+    /* ABOUT SLUT */
 
 
     /* CONTACT */
