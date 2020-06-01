@@ -21,6 +21,10 @@ footer a {
 
 }
 
+footer p {
+    font-size: 8px;
+}
+
 footer a:hover {
     color: #CEC1B0;
 }
@@ -55,11 +59,16 @@ footer .info {
         margin-right: 5px;
     }
 
+    footer p {
+        font-size: 12px;
+    }
+
     footer a:hover {
         color: #CEC1B0;
     }
 
     footer .info {
         display: inline-block;
+
     }
 }
