@@ -31,7 +31,8 @@ img {
 }
 
 
-a#contact_studio {
+a#contact_studio,
+#contact_web {
     font-family: 'Quicksand', sans-serif;
     line-height: 25px;
     color: #5C5A5A;
@@ -40,6 +41,10 @@ a#contact_studio {
 }
 
 a#contact_studio:hover {
+    color: #CEC1B0;
+}
+
+a#contact_web:hover {
     color: #CEC1B0;
 }
 
