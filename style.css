@@ -33,6 +33,18 @@ img {
 }
 
 
+a#contact_studio {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+    color: #5C5A5A;
+    font-size: 1rem;
+    text-transform: none;
+}
+
+a#contact_studio:hover {
+    color: #CEC1B0;
+}
+
 /* GENERELLE INDSTILLINGER SLUT */
 
 /* SKRIFT INDSTILLINGER */
@@ -362,9 +374,9 @@ main {
         padding: 0px 0px 0px 0px;
     }
 
-     #video {
-    width: 100%;
-}
+    #video {
+        width: 100%;
+    }
 
     input[type=text],
     select {
@@ -489,10 +501,10 @@ main {
 
     /* OVERSKRIFTERS TILRETTELSER SLUT */
 
- #video {
-    width: 100%;
-     margin-left: -5px;
-}
+    #video {
+        width: 100%;
+        margin-left: -5px;
+    }
 
     input[type=text],
     select {
