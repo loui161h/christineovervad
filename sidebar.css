@@ -7,7 +7,18 @@
 #press_fullpage .sidenav {
     position: absolute;
     top: 135px;
+
 }
+
+
+
+a#press_fullpage {
+    line-height: 20px;
+
+}
+
+
+
 
 
 /* her styles teksten i sidebaren UDEN årstal --> de styles KUN i project_landingpage.css h4 */
@@ -22,6 +33,9 @@
     text-transform: uppercase;
     font-weight: 400;
 }
+
+
+
 
 
 .sidenav a:hover {
@@ -71,6 +85,8 @@
         top: 200px;
         left: 50px;
     }
+
+
 
 
 
