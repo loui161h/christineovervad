@@ -136,6 +136,7 @@ p {
 
 /* BEHIND */
 
+/*
 #behind_fullpage {
     display: grid;
     grid-gap: 10px;
@@ -158,6 +159,7 @@ p {
     grid-area: behind_paragraf2;
     margin-top: -60px;
 }
+*/
 
 
 
@@ -374,9 +376,10 @@ main {
         padding: 0px 0px 0px 0px;
     }
 
+    /*
     #video {
-        width: 100%;
-    }
+        width: 80%;
+    }*/
 
     input[type=text],
     select {
@@ -421,6 +424,19 @@ main {
         grid-template-areas:
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
+    }
+
+    #behind_heading {
+        grid-area: behind_heading;
+    }
+
+    #behind_paragraf1 {
+        grid-area: behind_paragraf1;
+    }
+
+    #behind_paragraf2 {
+        grid-area: behind_paragraf2;
+
     }
 
 
@@ -503,7 +519,7 @@ main {
 
     #video {
         width: 100%;
-        margin-left: -5px;
+        /*   margin-left: -5px;*/
     }
 
     input[type=text],
@@ -541,7 +557,7 @@ main {
 
     #behind_fullpage {
         display: grid;
-        grid-gap: 20px;
+        grid-gap: 30px;
         grid-template-areas:
 
             "behind_heading behind_heading"
