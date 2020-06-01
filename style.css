@@ -57,11 +57,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
@@ -105,6 +105,7 @@ p {
 #exhibitions {
     display: grid;
     grid-gap: 10px;
+    margin-top: 35px;
     grid-template-areas:
         "exhibition_head"
         "current1"
@@ -160,6 +161,8 @@ p {
     margin-top: -60px;
 }
 */
+
+
 
 
 
@@ -247,6 +250,7 @@ input[type=submit]:hover {
 #press {
     display: grid;
     grid-gap: 10px;
+    margin-top: 50px;
     grid-template-areas:
         "reviews_head"
         "reviews_paragraf1"
@@ -403,6 +407,8 @@ main {
 
     #exhibitions {
         display: grid;
+        margin-top: 0px;
+        grid-gap: 10px;
         grid-template-columns: 160px 160px 160px;
         justify-content: center;
         grid-template-areas:
@@ -419,8 +425,9 @@ main {
 
     #behind_fullpage {
         display: grid;
-
-        /*        grid-template-columns: 350px 350px;*/
+        grid-gap: 10px;
+        grid-template-columns: 360px 360px;
+        justify-content: center;
         grid-template-areas:
             "behind_heading behind_heading"
             "behind_paragraf1 behind_paragraf2"
@@ -439,13 +446,23 @@ main {
 
     }
 
-
-
-
     #behind_paragraf2 {
         grid-area: behind_paragraf2;
         margin-top: 0px;
     }
+
+    /*   input[type=text],
+    select {
+        width: 220px;
+        height: 30px;
+
+    }
+
+    input[type=submit] {
+        width: 220px;
+        height: 30px;
+
+    }*/
 
 
     /* BEHIND SLUT */
@@ -472,6 +489,7 @@ main {
         display: grid;
         grid-template-columns: 250px 250px;
         justify-content: flex-end;
+        margin-top: 0px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -499,7 +517,6 @@ main {
 /* MEDIA QUERIES IPAD SLUT */
 
 
-
 /* MEDIA QUERIES WEB */
 
 @media only screen and (min-width: 1024px) {
@@ -517,12 +534,8 @@ main {
 
     /* OVERSKRIFTERS TILRETTELSER SLUT */
 
-    #video {
-        width: 100%;
-        /*   margin-left: -5px;*/
-    }
 
-    input[type=text],
+    /*   input[type=text],
     select {
         width: 220px;
         height: 30px;
@@ -533,7 +546,7 @@ main {
         width: 220px;
         height: 30px;
 
-    }
+    }*/
 
 
     /* EXHIBTION */
@@ -557,7 +570,8 @@ main {
 
     #behind_fullpage {
         display: grid;
-        grid-gap: 30px;
+        grid-gap: 40px;
+        grid-template-columns: 450px 500px;
         grid-template-areas:
 
             "behind_heading behind_heading"
@@ -566,26 +580,28 @@ main {
 
     }
 
-    #behind_paragraf2 {
+    .embedly {
+        width: 100%;
+    }
+
+    /* p#behind_paragraf2 {
         margin-top: 20px;
 
     }
 
-    #behind_p1 {
-        width: 600px;
-    }
-
+    #behind_p1 {}
+*/
     /* FORMULAR */
 
     input[type=text],
     select {
-        width: 200px;
+        width: 160px;
         height: 40px;
 
     }
 
     input[type=submit] {
-        width: 180px;
+        width: 160px;
         height: 40px;
 
     }
@@ -598,7 +614,8 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        grid-template-columns: 665px 665px;
+
+        grid-template-columns: 450px 500px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf1 contact_paragraf2"
@@ -651,3 +668,98 @@ main {
 
 
 /* MEDIA QUERIES WEB SLUT */
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    /* OVERSKRIFTERS TILRETTELSER */
+    #projects_landingpage_heading,
+    #exhibition_heading,
+    #press_heading,
+    #cv_heading,
+    #behind_heading,
+    #contact_heading {
+        margin: 130px 40px 0px 48px;
+    }
+
+    /* OVERSKRIFTERS TILRETTELSER SLUT */
+
+
+
+    /* EXHIBTION */
+    #exhibitions {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 250px 250px 250px;
+
+        grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
+            "current1 current2 current3"
+
+
+    }
+
+
+
+    /* EXHIBTION SLUT */
+
+    /* BEHIND */
+
+    #behind_fullpage {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 450px 500px;
+        grid-template-areas:
+
+            "behind_heading behind_heading"
+            "behind_paragraf1 behind_paragraf2"
+
+
+    }
+
+
+
+    /* FORMULAR SLUT */
+
+    /* BEHIND SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        display: grid;
+
+        grid-template-columns: 450px 500px;
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf1 contact_paragraf2"
+
+    }
+
+
+
+
+    /* CONTACT SLUT*/
+
+
+    /* PRESS */
+
+    #press {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 375px 375px;
+        justify-content: center;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+
+
+}
