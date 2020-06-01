@@ -274,10 +274,6 @@ h4 {
 @media only screen and (min-width: 1024px) {
 
 
-    p {
-        display: none;
-    }
-
     /****** SIDEBAR MENU *******/
 
     /* her fjernes sidebar menuen i mobil, da der ikke er plads til den */
@@ -289,7 +285,7 @@ h4 {
 
     #projects_landing_sidebar .sidenav a {
         font-size: 1rem;
-    line-height: 30px;
+        line-height: 30px;
     }
 
     /****** SIDEBAR MENU SLUT *******/
