@@ -53,3 +53,7 @@ function vis(project) {
     document.querySelector("#project_tekst4").textContent = project.tekst4;
 
 }
+
+function goBack() {
+    window.history.back();
+}
