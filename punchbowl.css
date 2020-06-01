@@ -158,7 +158,7 @@ footer .info {
     overflow-x: scroll;
     scroll-padding: 0 50%;
     scroll-snap-type: x mandatory;
-    width: 100%;
+    width: 786px;
     margin-left: 22px;
 
 }
@@ -271,7 +271,7 @@ li {
     overflow-x: scroll;
     scroll-padding: 0 50%;
     scroll-snap-type: x mandatory;
-    width: 100%;
+    width: 1390px;
     margin-left: 50px;
 
 }
