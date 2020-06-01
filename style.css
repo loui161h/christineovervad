@@ -538,8 +538,8 @@ main {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 250px 250px 250px;
+        grid-gap: 60px;
+        grid-template-columns: 280px 280px 280px;
 
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
