@@ -615,7 +615,7 @@ main {
         grid-gap: 20px;
         justify-content: flex-start;
         margin: 0px 0px 0px 50px;
-        grid-template-columns: 500px 450px;
+        grid-template-columns: 500px 420px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf2 contact_paragraf1"
@@ -671,98 +671,4 @@ main {
 
 
 
-@media only screen and (min-width: 1200px) {
-
-    /* OVERSKRIFTERS TILRETTELSER */
-    #projects_landingpage_heading,
-    #exhibition_heading,
-    #press_heading,
-    #cv_heading,
-    #behind_heading,
-    #contact_heading {
-        margin: 130px 40px 0px 48px;
-    }
-
-    /* OVERSKRIFTERS TILRETTELSER SLUT */
-
-
-
-    /* EXHIBTION */
-    #exhibitions {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 250px 250px 250px;
-
-        grid-template-areas:
-            "exhibition_head exhibition_head exhibition_head"
-            "current1 current2 current3"
-
-
-    }
-
-
-
-    /* EXHIBTION SLUT */
-
-    /* BEHIND */
-
-    #behind_fullpage {
-        display: grid;
-        /*     grid-gap: 40px;
-        grid-template-columns: 400px 400px;*/
-        grid-template-areas:
-
-            "behind_heading behind_heading"
-            "behind_paragraf2 behind_paragraf1"
-
-
-    }
-
-
-
-
-
-
-    /* FORMULAR SLUT */
-
-    /* BEHIND SLUT */
-
-
-    /* CONTACT */
-    #contact_fullpage {
-        display: grid;
-
-        grid-template-columns: 500px 450px;
-        grid-template-areas:
-            "contact_heading contact_heading"
-            "contact_paragraf2 contact_paragraf1"
-
-    }
-
-
-
-
-    /* CONTACT SLUT*/
-
-
-    /* PRESS */
-
-    #press {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 375px 375px;
-        justify-content: center;
-        grid-template-areas:
-            "reviews_head reviews_head"
-            "reviews_paragraf1 reviews_paragraf2"
-            "interview_head interview_head"
-            "interview_paragraf1 interview_paragraf1"
-            "photoreportage_head photoreportage_head"
-            "photoreportage_paragraf1 photoreportage_paragraf1"
-            "grants_head grants_head"
-            "grants_paragraf1 grants_paragraf1"
-    }
-
-
-
-}
+@media only screen and (min-width: 1200px) {}
