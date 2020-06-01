@@ -135,6 +135,17 @@ p {
     grid-area: current3;
 }
 
+/*#exhibitions img {
+    transition: 1s;
+    width: 200px;
+}
+
+#exhibitions img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+
+}*/
+
 
 /* EXHIBTION SLUT */
 
