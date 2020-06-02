@@ -30,7 +30,7 @@
         display: inline-block;
     }
 
-    p {
+    .info p {
         font-size: 8px;
         color: #888888;
     }
@@ -41,7 +41,7 @@
 
     @media only screen and (min-width: 768px) {
 
-        p {
+        .info p {
             font-size: 12px;
         }
 
