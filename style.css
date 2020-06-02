@@ -436,7 +436,6 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
-        justify-content: center;
         grid-template-columns: 355px 355px;
         grid-template-areas:
             "contact_heading contact_heading"
@@ -582,7 +581,6 @@ main {
     #contact_fullpage {
         display: grid;
         grid-gap: 20px;
-        justify-content: flex-start;
         margin: 0px 0px 0px 50px;
         grid-template-columns: 500px 420px;
         grid-template-areas:
