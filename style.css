@@ -73,6 +73,14 @@ h3 {
     font-weight: 400;
 }
 
+#contact_descriptiion {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #5C5A5A;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 
 p {
     font-size: 1rem;
@@ -530,6 +538,12 @@ main {
 
     }
 
+
+
+    #contact_descriptiion {
+
+        line-height: 30px;
+    }
 
     /* OVERSKRIFTERS TILRETTELSER */
     #projects_landingpage_heading,

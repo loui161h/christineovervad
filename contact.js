@@ -20,8 +20,9 @@
       /* VARIABLE ÆNDRE SIG EFTER HVAD SIDE DET ER */
       console.log(contact);
       /* BILLEDE HER */
-      document.querySelector("#contact_overvad").src = contact.billede.guid;
+      document.querySelector("#contact_overvad").src = contact.contact_img.guid;
       document.querySelector("#contact_heading").textContent = contact.title.rendered;
+      document.querySelector("#contact_descriptiion").innerHTML = contact.contact_description;
       /* HUSK VARIBEL HER */
       document.querySelector("#contact_heading2").textContent = contact.exhibition;
       document.querySelector("#contact_street").textContent = contact.street_exhibition;
