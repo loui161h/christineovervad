@@ -34,14 +34,14 @@ li {
 }
 
 /* SKRIFT INDSTILLINGER */
- h1 {
+h1 {
 
-        margin: 130px 0px 0px 0px;
-    }
+    margin: 130px 0px 0px 0px;
+}
 
-    #project_tekst1 {
-        margin: 10px 0px 20px 0px;
-    }
+#project_tekst1 {
+    margin: 10px 0px 20px 0px;
+}
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -74,6 +74,12 @@ p {
     color: #5C5A5A;
 }
 
+
+a#goback {
+    font-size: 1.2rem;
+
+
+}
 
 
 /* SKRIFT INDSTILLINGER SLUT */
@@ -138,36 +144,36 @@ footer .info {
 @media only screen and (min-width: 768px) {
 
 
-.gallery img {
-    padding-right: 15px;
-    margin-bottom: 20px;
-}
+    .gallery img {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
 
-.gallery {
-    display: flex;
-    overflow-x: scroll;
-    scroll-padding: 0 50%;
-    scroll-snap-type: x mandatory;
-    width: 786px;
-    margin-left: 22px;
+    .gallery {
+        display: flex;
+        overflow-x: scroll;
+        scroll-padding: 0 50%;
+        scroll-snap-type: x mandatory;
+        width: 786px;
+        margin-left: 22px;
 
-}
+    }
 
-li #project_fullpage {
-    scroll-snap-align: center;
-    display: inline-block;
-    height: 83vh;
-}
-
-
-.padding {
-    padding: 0px 20px 0px 20px;
-}
+    li #project_fullpage {
+        scroll-snap-align: center;
+        display: inline-block;
+        height: 83vh;
+    }
 
 
-li {
-    list-style: none;
-}
+    .padding {
+        padding: 0px 20px 0px 20px;
+    }
+
+
+    li {
+        list-style: none;
+    }
 
 
 
@@ -252,29 +258,29 @@ li {
 
 
     .gallery img {
-    padding-right: 15px;
+        padding-right: 15px;
         margin-bottom: 20px;
-}
+    }
 
-.gallery {
-    display: flex;
-    overflow-x: scroll;
-    scroll-padding: 0 50%;
-    scroll-snap-type: x mandatory;
-    width: 1390px;
-    margin-left: 50px;
+    .gallery {
+        display: flex;
+        overflow-x: scroll;
+        scroll-padding: 0 50%;
+        scroll-snap-type: x mandatory;
+        width: 1390px;
+        margin-left: 50px;
 
-}
+    }
 
-li #project_fullpage {
-    scroll-snap-align: center;
-    display: inline-block;
-    height: 83vh;
-}
+    li #project_fullpage {
+        scroll-snap-align: center;
+        display: inline-block;
+        height: 83vh;
+    }
 
-li {
-    list-style: none;
-}
+    li {
+        list-style: none;
+    }
 
     /* SKRIFT INDSTILLINGER */
     h1 {
