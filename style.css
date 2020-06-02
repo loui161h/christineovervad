@@ -326,8 +326,8 @@ input[type=submit]:hover {
 
 
 #press_fullpage img {
-    width: 335px;
-    height: 335px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -493,8 +493,8 @@ main {
 
     #press {
         display: grid;
-        grid-template-columns: 250px 250px;
-        justify-content: flex-end;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
         margin-top: 0px;
         grid-template-areas:
             "reviews_head reviews_head"
@@ -593,9 +593,6 @@ main {
 
     }
 
-    .embedly-card {
-        width: 100%;
-    }
 
 
     /* FORMULAR */
@@ -662,8 +659,8 @@ main {
     }
 
     #press_fullpage img {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
 
     }
 
@@ -679,5 +676,176 @@ main {
 /* MEDIA QUERIES WEB SLUT */
 
 
+@media only screen and (min-width: 1024px) {
 
-@media only screen and (min-width: 1200px) {}
+
+    #press {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+    #press_fullpage img {
+        width: 250px;
+        height: 250px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    /* ABOUT */
+
+    #about_fullpage {
+        grid-template-columns: 600px 600px;
+        grid-template-areas:
+
+            "about_heading about_heading"
+            "about_paragraf2 about_paragraf1"
+
+
+    }
+
+    /* ABOUT SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        grid-template-columns: 600px 600px;
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf2 contact_paragraf1"
+
+    }
+
+    /* CONTACT SLUT*/
+
+
+    /* PRESS */
+
+    #press {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 375px 375px;
+        justify-content: center;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+    #press_fullpage img {
+        width: 350px;
+        height: 350px;
+
+    }
+
+
+    /* PRESS SLUT */
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+    /* PRESS  */
+
+
+    #press {
+        grid-template-columns: 500px 500px;
+        grid-gap: 40px;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+    #press_fullpage img {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    /* PRESS SLUT */
+
+}
+
+
+
+@media only screen and (min-width: 2000px) {
+
+
+    /* ABOUT */
+
+    #about_fullpage {
+        grid-template-columns: 600px 800px;
+        grid-template-areas:
+
+            "about_heading about_heading"
+            "about_paragraf2 about_paragraf1"
+
+
+    }
+
+    /* ABOUT SLUT */
+
+    /* ABOUT SLUT */
+
+
+    /* CONTACT */
+    #contact_fullpage {
+        grid-template-columns: 600px 800px;
+        grid-template-areas:
+            "contact_heading contact_heading"
+            "contact_paragraf2 contact_paragraf1"
+
+    }
+
+    /* CONTACT SLUT*/
+
+    /* PRESS */
+
+
+    #press {
+        grid-template-columns: 600px 600px;
+        grid-template-areas:
+            "reviews_head reviews_head"
+            "reviews_paragraf1 reviews_paragraf2"
+            "interview_head interview_head"
+            "interview_paragraf1 interview_paragraf1"
+            "photoreportage_head photoreportage_head"
+            "photoreportage_paragraf1 photoreportage_paragraf1"
+            "grants_head grants_head"
+            "grants_paragraf1 grants_paragraf1"
+    }
+
+    #press_fullpage img {
+        width: 600px;
+        height: 600px;
+
+    }
+
+    /* PRESS SLUT */
+
+}
