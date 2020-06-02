@@ -18,7 +18,7 @@
 
 .page-header2 img {
     position: absolute;
-    width: 250px;
+    width: 280px;
     height: 60px;
     left: 10px;
     top: 5px;
@@ -47,7 +47,7 @@
 .menu-btn_burger {
     position: absolute;
     /* her styles længden på linjerne */
-    width: 25px;
+    width: 30px;
     height: 2px;
     background-color: #83786C;
     border-radius: 5px;
@@ -61,7 +61,7 @@
     content: '';
     position: absolute;
     /* her styles længden på linjerne */
-    width: 25px;
+    width: 30px;
     height: 2px;
     background-color: #83786C;
     border-radius: 3px;
@@ -185,12 +185,13 @@ ul {
     }
 
     .page-header2 img {
-        position: absolute;
-        width: 280px;
-        height: 60px;
-        left: 8px;
-        top: 10px;
-    }
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 10px;
+    top: 5px;
+}
+
 
 
     .menu-btn {
@@ -199,8 +200,8 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        right: 10px;
-        top: 10px;
+        right: 5px;
+        top: 5px;
         /*       width: 50px;
         height: 50px;*/
         z-index: 2000;
@@ -248,6 +249,10 @@ ul {
 @media only screen and (min-width: 1024px) {
 
     .page-header2 img {
-        left: 35px;
-        top: 10px;
-    }
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 35px;
+    top: 5px;
+}
+
