@@ -142,49 +142,13 @@ p {
     grid-area: current3;
 }
 
-/*#exhibitions img {
-    transition: 1s;
-    width: 200px;
+#exhibition_fullpage p {
+    font-size: 1.2rem;
+    text-transform: none;
 }
-
-#exhibitions img:hover {
-    filter: grayscale(100%);
-    transform: scale(1.1);
-
-}*/
 
 
 /* EXHIBTION SLUT */
-
-
-/* ABOUT */
-
-/*
-#behind_fullpage {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas:
-        "behind_heading"
-        "behind_paragraf1"
-        "behind_paragraf2"
-
-}
-
-#behind_heading {
-    grid-area: behind_heading;
-}
-
-#behind_paragraf1 {
-    grid-area: behind_paragraf1;
-}
-
-#about_paragraf2 {
-    grid-area: behind_paragraf2;
-    margin-top: -60px;
-}
-*/
-
-
 
 
 
@@ -438,9 +402,7 @@ main {
     }
 
     #exhibition_fullpage p {
-        font-size: 1rem;
-
-        text-transform: none;
+        font-size: 0.8rem;
     }
 
     /* EXHIBTION SLUT */
@@ -543,7 +505,7 @@ main {
 
 
     #contact_descriptiion {
-    width: 400px;
+        width: 400px;
         line-height: 30px;
     }
 
@@ -566,13 +528,17 @@ main {
     #exhibitions {
         display: grid;
         grid-gap: 60px;
-        grid-template-columns: 280px 280px 280px;
-    margin-left: 250px;
+        grid-template-columns: 200px 200px 200px;
+        /*       margin-left: 250px;*/
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
 
 
+    }
+
+    #exhibition_fullpage p {
+        font-size: 1rem;
     }
 
 
@@ -648,7 +614,7 @@ main {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 400px 400px;
-    margin-left: 250px;
+        margin-left: 50px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
@@ -724,13 +690,13 @@ main {
 
 
     /* CONTACT */
-    #contact_fullpage {
-        grid-template-columns: 600px 600px;
+    /*   #contact_fullpage {
+        grid-template-columns: 600px 400px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf2 contact_paragraf1"
 
-    }
+    }*/
 
     /* CONTACT SLUT*/
 
@@ -761,6 +727,28 @@ main {
 
 
     /* PRESS SLUT */
+
+    /* EXHIBTION */
+    #exhibitions {
+        display: grid;
+        grid-gap: 60px;
+        grid-template-columns: 250px 250px 250px;
+        justify-content: center;
+        margin-left: 80px;
+        grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
+            "current1 current2 current3"
+
+
+    }
+
+    #exhibition_fullpage p {
+        font-size: 1rem;
+    }
+
+
+
+    /* EXHIBTION SLUT */
 
 }
 
@@ -796,6 +784,16 @@ main {
 
 
 @media only screen and (min-width: 2000px) {
+
+    /* SKRIFT INDSTILLINGER */
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+
+    }
 
 
     /* ABOUT */
@@ -849,5 +847,24 @@ main {
     }
 
     /* PRESS SLUT */
+
+    /* EXHIBTION */
+    #exhibitions {
+        display: grid;
+        grid-gap: 80px;
+        grid-template-columns: 350px 350px 350px;
+        justify-content: center;
+
+        grid-template-areas:
+            "exhibition_head exhibition_head exhibition_head"
+            "current1 current2 current3"
+
+
+    }
+
+
+
+
+    /* EXHIBTION SLUT */
 
 }
