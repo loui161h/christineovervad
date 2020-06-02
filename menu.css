@@ -209,7 +209,8 @@ ul {
     }
 
     .menu-btn_burger {
-        width: 44px;
+        /*her styles længden på linjerne */
+        width: 30px;
         height: 3px;
         background-color: #83786C;
         border-radius: 5px;
@@ -221,7 +222,8 @@ ul {
     .menu-btn_burger::after {
         content: '';
         position: absolute;
-        width: 44px;
+        /*her styles længden på linjerne */
+        width: 30px;
         height: 3px;
         background-color: #83786C;
         border-radius: 5px;
