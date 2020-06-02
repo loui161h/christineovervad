@@ -46,7 +46,8 @@
 
 .menu-btn_burger {
     position: absolute;
-    width: 50px;
+    /* her styles længden på linjerne */
+    width: 22px;
     height: 3px;
     background-color: #83786C;
     border-radius: 5px;
@@ -59,22 +60,25 @@
 .menu-btn_burger::after {
     content: '';
     position: absolute;
-    width: 50px;
+    /* her styles længden på linjerne */
+    width: 22px;
     height: 3px;
     background-color: #83786C;
-    border-radius: 5px;
+    border-radius: 3px;
     transition: all .5s ease-in-out;
 
 
 }
 
+/* her styles mellemrummet mellem linjerne */
 .menu-btn_burger::before {
-    transform: translateY(16px);
+    transform: translateY(10px);
 
 }
 
+/* her styles mellemrummet mellem linjerne */
 .menu-btn_burger::after {
-    transform: translateY(-16px);
+    transform: translateY(-10px);
 
 }
 
@@ -130,7 +134,7 @@ a {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #5C5A5A;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 70px;
     font-weight: 400;
 
@@ -205,7 +209,8 @@ ul {
     }
 
     .menu-btn_burger {
-        width: 44px;
+        /*her styles længden på linjerne */
+        width: 30px;
         height: 3px;
         background-color: #83786C;
         border-radius: 5px;
@@ -217,7 +222,8 @@ ul {
     .menu-btn_burger::after {
         content: '';
         position: absolute;
-        width: 44px;
+        /*her styles længden på linjerne */
+        width: 30px;
         height: 3px;
         background-color: #83786C;
         border-radius: 5px;

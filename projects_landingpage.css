@@ -270,6 +270,90 @@ h4 {
 
 /***************** MEDIA QUERIES IPAD PRO *********************/
 
+@media only screen and (min-width: 1024px) {
+    /****** SIDEBAR MENU *******/
+
+    /* her fjernes sidebar menuen i mobil, da der ikke er plads til den */
+
+    #projects_landing_sidebar .sidenav {
+        display: none;
+    }
+
+    /* SIDEBAR MENU SLUT */
+
+
+    /******** BILLEDERNE - GALLERY - FOR SIDEN *********/
+
+    /* her sættes style på billederne */
+    .gallery #img1,
+    #img3,
+    #img5,
+    #img7,
+    #img8,
+    #img9,
+    #img10,
+    #img16,
+    #img18,
+    #img20 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /* her styles billederne fortsat - og padding, margin, og width er blevet taget af fra mobil til web */
+    #projects_landingpage_fullpage #img2,
+    #img4,
+    #img6,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img17,
+    #img19,
+    #img21,
+    #img22,
+    #img23,
+    #img24 {
+        display: none;
+
+    }
+
+
+    /**** GALLERY P ****/
+
+    .gallery p {
+        font-family: 'Quicksand', sans-serif;
+        line-height: 25px;
+        margin: 0;
+    }
+
+
+
+
+    /*     GALLERY */
+
+    .gallery {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 360px 360px;
+        justify-content: center;
+        grid-template-areas:
+
+            "project1 project2"
+            "project3 project16"
+            "project18 project20"
+            "project7 project8"
+            "project9 project10"
+
+    }
+
+    /* GALLERY SLUT */
+
+}
 
 
 
@@ -277,7 +361,7 @@ h4 {
 /***************** MEDIA QUERIES WEB *********************/
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
 
 
     /****** SIDEBAR MENU *******/
