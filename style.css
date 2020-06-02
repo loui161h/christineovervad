@@ -424,9 +424,6 @@ main {
     /* EXHIBTION */
 
 
-
-
-
     #exhibitions {
         display: grid;
         margin-top: 0px;
@@ -438,6 +435,11 @@ main {
             "current1 current2 current3"
 
 
+    }
+
+    #exhibition_fullpage p {
+        font-size: 0.8rem;
+        padding: 0px 10px 0px 0px;
     }
 
     /* EXHIBTION SLUT */
