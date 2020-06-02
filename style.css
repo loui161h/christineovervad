@@ -543,7 +543,7 @@ main {
 
 
     #contact_descriptiion {
-
+    width: 400px;
         line-height: 30px;
     }
 
@@ -566,8 +566,8 @@ main {
     #exhibitions {
         display: grid;
         grid-gap: 60px;
-        grid-template-columns: 270px 270px 270px;
-
+        grid-template-columns: 280px 280px 280px;
+    margin-left: 250px;
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
@@ -647,8 +647,8 @@ main {
     #press {
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: 375px 375px;
-        justify-content: center;
+        grid-template-columns: 400px 400px;
+    margin-left: 250px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
