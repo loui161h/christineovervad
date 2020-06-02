@@ -1,5 +1,6 @@
 .back_knap {
     padding-top: 80px;
+
 }
 
 body {
@@ -122,6 +123,7 @@ footer a:hover {
 footer .info {
     display: inline-block;
 }
+
 
 
 /* MEDIA QUERIES IPAD */
