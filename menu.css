@@ -7,10 +7,10 @@
 
 .page-header2 img {
     position: absolute;
-    width: 280px;
-    height: 60px;
+
+    width: 260px;
     left: 7px;
-    top: 7px;
+    top: 18px;
 }
 
 
@@ -169,10 +169,9 @@ ul {
 
     .page-header2 img {
         position: absolute;
-        width: 280px;
-        height: 60px;
+        width: 300px;
         left: 7px;
-        top: 7px;
+        top: 14px;
     }
 
 
@@ -230,10 +229,9 @@ ul {
 
     .page-header2 img {
         position: absolute;
-        width: 280px;
-        height: 60px;
+        width: 300px;
         left: 27px;
-        top: 7px;
+        top: 12px;
     }
 
     .menu-btn {
