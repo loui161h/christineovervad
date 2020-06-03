@@ -122,6 +122,14 @@ p {
         "current1"
         "current2"
         "current3"
+        "exhibition_head2"
+        "future1"
+        "future2"
+        "future3"
+        "exhibition_head3"
+        "past1"
+        "past2"
+        "past3"
 
 }
 
@@ -141,6 +149,42 @@ p {
 #current3 {
     grid-area: current3;
 }
+
+
+
+#exhibition_head2 {
+    grid-area: exhibition_head2;
+}
+
+#future1 {
+    grid-area: future1;
+}
+
+#future2 {
+    grid-area: future2;
+}
+
+#future3 {
+    grid-area: future3;
+}
+
+#exhibition_head3 {
+    grid-area: exhibition_head3;
+}
+
+#past1 {
+    grid-area: past1;
+}
+
+#past2 {
+    grid-area: past2;
+}
+
+#past3 {
+    grid-area: past3;
+}
+
+
 
 #exhibition_fullpage p {
     font-size: 1.2rem;
@@ -392,6 +436,11 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
+
 
 
     }
@@ -408,7 +457,8 @@ main {
     #about_fullpage {
         display: grid;
         grid-gap: 10px;
-        justify-content: center;
+        justify-content: start;
+        margin-left: 20px;
         grid-template-columns: 380px 320px;
         grid-template-areas:
             "about_heading about_heading"
@@ -436,6 +486,7 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
+        margin-left: 20px;
         grid-template-columns: 355px 355px;
         grid-template-areas:
             "contact_heading contact_heading"
@@ -527,6 +578,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
@@ -561,7 +616,7 @@ main {
 
     input[type=text],
     select {
-        width: 160px;
+        width: 210px;
         height: 40px;
 
     }
@@ -683,13 +738,13 @@ main {
 
 
     /* CONTACT */
-    /*   #contact_fullpage {
-        grid-template-columns: 600px 400px;
+    #contact_fullpage {
+        grid-template-columns: 600px 600px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf2 contact_paragraf1"
 
-    }*/
+    }
 
     /* CONTACT SLUT*/
 
@@ -731,6 +786,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
@@ -851,6 +910,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
