@@ -2,11 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    width: 100%;
     background-size: cover;
-
-    /* background-image: url(baggrund/bg_mobile.jpg);*/
 
 }
 
@@ -15,102 +11,46 @@ body {
 /* LANDINGPAGE */
 
 #video {
-    width: 100vw;
     padding: 0;
     margin: 0;
+    background-attachment: fixed;
 }
 
-#video_content {
-    position: relative;
-}
+
 
 video {
     width: 100%;
-}
-
-
-
-#landingpage_fullpage {
-    text-align: center;
-
-}
-
-
-#landing_headline {
-    visibility: hidden;
-
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
 
 }
 
-#landing_headline2 {
-    visibility: hidden;
-
-}
-
-
-
-a.vertical_name {
+#overlay {
     position: fixed;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    margin-top: 180px;
-    left: -2vw;
-    font-family: 'Raleway', sans-serif;
-    color: #888888;
-    writing-mode: vertical-rl;
-    float: left;
-    transform: rotate(180deg);
-
-
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    z-index: 500;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Quicksand';
+    font-size: 0.5rem;
+    color: #83786C;
+    width: 100%;
+    bottom: 0;
 }
 
-a.some_ig {
-    position: fixed;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    right: -2vw;
-    margin-top: 110px;
-    font-family: 'Raleway', sans-serif;
-    color: #888888;
-    writing-mode: vertical-rl;
-    float: right;
-
+#overlay a {
+    font-size: 0.5rem;
+    color: #83786C;
+    margin-right: 5px;
 }
 
-a.some_li {
-    position: fixed;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    margin-top: 220px;
-    font-family: 'Raleway', sans-serif;
-    color: #888888;
-    writing-mode: vertical-rl;
-    right: -2vw;
-    float: right;
-
-}
-
-
-a.some_yb {
-    position: fixed;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    right: -2vw;
-    margin-top: 310px;
-    font-family: 'Raleway', sans-serif;
-    color: #888888;
-    writing-mode: vertical-rl;
-    float: right;
-
-
-}
-
-a:hover {
-    color: #CEC1B0
+#overlay a:hover {
+    color: #CEC1B0;
 }
 
 
@@ -123,76 +63,15 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
 
-    html,
-    body {
-        /*        background-image: url(baggrund/web_baggrund.jpg);*/
-
+#overlay {
+           padding: 0px 40px 8px 40px;
+        font-size: 0.9rem;
     }
 
+    #overlay a {
+    font-size: 0.9rem;
+    margin-right: 7px;
 
-    body {
-        background-image: url()
-    }
-
-    /* LANDINGPAGE */
-
-
-    #landing_headline {
-        visibility: visible;
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
-        color: #83786C;
-        font-size: 2.2rem;
-        margin-top: 350px;
-        position: relative;
-
-
-    }
-
-    #landing_headline2 {
-        border-bottom: 1px solid #83786C;
-        padding-bottom: 2px;
-        visibility: visible;
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        color: #83786C;
-        font-weight: 400;
-        font-size: 1.4rem;
-        margin-top: 350px;
-        position: relative;
-
-
-    }
-
-    a#landing_headline2:hover {
-        color: #CEC1B0;
-
-    }
-
-
-    a.vertical_name {
-        margin-top: -170px;
-        left: 1vw;
-
-    }
-
-    a.some_ig {
-        margin-top: -230px;
-        right: 1vw;
-
-    }
-
-    a.some_li {
-        margin-top: -120px;
-        right: 1vw;
-    }
-
-
-    a.some_yb {
-        margin-top: -30px;
-        right: 1vw;
-    }
 }
 
 
@@ -204,79 +83,16 @@ a:hover {
 
 @media only screen and (min-width: 1024px) {
 
-    #landing_headline {
-        font-size: 2.6rem;
+    #overlay {
+           padding: 0px 40px 8px 40px;
+        font-size: 0.9rem;
     }
 
-
-    #landing_headline2 {
-        font-size: 1.6rem;
-    }
-
-    a.vertical_name {
-        left: 1vw;
-
-
-    }
-
-    a.some_ig {
-        margin-top: -230px;
-
-    }
-
-
-
-    .vertical-line {
-        visibility: hidden;
-
-    }
-
-    .vertical-line2 {
-        visibility: hidden;
-    }
-
-
-}
-
-@media only screen and (min-width: 1420px) {
-
-    .vertical-line {
-        visibility: visible;
-        position: fixed;
-        display: inline-block;
-        border-right: 1px solid #ccc;
-        margin-right: 1275px;
-        margin-top: -600px;
-        height: 120vh;
-
-    }
-
-    .vertical-line2 {
-        visibility: visible;
-        display: inline-block;
-        border-right: 1px solid #ccc;
-        margin-left: 1275px;
-        margin-top: -600px;
-        height: 115vh;
-    }
+    #overlay a {
+    font-size: 0.9rem;
+    margin-right: 7px;
 }
 
 
 
-
-@media only screen and (min-width: 1480px) {
-
-    .vertical-line {
-        visibility: hidden;
-
-    }
-
-    .vertical-line2 {
-        visibility: hidden;
-    }
-}
-
-
-
-
-/* MEDIA QUERIES WEB SLUT */
+    /* MEDIA QUERIES WEB SLUT */
