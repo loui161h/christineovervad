@@ -825,7 +825,7 @@ main {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 60px;
+        grid-gap: 40px;
         grid-template-columns: 270px 270px 270px;
         justify-content: center;
         margin-left: 200px;
@@ -949,7 +949,7 @@ main {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 80px;
+        grid-gap: 40px;
         grid-template-columns: 350px 350px 350px;
         justify-content: center;
 
