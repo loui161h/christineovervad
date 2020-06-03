@@ -38,14 +38,14 @@ video {
     padding: 0px 20px 0px 20px;
     font-family: 'Quicksand';
     font-size: 0.5rem;
-    color: #5C5A5A;;
+    color: #83786C;
     width: 100%;
     bottom: 0;
 }
 
 #overlay a {
     font-size: 0.5rem;
-    color: #5C5A5A;;
+    color: #83786C;
     margin-right: 5px;
 }
 
@@ -63,36 +63,36 @@ video {
 
 @media only screen and (min-width: 768px) {
 
-#overlay {
-           padding: 0px 20px 8px 20px;
-        font-size: 0.9rem;
-    }
-
-    #overlay a {
-    font-size: 0.9rem;
-    margin-right: 7px;
-
-}
-
-
-
-/* MEDIA QUERIES IPAD SLUT */
-
-
-/* MEDIA QUERIES WEB */
-
-@media only screen and (min-width: 1024px) {
-
     #overlay {
-           padding: 0px 40px 8px 40px;
+        padding: 0px 20px 8px 20px;
         font-size: 0.9rem;
     }
 
     #overlay a {
-    font-size: 0.9rem;
-    margin-right: 7px;
-}
+        font-size: 0.9rem;
+        margin-right: 7px;
+
+    }
 
 
 
-    /* MEDIA QUERIES WEB SLUT */
+    /* MEDIA QUERIES IPAD SLUT */
+
+
+    /* MEDIA QUERIES WEB */
+
+    @media only screen and (min-width: 1024px) {
+
+        #overlay {
+            padding: 0px 40px 8px 40px;
+            font-size: 0.9rem;
+        }
+
+        #overlay a {
+            font-size: 0.9rem;
+            margin-right: 7px;
+        }
+
+
+
+        /* MEDIA QUERIES WEB SLUT */
