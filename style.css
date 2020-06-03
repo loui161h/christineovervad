@@ -563,7 +563,7 @@ main {
 
     input[type=text],
     select {
-        width: 160px;
+        width: 210px;
         height: 40px;
 
     }
