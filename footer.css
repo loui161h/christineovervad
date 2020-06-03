@@ -47,7 +47,6 @@ footer .info {
         align-items: baseline;
         position: absolute;
         width: 100%;
-        padding: 0px 40px 8px 50px;
     }
 
     footer a {
@@ -82,7 +81,7 @@ footer .info {
         align-items: baseline;
         position: absolute;
         width: 100%;
-        padding: 0px 40px 8px 50px;
+        padding: 0px 40px 8px 40px;
     }
 
 }

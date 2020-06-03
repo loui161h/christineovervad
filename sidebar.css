@@ -48,10 +48,13 @@
     }
 
 
+   #exhibition_fullpage .sidenav {
+        top: 160px;
 
+    }
 
     #press_fullpage .sidenav {
-        top: 180px;
+        top: 160px;
         left: 20px;
     }
 
@@ -76,9 +79,14 @@
         left: 50px;
     }
 
+     #exhibition_fullpage .sidenav {
+        top: 200px;
+
+    }
+
 
     .sidenav a {
-
+margin-left: -10px;
         font-size: 1.1rem;
 
     }
@@ -94,32 +102,24 @@
 
 
     .sidenav a {
-
+        margin-left: -10px;
         font-size: 1.4rem;
-
-    }
-
-
-
-    .sidenav a {
-        line-height: 60px;
+         line-height: 50px;
         width: 300px;
+
     }
+
+
 }
 
 @media only screen and (min-width: 2000px) {
 
 
     .sidenav a {
-
-        font-size: 2rem;
-
-    }
-
-
-
-    .sidenav a {
-        line-height: 80px;
+        font-size: 1.4rem;
+         line-height: 50px;
         width: 400px;
     }
+
+
 }
