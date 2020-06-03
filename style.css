@@ -458,7 +458,7 @@ main {
         display: grid;
         grid-gap: 10px;
         justify-content: start;
-    margin-left: 20px;
+        margin-left: 20px;
         grid-template-columns: 380px 320px;
         grid-template-areas:
             "about_heading about_heading"
@@ -738,13 +738,13 @@ main {
 
 
     /* CONTACT */
-    /*   #contact_fullpage {
-        grid-template-columns: 600px 400px;
+    #contact_fullpage {
+        grid-template-columns: 600px 600px;
         grid-template-areas:
             "contact_heading contact_heading"
             "contact_paragraf2 contact_paragraf1"
 
-    }*/
+    }
 
     /* CONTACT SLUT*/
 
