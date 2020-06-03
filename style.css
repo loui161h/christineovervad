@@ -457,7 +457,8 @@ main {
     #about_fullpage {
         display: grid;
         grid-gap: 10px;
-        justify-content: center;
+        justify-content: start;
+    margin-left: 20px;
         grid-template-columns: 380px 320px;
         grid-template-areas:
             "about_heading about_heading"
@@ -485,6 +486,7 @@ main {
     /* CONTACT */
     #contact_fullpage {
         display: grid;
+        margin-left: 20px;
         grid-template-columns: 355px 355px;
         grid-template-areas:
             "contact_heading contact_heading"
@@ -614,7 +616,7 @@ main {
 
     input[type=text],
     select {
-        width: 160px;
+        width: 210px;
         height: 40px;
 
     }
