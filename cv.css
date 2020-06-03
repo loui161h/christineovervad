@@ -327,7 +327,7 @@ hr {
 
     #cv_fullpage {
         left: 10%;
-        top: 30%;
+        top: 40%;
 
     }
 
@@ -345,7 +345,7 @@ hr {
 @media only screen and (min-width: 2000px) {
     #cv_fullpage {
         left: 10%;
-        top: 25%;
+        top: 40%;
 
     }
 
