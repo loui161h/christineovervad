@@ -8,15 +8,26 @@ body {
     background-attachment: fixed;
     background-image: url(baggrund/bg_mobile.jpg);
     z-index: -1;
-
-
-
-
 }
 
 
 
 /* LANDINGPAGE */
+
+#video {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#video_content {
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
 
 
 #landingpage_fullpage {
