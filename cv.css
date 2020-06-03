@@ -114,8 +114,19 @@ hr {
 
 @media only screen and (min-width: 768px) {
     #cv_about {
-        /*width: 550px;*/
+        width: 62ch;
     }
+
+    .spalte1 p {
+        width: 62ch;
+
+    }
+
+    .spalte2 p {
+        width: 62ch;
+
+    }
+
 
 }
 
@@ -131,7 +142,7 @@ hr {
         margin: 0;
         position: absolute;
         left: 14%;
-        top: 20%;
+        top: 30%;
     }
 
     /*her styles spalterne for timeline */
