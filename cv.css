@@ -112,7 +112,6 @@ hr {
 /* MEDIA QUERIES WEB */
 
 
-<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
     #cv_about {
         width: 62ch;
@@ -130,8 +129,7 @@ hr {
 
 
 }
-=======
->>>>>>> origin/master
+
 
 @media only screen and (min-width: 1024px) {
 
