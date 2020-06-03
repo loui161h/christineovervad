@@ -7,4 +7,5 @@ https://github.com/github/gitignore
 /node_modules/
 /videoer/
 *.mp4
+*.mov
 .DS_Store
