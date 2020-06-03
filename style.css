@@ -351,13 +351,13 @@ input[type=submit]:hover {
     bottom: 70px;
     right: 30px;
     z-index: 99;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
     outline: none;
     background-color: white;
     color: #5C5A5A;
     cursor: pointer;
-    padding: 12px;
+    padding: 15px;
     border-radius: 1px;
 }
 
@@ -593,7 +593,7 @@ main {
     /* EXHIBTION */
     #exhibitions {
         display: grid;
-        grid-gap: 60px;
+        grid-gap: 20px;
         grid-template-columns: 200px 200px 200px;
         /*       margin-left: 250px;*/
         grid-template-areas:
