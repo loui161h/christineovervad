@@ -623,7 +623,7 @@ main {
         display: grid;
         grid-gap: 20px;
         justify-content: flex-start;
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 40px;
         grid-template-columns: 500px 400px;
         grid-template-areas:
 
@@ -663,7 +663,7 @@ main {
     #contact_fullpage {
         display: grid;
         grid-gap: 20px;
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 40px;
         grid-template-columns: 500px 420px;
         grid-template-areas:
             "contact_heading contact_heading"
@@ -689,7 +689,7 @@ main {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 400px 400px;
-        margin-left: 50px;
+        margin-left: 40px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
