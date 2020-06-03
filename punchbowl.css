@@ -130,7 +130,6 @@ footer .info {
 
     a#goback {
     font-size: 1.1rem;
-    margin-left: 22px;
 
 }
 
@@ -248,7 +247,7 @@ footer .info {
 @media only screen and (min-width: 1024px) {
 
     .back_knap {
-    margin-left: 27px;
+    margin-left: 22px;
 }
 
 
@@ -280,26 +279,26 @@ footer .info {
 
     /* SKRIFT INDSTILLINGER */
     h1 {
-        margin: 10px 40px 0px 48px;
+        margin: 10px 40px 0px 40px;
     }
 
     #project_tekst1 {
-        margin: 10px 40px 20px 48px;
+        margin: 10px 40px 20px 40px;
     }
 
 
     #project_tekst2 {
-        margin: 20px 40px 20px 48px;
+        margin: 20px 40px 20px 40px;
     }
 
     #project_tekst3 {
-        margin: 20px 40px 20px 48px;
+        margin: 20px 40px 20px 40px;
         width: 700px;
     }
 
 
     #project_tekst4 {
-        margin: 20px 40px 20px 48px;
+        margin: 20px 40px 20px 40px;
         width: 700px;
     }
 
@@ -336,6 +335,6 @@ footer .info {
         scroll-padding: 0 50%;
         scroll-snap-type: x mandatory;
         width: 1390px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
  }
