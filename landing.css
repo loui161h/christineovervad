@@ -5,9 +5,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    background-attachment: fixed;
-    background-image: url(baggrund/bg_mobile.jpg);
-    z-index: -1;
+
+    /* background-image: url(baggrund/bg_mobile.jpg);*/
+
 }
 
 
@@ -125,7 +125,7 @@ a:hover {
 
     html,
     body {
-        background-image: url(baggrund/web_baggrund.jpg);
+        /*        background-image: url(baggrund/web_baggrund.jpg);*/
 
     }
 
