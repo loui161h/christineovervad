@@ -724,7 +724,7 @@ main {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 300px 300px;
-        justify-content: center;
+        margin-left: 200px;
         grid-template-areas:
             "reviews_head reviews_head"
             "reviews_paragraf1 reviews_paragraf2"
