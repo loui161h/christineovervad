@@ -9,7 +9,7 @@
     position: absolute;
     width: 280px;
     height: 60px;
-    left: 10px;
+    left: 7px;
     top: 7px;
 }
 
@@ -183,10 +183,7 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        right: 10px;
         top: 10px;
-        /*       width: 50px;
-        height: 50px;*/
         z-index: 2000;
         cursor: pointer;
         transition: all .5s ease-in-out;
@@ -235,13 +232,13 @@ ul {
         position: absolute;
         width: 280px;
         height: 60px;
-        left: 30px;
+        left: 35px;
         top: 7px;
     }
 
     .menu-btn {
-        right: 10px;
-        top: 10px;
+        right: 25px;
+        top: 13px;
         width: 50px;
         height: 50px;
         z-index: 2000;
