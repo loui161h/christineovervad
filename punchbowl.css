@@ -145,7 +145,7 @@ footer .info {
         overflow-x: scroll;
         scroll-padding: 0 50%;
         scroll-snap-type: x mandatory;
-        width: 786px;
+        width: 720px;
         margin-left: 22px;
 
     }
@@ -263,7 +263,7 @@ footer .info {
         overflow-x: scroll;
         scroll-padding: 0 50%;
         scroll-snap-type: x mandatory;
-        width: 1390px;
+        width: 960px;
         margin-left: 50px;
 
     }
@@ -327,3 +327,15 @@ footer .info {
 
 
 }
+
+@media only screen and (min-width: 1400px) {
+
+    .gallery {
+        display: flex;
+        overflow-x: scroll;
+        scroll-padding: 0 50%;
+        scroll-snap-type: x mandatory;
+        width: 1390px;
+        margin-left: 50px;
+    }
+ }
