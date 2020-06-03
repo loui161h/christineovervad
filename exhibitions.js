@@ -28,6 +28,8 @@
       document.querySelector("#where_exhibtion2").textContent = exhibition.exhibtion2;
       document.querySelector("#poster3").src = exhibition.current_exhibition3.guid;
       document.querySelector("#where_exhibtion3").textContent = exhibition.exhibtion3;
+      document.querySelector("#exhibition_heading3").textContent = exhibition.future;
+      document.querySelector("#exhibition_heading4").textContent = exhibition.past;
 
 
   }

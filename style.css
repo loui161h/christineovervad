@@ -122,6 +122,14 @@ p {
         "current1"
         "current2"
         "current3"
+        "exhibition_head2"
+        "future1"
+        "future2"
+        "future3"
+        "exhibition_head3"
+        "past1"
+        "past2"
+        "past3"
 
 }
 
@@ -141,6 +149,42 @@ p {
 #current3 {
     grid-area: current3;
 }
+
+
+
+#exhibition_head2 {
+    grid-area: exhibition_head2;
+}
+
+#future1 {
+    grid-area: future1;
+}
+
+#future2 {
+    grid-area: future2;
+}
+
+#future3 {
+    grid-area: future3;
+}
+
+#exhibition_head3 {
+    grid-area: exhibition_head3;
+}
+
+#past1 {
+    grid-area: past1;
+}
+
+#past2 {
+    grid-area: past2;
+}
+
+#past3 {
+    grid-area: past3;
+}
+
+
 
 #exhibition_fullpage p {
     font-size: 1.2rem;
@@ -392,6 +436,11 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
+
 
 
     }
@@ -527,6 +576,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
@@ -731,6 +784,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
@@ -851,6 +908,10 @@ main {
         grid-template-areas:
             "exhibition_head exhibition_head exhibition_head"
             "current1 current2 current3"
+            "exhibition_head2 exhibition_head2 exhibition_head2"
+            "future1 future2 future3"
+            "exhibition_head3 exhibition_head3 exhibition_head3"
+            "past1 past2 past3"
 
 
     }
